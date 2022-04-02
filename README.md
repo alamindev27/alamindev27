@@ -36,14 +36,8 @@ I have excellent design & coding skills, as well as an ability to convert requir
 |---|---|---|---|---|---|---|---|---|
 
 ### Github Stats
-
-<p align="center">
- <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="Github Readme Stats" />
- <h2 align="center">Profile</h2>
-</p>
-
-### Github Repos
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=AnhellO&show_icons=true&theme=synthwave" alt="AnhellO :: Profile Stats" /></p>
+
 
 <h3> 🤝🏻 Connect with Me </h3>
 
