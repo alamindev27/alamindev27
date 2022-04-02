@@ -51,4 +51,4 @@ I have excellent design & coding skills, as well as an ability to convert requir
 
 
 
-⭐️ From [@anandmainali](https://github.com/anandmainali)
+⭐️ From [@alamindev27](https://github.com/alamindev27)
