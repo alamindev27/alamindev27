@@ -37,7 +37,10 @@ I have excellent design & coding skills, as well as an ability to convert requir
 
 ### Github Stats
 
-[![Anand K. Mainali GitHub Stats](https://github-readme-stats.vercel.app/api?username=anandmainali&show_icons=true&count_private=true)](https://github.com/anandmainali)
+<p align="center">
+ <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="Github Readme Stats" />
+ <h2 align="center">Profile</h2>
+</p>
 
 ### Github Repos
 
