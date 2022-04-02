@@ -13,7 +13,7 @@
 
 
 ### Hi there 👋 I'm [MD Al-Amin](https://alamindev-27.com.np)
-> Web Developer at Freelance Marketplace
+> Web Developer 
 
 
 <img src="https://komarev.com/ghpvc/?username=anandmainali" alt="anandmainali" />
