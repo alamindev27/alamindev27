@@ -37,7 +37,7 @@ I have excellent design & coding skills, as well as an ability to convert requir
 |---|---|---|---|
 
 ### Github Stats
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=AnhellO&show_icons=true&theme=synthwave" alt="AnhellO :: Profile Stats" /></p>
+<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=alamindev27&show_icons=true&theme=synthwave" alt="AnhellO :: Profile Stats" /></p>
 
 
 <h3> 🤝🏻 Connect with Me </h3>
