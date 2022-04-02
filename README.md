@@ -11,8 +11,8 @@
 
 
 
-### Hi there 👋 I'm [Anand K. Mainali](https://anandmainali.com.np)
-> Software Engineer at [SoftNEP](https://softnep.com)
+### Hi there 👋 I'm [MD Al-Amin](https://alamindev-27.com.np)
+> Web Developer at [Freelance Marketplace]
 
 
 <img src="https://komarev.com/ghpvc/?username=anandmainali" alt="anandmainali" />
