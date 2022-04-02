@@ -42,7 +42,7 @@ I have excellent design & coding skills, as well as an ability to convert requir
 <h3> 🤝🏻 Connect with Me </h3>
 
 <p align="center">
-<a href="https://www.anandmainali.com.np" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-www.anandmainali.com.np-blue?style=flat&logo=google-chrome">fdhgdfshbgdfg</a>
+<a href="https://www.anandmainali.com.np" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-www.alamin.com.np-blue?style=flat&logo=google-chrome"></a>
  
 <a href="https://www.linkedin.com/in/anandmainali/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-@anandmainali-blue?style=flat&logo=linkedin"></a>
  
