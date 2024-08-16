@@ -40,7 +40,7 @@ What I Offer:
 
 ** Clean, Efficient Code: My code is clean, well-documented, and optimized for performance.
 
-Timely Delivery: I pride myself on delivering projects on time, without compromising on quality.
+** Timely Delivery: I pride myself on delivering projects on time, without compromising on quality.
 
 ** Ongoing Support: I offer post-launch support to ensure your website or application runs smoothly and stays up-to-date.
 
