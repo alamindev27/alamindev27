@@ -20,9 +20,32 @@
 
 <div>
  <p>
-I am a Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming. Skilled at writing well-designed, testable and efficient code using current best practices in Web development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.
+With over [3 years] of experience in web development, I specialize in building high-performing, responsive websites and web applications tailored to your business needs. I’m proficient in both frontend and backend technologies, ensuring seamless user experiences and robust, scalable solutions.
 
-I have excellent design & coding skills, as well as an ability to convert requirements into exciting online applications.
+My Expertise Includes:
+==================
+** Frontend Development: Expert in HTML5, CSS3, JavaScript, , frameworks like bootstrap, and library like jquery with ajax.
+** Backend Development: Proficient in PHP,Laravel and database management with MySQL.
+** API Integration: Experience in RESTful API development and integration, ensuring smooth data flow between systems.
+** Version Control & Deployment: A dept in Git for version control and any kind of server/cpanel.
+** Responsive Design: Ensuring that all websites and applications are mobile-friendly and perform optimally across devices.
+
+What I Offer:
+==========
+** Tailored Solutions: I take the time to understand your unique requirements, providing solutions that fit your business objectives.
+** Clean, Efficient Code: My code is clean, well-documented, and optimized for performance.
+Timely Delivery: I pride myself on delivering projects on time, without compromising on quality.
+** Ongoing Support: I offer post-launch support to ensure your website or application runs smoothly and stays up-to-date.
+
+Why Choose Me?
+==============
+** I bring a passion for technology and a commitment to continuous learning, staying up-to-date with the latest web development trends.
+** I have a proven track record of delivering successful projects for clients across various industries.
+** Communication is key—I’m responsive, transparent, and work closely with you throughout the development process.
+
+Let’s collaborate to bring your vision to life! Whether you need a brand-new website, an update to an existing one, or ongoing support, I’m here to help.
+
+Get in touch today to discuss your project.
 </p>
 </div>
 
