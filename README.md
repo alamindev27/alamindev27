@@ -13,7 +13,7 @@
 
 
 ### Hi there 👋 I'm [MD Al-Amin](https://alamindev-27.com.np)
-> Software & Web Developer 
+> Web Developer | Frontend & Backend Development Specialist
 
 
 <img src="https://komarev.com/ghpvc/?username=anandmainali" alt="anandmainali" />
@@ -25,23 +25,34 @@ With over [3 years] of experience in web development, I specialize in building h
 My Expertise Includes:
 ==================
 ** Frontend Development: Expert in HTML5, CSS3, JavaScript, , frameworks like bootstrap, and library like jquery with ajax.
+
 ** Backend Development: Proficient in PHP,Laravel and database management with MySQL.
+
 ** API Integration: Experience in RESTful API development and integration, ensuring smooth data flow between systems.
+
 ** Version Control & Deployment: A dept in Git for version control and any kind of server/cpanel.
+
 ** Responsive Design: Ensuring that all websites and applications are mobile-friendly and perform optimally across devices.
 
 What I Offer:
 ==========
 ** Tailored Solutions: I take the time to understand your unique requirements, providing solutions that fit your business objectives.
+
 ** Clean, Efficient Code: My code is clean, well-documented, and optimized for performance.
+
 Timely Delivery: I pride myself on delivering projects on time, without compromising on quality.
+
 ** Ongoing Support: I offer post-launch support to ensure your website or application runs smoothly and stays up-to-date.
+
 
 Why Choose Me?
 ==============
 ** I bring a passion for technology and a commitment to continuous learning, staying up-to-date with the latest web development trends.
+
 ** I have a proven track record of delivering successful projects for clients across various industries.
+
 ** Communication is key—I’m responsive, transparent, and work closely with you throughout the development process.
+
 
 Let’s collaborate to bring your vision to life! Whether you need a brand-new website, an update to an existing one, or ongoing support, I’m here to help.
 
