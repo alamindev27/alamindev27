@@ -22,12 +22,10 @@
 
 My primary goal is to apply my technical expertise all throughout the full software life cycle to ensure the production and delivery of products and services that meet client specifications. One of my objectives is to keep updated with the latest IT trends and technologies. I am confident that if I am given the opportunity, I can be a useful talent for the company.
 
-<br/><br/>
 
 <b>✔ 4+ Years Experience</b><br/>
 <b>✔ 200+ Clients Worldwide</b>
 
-<br/><br/>
 
 <a href="assets/resume.pdf" download>
 <img src="https://img.shields.io/badge/Download%20Resume-0A66C2?style=for-the-badge&logo=google-drive&logoColor=white"/>
