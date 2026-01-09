@@ -143,7 +143,7 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
         <b>Sowdagiri (2020 – 2021)</b><br/>
         <span><i>Junior Web Developer</i></span>
       </div>
-    </div>
+    </div> <br>
     <p style="margin-top: 10px; color: #555; line-height: 1.5;">
       I have worked on 10+ live Laravel projects, integrating Stripe for subscription and one-time payments, building a JavaScript-MySQL live chat system, and creating fully responsive UI using JavaScript and jQuery.
     </p>
@@ -156,7 +156,7 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
         <b>Voson Creative Agency (2021 – 2022)</b><br/>
         <span><i>Web Developer</i></span>
       </div>
-    </div>
+    </div><br>
     <p style="margin-top: 10px; color: #555; line-height: 1.5;">
       I delivered 5+ live Laravel blog and eCommerce projects, integrated SSLCommerz, UddoktaPay, and bKash, built RESTful APIs, and created responsive UIs with Bootstrap and JavaScript.
     </p>
