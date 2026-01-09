@@ -5,11 +5,11 @@
 
 </div>
 
----
+
 
 
 <!-- ================= ABOUT SECTION ================= -->
-## 👨‍💻 About Me
+# About Me
 
 <table>
 <tr>
@@ -35,47 +35,47 @@ My primary goal is to apply my technical expertise all throughout the full softw
 </tr>
 </table>
 
----
+
 
 <!-- ================= SERVICES SECTION ================= -->
-## 🛠 Services
+# Services
 
 <table>
 <tr>
 <td width="25%">
 
-### 01️⃣ Web Design  
+### 01 Web Design  
 I create responsive, user-friendly websites with clean design and fast, SEO-optimized performance.
 
 </td>
 
 <td width="25%">
 
-### 02️⃣ Web Development  
+### 02 Web Development  
 I build fast, responsive, and modern websites using the latest web technologies and best practices.
 
 </td>
 
 <td width="25%">
 
-### 03️⃣ Web Research  
+### 03 Web Research  
 I provide accurate and in-depth web research to gather insights, data, and trends for any project.
 
 </td>
 
 <td width="25%">
 
-### 04️⃣ SEO Optimization  
+### 04 SEO Optimization  
 I optimize websites for search engines to boost visibility, rank higher, and drive organic traffic.
 
 </td>
 </tr>
 </table>
 
----
+
 
 <!-- ================= PORTFOLIO SECTION ================= -->
-## 💼 Portfolio
+# Portfolio
 
 <table>
 <tr>
@@ -128,11 +128,11 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
 </tr>
 </table>
 
----
+
 
 
 <!-- ================= EXPERIENCE SECTION ================= -->
-## 🧭 Experience
+# Experience
 
 <table>
 <tr>
@@ -170,10 +170,10 @@ Self Employed
 </tr>
 </table>
 
----
+
 
 <!-- ================= SKILLS SECTION ================= -->
-## 🚀 Skills
+# Skills
 
 <table>
 <tr>
@@ -209,12 +209,12 @@ Self Employed
 </tr>
 </table>
 
----
+
 
 <!-- ================= FOOTER SECTION ================= -->
 <div align="center">
 
-### 🌐 Connect With Me
+### Connect With Me
 
 <a href="https://www.linkedin.com/in/alamindev27">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
