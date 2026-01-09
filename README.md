@@ -148,6 +148,7 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
       I have worked on 10+ live Laravel projects, integrating Stripe for subscription and one-time payments, building a JavaScript-MySQL live chat system, and creating fully responsive UI using JavaScript and jQuery.
     </p>
   </div>
+  <br>
 
   <!-- Experience Item 2 -->
   <div style="margin-bottom: 20px; padding: 10px; border-bottom: 1px solid #ddd;">
