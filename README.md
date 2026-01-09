@@ -14,11 +14,11 @@
 
 <table>
 <tr>
-<td width="35%" align="center">
+<td width="30%" align="center">
 <img src="assets/profile.png" width="220" style="border-radius:14px;" />
 </td>
 
-<td width="65%">
+<td width="70%">
 
 My primary goal is to apply my technical expertise all throughout the full software life cycle to ensure the production and delivery of products and services that meet client specifications. One of my objectives is to keep updated with the latest IT trends and technologies. I am confident that if I am given the opportunity, I can be a useful talent for the company.
 
