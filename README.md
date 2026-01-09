@@ -120,7 +120,7 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
 </td>
 
 <td width="33%" align="center">
-<img src="https://via.placeholder.com/400x250?text=More+Projects" style="border-radius:12px;" />
+<a href="https://alamindev27.com/portfolios" target="_blank"> ➜</a>
 <br/><br/>
 <b>More Projects</b>
 </td>
