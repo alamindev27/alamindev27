@@ -9,7 +9,7 @@
 
 
 <!-- ================= ABOUT SECTION ================= -->
-<h2 align="left" style="border:none;">About Me</h2>
+p style="font-size:22px;"><b>👨‍💻 About Me</b></p>
 
 <table>
 <tr>
