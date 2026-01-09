@@ -132,43 +132,39 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
 
 
 <!-- ================= EXPERIENCE SECTION ================= -->
-<h2 align="lrft">Experience</h2>
+<h2 align="left">Experience</h2>
 
-<table align="center">
-<tr>
-<td width="25%" align="center">
+<div style="width: 80%; margin: auto;">
 
-<b>2019 – 2020</b><br/>
-Web Design & Development<br/>
-Creative IT Institute
+  <!-- Experience Item 1 -->
+  <div style="margin-bottom: 20px; padding: 10px; border-bottom: 1px solid #ddd;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <b>Sowdagiri (2020 – 2021)</b><br/>
+        <span><i>Junior Web Developer</i></span>
+      </div>
+    </div>
+    <p style="margin-top: 10px; color: #555; line-height: 1.5;">
+      I have worked on 10+ live Laravel projects, integrating Stripe for subscription and one-time payments, building a JavaScript-MySQL live chat system, and creating fully responsive UI using JavaScript and jQuery.
+    </p>
+  </div>
 
-</td>
+  <!-- Experience Item 2 -->
+  <div style="margin-bottom: 20px; padding: 10px; border-bottom: 1px solid #ddd;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <b>Voson Creative Agency (2021 – 2022)</b><br/>
+        <span><i>Web Developer</i></span>
+      </div>
+    </div>
+    <p style="margin-top: 10px; color: #555; line-height: 1.5;">
+      I delivered 5+ live Laravel blog and eCommerce projects, integrated SSLCommerz, UddoktaPay, and bKash, built RESTful APIs, and created responsive UIs with Bootstrap and JavaScript.
+    </p>
+  </div>
 
-<td width="25%" align="center">
+</div>
 
-<b>2020 – 2021</b><br/>
-Junior Web Developer<br/>
-Sowdagri
 
-</td>
-
-<td width="25%" align="center">
-
-<b>2022 – 2024</b><br/>
-Full Stack Web Developer<br/>
-VCA
-
-</td>
-
-<td width="25%" align="center">
-
-<b>2024 – Current</b><br/>
-Full Stack Web Developer<br/>
-Self Employed
-
-</td>
-</tr>
-</table>
 
 
 
