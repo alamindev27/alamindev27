@@ -27,7 +27,7 @@ My primary goal is to apply my technical expertise all throughout the full softw
 <b>✔ 200+ Clients Worldwide</b>
 
 
-<a href="assets/resume.pdf" download>
+<a href="assets/resume.pdf">
 <img src="https://img.shields.io/badge/Download%20Resume-0A66C2?style=for-the-badge&logo=google-drive&logoColor=white"/>
 </a>
 
