@@ -3,12 +3,6 @@
 
 <img src="assets/banner.jpg" width="100%" style="border-radius:14px;" />
 
-<br/>
-
-<h1>Hey There!</h1>
-<h2>I'm MD. Al-Amin.</h2>
-<h3>Full Stack Web Developer</h3>
-
 </div>
 
 ---
