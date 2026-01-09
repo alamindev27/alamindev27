@@ -9,7 +9,7 @@
 
 
 <!-- ================= ABOUT SECTION ================= -->
-# About Me
+<h2 align="left">About Me</h2>
 
 <table>
 <tr>
@@ -38,7 +38,7 @@ My primary goal is to apply my technical expertise all throughout the full softw
 
 
 <!-- ================= SERVICES SECTION ================= -->
-# Services
+<h2 align="left">Services</h2>
 
 <table>
 <tr>
@@ -75,7 +75,7 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
 
 
 <!-- ================= PORTFOLIO SECTION ================= -->
-# Portfolio
+<h2 align="left">Portfolio</h2>
 
 <table>
 <tr>
@@ -132,7 +132,7 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
 
 
 <!-- ================= EXPERIENCE SECTION ================= -->
-# Experience
+<h2 align="left">Experience</h2>
 
 <table>
 <tr>
@@ -173,7 +173,7 @@ Self Employed
 
 
 <!-- ================= SKILLS SECTION ================= -->
-# Skills
+<h2 align="left">Skills</h2>
 
 <table>
 <tr>
