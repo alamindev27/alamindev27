@@ -9,7 +9,7 @@
 
 
 <!-- ================= ABOUT SECTION ================= -->
-p style="font-size:22px;"><b>👨‍💻 About Me</b></p>
+<p style="font-size:32px;"><b>About Me</b></p>
 
 <table>
 <tr>
