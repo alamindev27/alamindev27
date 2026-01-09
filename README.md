@@ -9,7 +9,7 @@
 
 
 <!-- ================= ABOUT SECTION ================= -->
-<p style="font-size:32px;"><b>About Me</b></p>
+<h2 align="left">About Me</h2>
 
 <table>
 <tr>
@@ -132,38 +132,38 @@ I optimize websites for search engines to boost visibility, rank higher, and dri
 
 
 <!-- ================= EXPERIENCE SECTION ================= -->
-<h2 align="left">Experience</h2>
+<h2 align="lrft">Experience</h2>
 
-<table>
+<table align="center">
 <tr>
-<td width="25%">
+<td width="25%" align="center">
 
-**2019 – 2020**  
-Web Design & Development  
+<b>2019 – 2020</b><br/>
+Web Design & Development<br/>
 Creative IT Institute
 
 </td>
 
-<td width="25%">
+<td width="25%" align="center">
 
-**2020 – 2021**  
-Junior Web Developer  
+<b>2020 – 2021</b><br/>
+Junior Web Developer<br/>
 Sowdagri
 
 </td>
 
-<td width="25%">
+<td width="25%" align="center">
 
-**2022 – 2024**  
-Full Stack Web Developer  
+<b>2022 – 2024</b><br/>
+Full Stack Web Developer<br/>
 VCA
 
 </td>
 
-<td width="25%">
+<td width="25%" align="center">
 
-**2024 – Current**  
-Full Stack Web Developer  
+<b>2024 – Current</b><br/>
+Full Stack Web Developer<br/>
 Self Employed
 
 </td>
@@ -172,10 +172,11 @@ Self Employed
 
 
 
+
 <!-- ================= SKILLS SECTION ================= -->
 <h2 align="left">Skills</h2>
 
-<table>
+<table align="center">
 <tr>
 <td align="center" width="16%">
 <img src="assets/figma.png" width="40"/><br/>
