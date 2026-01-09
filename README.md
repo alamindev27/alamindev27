@@ -1,13 +1,18 @@
 <!-- ================= HERO SECTION ================= -->
-<div align="center" style="background-image:url('assets/banner.jpg'); background-size:cover; background-position:center; padding:100px 20px; border-radius:14px;">
+<div align="center">
 
-<h1 style="color:#ffffff;">Hey There!</h1>
-<h2 style="color:#ffffff;">I'm MD. Al-Amin.</h2>
-<h3 style="color:#eaeaea;">Full Stack Web Developer</h3>
+<img src="assets/banner.jpg" width="100%" style="border-radius:14px;" />
+
+<br/>
+
+<h1>Hey There!</h1>
+<h2>I'm MD. Al-Amin.</h2>
+<h3>Full Stack Web Developer</h3>
 
 </div>
 
-<br/>
+---
+
 
 <!-- ================= ABOUT SECTION ================= -->
 ## 👨‍💻 About Me
