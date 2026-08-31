@@ -14,11 +14,6 @@
 
 <br>
 
-<p align="center">
-  <img src="[https://i.imgur.com/83QvM7j.png](https://avatars.githubusercontent.com/u/71134300?v=4)" width="180" height="180" alt="MD. Al-Amin" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
-</p>
-
-<br>
 
 <p align="justify">
 Hello! I am <b>MD. Al-Amin</b>, a highly skilled and passionate Software & Web Developer with over <b>5 years</b> of professional experience specializing in building dynamic, efficient, and scalable web applications. My core expertise lies in the <b>PHP ecosystem</b>, particularly with the <b>Laravel framework</b>.
