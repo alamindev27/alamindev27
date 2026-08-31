@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img src="https://i.imgur.com/83QvM7j.png" width="180" height="180" alt="MD. Al-Amin" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
+  <img src="[https://i.imgur.com/83QvM7j.png](https://avatars.githubusercontent.com/u/71134300?v=4)" width="180" height="180" alt="MD. Al-Amin" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
 </p>
 
 <br>
