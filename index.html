@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD Al-Amin | Full-Stack Web Developer | PHP, Laravel, React & MySQL Specialist | Custom Web App, API Integration & DevOps (Docker, CI/CD)</title>
+    <title>MD Al-Amin | Full-Stack Web Developer | PHP, Laravel, React & MySQL Specialist | Custom Web App, API
+        Integration & DevOps (Docker, CI/CD)</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome Icons -->
@@ -223,12 +224,12 @@
             <div class="flex items-center justify-center gap-5 text-gray-400 pt-2">
                 <a href="https://github.com/alamindev27" target="_blank" class="hover:text-white transition-colors"><i
                         class="fa-brands fa-github text-xl"></i></a>
-                <a href="https://linkedin.com/in/alamindev27" target="_blank" class="hover:text-cyan-400 transition-colors"><i
-                        class="fa-brands fa-linkedin-in text-xl"></i></a>
-                <a href="https://twitter.com/alamindev27" target="_blank" class="hover:text-cyan-400 transition-colors"><i
-                        class="fa-brands fa-twitter text-xl"></i></a>
-                <a href="https://facebook.com/alamindev27" target="_blank" class="hover:text-cyan-400 transition-colors"><i
-                        class="fa-brands fa-facebook text-xl"></i></a>
+                <a href="https://linkedin.com/in/alamindev27" target="_blank"
+                    class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
+                <a href="https://twitter.com/alamindev27" target="_blank"
+                    class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-twitter text-xl"></i></a>
+                <a href="https://facebook.com/alamindev27" target="_blank"
+                    class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-facebook text-xl"></i></a>
                 <a href="mailto:alamindev27@gmail.com" class="hover:text-indigo-400 transition-colors"><i
                         class="fa-regular fa-envelope text-xl"></i></a>
             </div>
@@ -567,8 +568,10 @@
         </div>
     </section>
 
+
+
     <!-- PORTFOLIO SECTION -->
-    <section id="portfolio" class="py-24 relative overflow-hidden bg-brand-dark/50">
+    <section id="portfolio" class="py-24 relative overflow-hidden bg-brand-dark/50 z-20">
         <!-- Background Accents -->
         <div
             class="absolute top-1/2 left-0 w-72 h-72 bg-indigo-600/10 rounded-full blur-3xl -translate-y-1/2 pointer-events-none">
@@ -590,326 +593,244 @@
                 </p>
             </div>
 
-            <!-- Projects Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Projects Flex Container (Auto Center Alignment) -->
+            <div class="flex flex-wrap justify-center gap-8">
 
-                <!-- Project Card 1 (Real Estate Management) -->
-                <div x-data="{ 
-                activeSlide: 0,
-                slides: [
-                    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80'
-                ],
-                touchStartX: 0,
-                touchEndX: 0,
-                autoplayTimer: null,
-                next() { this.activeSlide = (this.activeSlide + 1) % this.slides.length },
-                prev() { this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length },
-                startAutoplay() { 
-                    this.stopAutoplay();
-                    this.autoplayTimer = setInterval(() => { this.next(); }, 3500); 
-                },
-                stopAutoplay() { 
-                    if (this.autoplayTimer) clearInterval(this.autoplayTimer); 
-                },
-                handleTouchStart(e) { 
-                    this.stopAutoplay();
-                    this.touchStartX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX; 
-                },
-                handleTouchEnd(e) {
-                    this.touchEndX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
-                    if (this.touchStartX - this.touchEndX > 40) this.next();
-                    if (this.touchEndX - this.touchStartX > 40) this.prev();
-                    this.startAutoplay();
-                }
-            }" x-init="startAutoplay()" @mouseenter="stopAutoplay()" @mouseleave="startAutoplay()"
-                    class="group relative glass-card rounded-2xl overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between">
-
-                    <!-- Image Slider Box -->
-                    <div class="relative overflow-hidden aspect-video select-none cursor-grab active:cursor-grabbing"
-                        @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)"
-                        @mousedown="handleTouchStart($event)" @mouseup="handleTouchEnd($event)">
-
-                        <!-- Slides Track -->
-                        <template x-for="(slide, index) in slides" :key="index">
-                            <div x-show="activeSlide === index" x-transition:enter="transition ease-out duration-500"
-                                x-transition:enter-start="opacity-0 scale-95"
-                                x-transition:enter-end="opacity-100 scale-100" class="absolute inset-0 w-full h-full">
-                                <img :src="slide" alt="Project Screenshot"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none">
-                            </div>
-                        </template>
-
-                        <!-- Dark Gradient Overlay -->
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/10 to-transparent opacity-80 pointer-events-none">
-                        </div>
-
-                        <!-- Category Badge -->
-                        <span
-                            class="absolute top-4 left-4 px-3 py-1 bg-indigo-500/80 backdrop-blur-md text-white text-[11px] font-semibold rounded-lg z-10 pointer-events-none">
-                            Laravel / CMS
-                        </span>
-
-                        <!-- Navigation Arrows -->
-                        <button @click.stop="prev()"
-                            class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                            <i class="fa-solid fa-chevron-left text-xs"></i>
-                        </button>
-                        <button @click.stop="next()"
-                            class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                            <i class="fa-solid fa-chevron-right text-xs"></i>
-                        </button>
-
-                        <!-- Slider Dots Indicator -->
-                        <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-20">
-                            <template x-for="(slide, index) in slides" :key="index">
-                                <button @click.stop="activeSlide = index"
-                                    :class="activeSlide === index ? 'w-5 bg-cyan-400' : 'w-1.5 bg-white/40 hover:bg-white/70'"
-                                    class="h-1.5 rounded-full transition-all duration-300"></button>
-                            </template>
-                        </div>
-                    </div>
-
-                    <!-- Card Content -->
-                    <div class="p-6 flex-1 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                                Real Estate Management System
-                            </h3>
-                            <p class="text-gray-400 text-sm mt-2 line-clamp-3">
-                                Multi-agent dynamic portal with property listings, inquiry workflows, custom dashboard,
-                                and payment gateway integration.
-                            </p>
-                        </div>
-
-                        <div class="pt-6 mt-4 border-t border-gray-800/80 flex items-center justify-between">
-                            <div class="flex flex-wrap gap-2">
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Laravel</span>
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">MySQL</span>
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Bootstrap</span>
-                            </div>
-                            <a href="#" target="_blank"
-                                class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-indigo-600 flex items-center justify-center transition-all shrink-0">
-                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Card 2 (School SaaS System) -->
-                <div x-data="{ 
-                activeSlide: 0,
-                slides: [
-                    'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80'
-                ],
-                touchStartX: 0,
-                touchEndX: 0,
-                autoplayTimer: null,
-                next() { this.activeSlide = (this.activeSlide + 1) % this.slides.length },
-                prev() { this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length },
-                startAutoplay() { 
-                    this.stopAutoplay();
-                    this.autoplayTimer = setInterval(() => { this.next(); }, 4000); 
-                },
-                stopAutoplay() { 
-                    if (this.autoplayTimer) clearInterval(this.autoplayTimer); 
-                },
-                handleTouchStart(e) { 
-                    this.stopAutoplay();
-                    this.touchStartX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX; 
-                },
-                handleTouchEnd(e) {
-                    this.touchEndX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
-                    if (this.touchStartX - this.touchEndX > 40) this.next();
-                    if (this.touchEndX - this.touchStartX > 40) this.prev();
-                    this.startAutoplay();
-                }
+                <!-- Project Card 1 (SohojUp) -->
+                <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] flex-shrink-0 flex flex-col">
+                    <div x-data="{ 
+                    activeSlide: 0,
+                    slides: [
+                        'assets/img/portfolios/sohojup/s1.jpeg',
+                        'assets/img/portfolios/sohojup/s2.jpeg',
+                        'assets/img/portfolios/sohojup/s3.jpeg'
+                    ],
+                    touchStartX: 0,
+                    touchEndX: 0,
+                    autoplayTimer: null,
+                    next() { this.activeSlide = (this.activeSlide + 1) % this.slides.length },
+                    prev() { this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length },
+                    startAutoplay() { 
+                        this.stopAutoplay();
+                        this.autoplayTimer = setInterval(() => { this.next(); }, 3500); 
+                    },
+                    stopAutoplay() { 
+                        if (this.autoplayTimer) clearInterval(this.autoplayTimer); 
+                    },
+                    handleTouchStart(e) { 
+                        this.stopAutoplay();
+                        this.touchStartX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX; 
+                    },
+                    handleTouchEnd(e) {
+                        this.touchEndX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
+                        if (this.touchStartX - this.touchEndX > 40) this.next();
+                        if (this.touchEndX - this.touchStartX > 40) this.prev();
+                        this.startAutoplay();
+                    }
                 }" x-init="startAutoplay()" @mouseenter="stopAutoplay()" @mouseleave="startAutoplay()"
-                    class="group relative glass-card rounded-2xl overflow-hidden border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 flex flex-col justify-between">
+                        class="group relative glass-card rounded-2xl overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between h-full">
 
-                    <!-- Image Slider Box -->
-                    <div class="relative overflow-hidden aspect-video select-none cursor-grab active:cursor-grabbing"
-                        @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)"
-                        @mousedown="handleTouchStart($event)" @mouseup="handleTouchEnd($event)">
+                        <!-- Image Slider Box -->
+                        <div class="relative overflow-hidden aspect-video select-none cursor-grab active:cursor-grabbing"
+                            @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)"
+                            @mousedown="handleTouchStart($event)" @mouseup="handleTouchEnd($event)">
 
-                        <!-- Slides Track -->
-                        <template x-for="(slide, index) in slides" :key="index">
-                            <div x-show="activeSlide === index" x-transition:enter="transition ease-out duration-500"
-                                x-transition:enter-start="opacity-0 scale-95"
-                                x-transition:enter-end="opacity-100 scale-100" class="absolute inset-0 w-full h-full">
-                                <img :src="slide" alt="School Management Software"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none">
-                            </div>
-                        </template>
-
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/10 to-transparent opacity-80 pointer-events-none">
-                        </div>
-
-                        <span
-                            class="absolute top-4 left-4 px-3 py-1 bg-cyan-500/80 backdrop-blur-md text-white text-[11px] font-semibold rounded-lg z-10 pointer-events-none">
-                            React / Inertia
-                        </span>
-
-                        <button @click.stop="prev()"
-                            class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-cyan-600 z-20">
-                            <i class="fa-solid fa-chevron-left text-xs"></i>
-                        </button>
-                        <button @click.stop="next()"
-                            class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-cyan-600 z-20">
-                            <i class="fa-solid fa-chevron-right text-xs"></i>
-                        </button>
-
-                        <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-20">
+                            <!-- Slides Track -->
                             <template x-for="(slide, index) in slides" :key="index">
-                                <button @click.stop="activeSlide = index"
-                                    :class="activeSlide === index ? 'w-5 bg-cyan-400' : 'w-1.5 bg-white/40 hover:bg-white/70'"
-                                    class="h-1.5 rounded-full transition-all duration-300"></button>
+                                <div x-show="activeSlide === index"
+                                    x-transition:enter="transition ease-out duration-500"
+                                    x-transition:enter-start="opacity-0 scale-95"
+                                    x-transition:enter-end="opacity-100 scale-100"
+                                    class="absolute inset-0 w-full h-full">
+                                    <img :src="slide" alt="Project Screenshot"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none">
+                                </div>
                             </template>
-                        </div>
-                    </div>
 
-                    <!-- Card Content -->
-                    <div class="p-6 flex-1 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                                Smart Education & School SaaS
-                            </h3>
-                            <p class="text-gray-400 text-sm mt-2 line-clamp-3">
-                                Multi-role administrative platform for students, teachers, and admins featuring
-                                real-time attendance, fee collection, and gradebook management.
-                            </p>
-                        </div>
-
-                        <div class="pt-6 mt-4 border-t border-gray-800/80 flex items-center justify-between">
-                            <div class="flex flex-wrap gap-2">
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Laravel</span>
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">React.js</span>
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Inertia</span>
+                            <!-- Dark Gradient Overlay -->
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/10 to-transparent opacity-80 pointer-events-none">
                             </div>
-                            <a href="#" target="_blank"
-                                class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-cyan-600 flex items-center justify-center transition-all shrink-0">
-                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                            </a>
+
+                            <!-- Category Badge -->
+                            <span
+                                class="absolute top-4 left-4 px-3 py-1 bg-indigo-500/80 backdrop-blur-md text-white text-[11px] font-semibold rounded-lg z-10 pointer-events-none">
+                                Laravel / CMS
+                            </span>
+
+                            <!-- Navigation Arrows -->
+                            <button @click.stop="prev()"
+                                class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
+                                <i class="fa-solid fa-chevron-left text-xs"></i>
+                            </button>
+                            <button @click.stop="next()"
+                                class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
+                                <i class="fa-solid fa-chevron-right text-xs"></i>
+                            </button>
+
+                            <!-- Slider Dots Indicator -->
+                            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-20">
+                                <template x-for="(slide, index) in slides" :key="index">
+                                    <button @click.stop="activeSlide = index"
+                                        :class="activeSlide === index ? 'w-5 bg-cyan-400' : 'w-1.5 bg-white/40 hover:bg-white/70'"
+                                        class="h-1.5 rounded-full transition-all duration-300"></button>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Smart Digital Union Parishad Management & E-Governance...
+                                </h3>
+                                <p class="text-gray-400 text-sm mt-2 line-clamp-3">
+                                    SohojUp is a full-featured, web-based e-governance and administrative portal
+                                    designed to digitize local Union Parishad operations in Bangladesh, enabling
+                                    seamless citizen services and efficient municipal management.
+                                </p>
+                            </div>
+
+                            <div class="pt-6 mt-4 border-t border-gray-800/80 flex items-center justify-between">
+                                <div class="flex flex-wrap gap-2">
+                                    <span
+                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Laravel</span>
+                                    <span
+                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">MySQL</span>
+                                    <span
+                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Bootstrap</span>
+                                    <span
+                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">CI/CD</span>
+                                </div>
+                                <a href="https://sohojup.com/" target="_blank"
+                                    class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-indigo-600 flex items-center justify-center transition-all shrink-0">
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project Card 3 (Union Parishad Admin Platform) -->
-                <div x-data="{ 
-                activeSlide: 0,
-                slides: [
-                    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80'
-                ],
-                touchStartX: 0,
-                touchEndX: 0,
-                autoplayTimer: null,
-                next() { this.activeSlide = (this.activeSlide + 1) % this.slides.length },
-                prev() { this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length },
-                startAutoplay() { 
-                    this.stopAutoplay();
-                    this.autoplayTimer = setInterval(() => { this.next(); }, 3800); 
-                },
-                stopAutoplay() { 
-                    if (this.autoplayTimer) clearInterval(this.autoplayTimer); 
-                },
-                handleTouchStart(e) { 
-                    this.stopAutoplay();
-                    this.touchStartX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX; 
-                },
-                handleTouchEnd(e) {
-                    this.touchEndX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
-                    if (this.touchStartX - this.touchEndX > 40) this.next();
-                    if (this.touchEndX - this.touchStartX > 40) this.prev();
-                    this.startAutoplay();
-                }
+                <!-- Project Card 2 (Global Forex Info) -->
+                <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] flex-shrink-0 flex flex-col">
+                    <div x-data="{ 
+                    activeSlide: 0,
+                    slides: [
+                        'assets/img/portfolios/global-forex-info/g1.jpeg'
+                    ],
+                    touchStartX: 0,
+                    touchEndX: 0,
+                    autoplayTimer: null,
+                    next() { this.activeSlide = (this.activeSlide + 1) % this.slides.length },
+                    prev() { this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length },
+                    startAutoplay() { 
+                        this.stopAutoplay();
+                        this.autoplayTimer = setInterval(() => { this.next(); }, 3500); 
+                    },
+                    stopAutoplay() { 
+                        if (this.autoplayTimer) clearInterval(this.autoplayTimer); 
+                    },
+                    handleTouchStart(e) { 
+                        this.stopAutoplay();
+                        this.touchStartX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX; 
+                    },
+                    handleTouchEnd(e) {
+                        this.touchEndX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
+                        if (this.touchStartX - this.touchEndX > 40) this.next();
+                        if (this.touchEndX - this.touchStartX > 40) this.prev();
+                        this.startAutoplay();
+                    }
                 }" x-init="startAutoplay()" @mouseenter="stopAutoplay()" @mouseleave="startAutoplay()"
-                    class="group relative glass-card rounded-2xl overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between">
+                        class="group relative glass-card rounded-2xl overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between h-full">
 
-                    <!-- Image Slider Box -->
-                    <div class="relative overflow-hidden aspect-video select-none cursor-grab active:cursor-grabbing"
-                        @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)"
-                        @mousedown="handleTouchStart($event)" @mouseup="handleTouchEnd($event)">
+                        <!-- Image Slider Box -->
+                        <div class="relative overflow-hidden aspect-video select-none cursor-grab active:cursor-grabbing"
+                            @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)"
+                            @mousedown="handleTouchStart($event)" @mouseup="handleTouchEnd($event)">
 
-                        <!-- Slides Track -->
-                        <template x-for="(slide, index) in slides" :key="index">
-                            <div x-show="activeSlide === index" x-transition:enter="transition ease-out duration-500"
-                                x-transition:enter-start="opacity-0 scale-95"
-                                x-transition:enter-end="opacity-100 scale-100" class="absolute inset-0 w-full h-full">
-                                <img :src="slide" alt="Union Parishad System"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none">
-                            </div>
-                        </template>
-
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/10 to-transparent opacity-80 pointer-events-none">
-                        </div>
-
-                        <span
-                            class="absolute top-4 left-4 px-3 py-1 bg-indigo-500/80 backdrop-blur-md text-white text-[11px] font-semibold rounded-lg z-10 pointer-events-none">
-                            Web Software
-                        </span>
-
-                        <button @click.stop="prev()"
-                            class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                            <i class="fa-solid fa-chevron-left text-xs"></i>
-                        </button>
-                        <button @click.stop="next()"
-                            class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                            <i class="fa-solid fa-chevron-right text-xs"></i>
-                        </button>
-
-                        <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-20">
+                            <!-- Slides Track -->
                             <template x-for="(slide, index) in slides" :key="index">
-                                <button @click.stop="activeSlide = index"
-                                    :class="activeSlide === index ? 'w-5 bg-cyan-400' : 'w-1.5 bg-white/40 hover:bg-white/70'"
-                                    class="h-1.5 rounded-full transition-all duration-300"></button>
+                                <div x-show="activeSlide === index"
+                                    x-transition:enter="transition ease-out duration-500"
+                                    x-transition:enter-start="opacity-0 scale-95"
+                                    x-transition:enter-end="opacity-100 scale-100"
+                                    class="absolute inset-0 w-full h-full">
+                                    <img :src="slide" alt="Project Screenshot"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none">
+                                </div>
                             </template>
-                        </div>
-                    </div>
 
-                    <!-- Card Content -->
-                    <div class="p-6 flex-1 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                                Union Parishad Administrative Suite
-                            </h3>
-                            <p class="text-gray-400 text-sm mt-2 line-clamp-3">
-                                Automated master rolls, committee management, and digital certificate generation suite
-                                using Yajra DataTables and custom print layouts.
-                            </p>
-                        </div>
-
-                        <div class="pt-6 mt-4 border-t border-gray-800/80 flex items-center justify-between">
-                            <div class="flex flex-wrap gap-2">
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Laravel</span>
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">DataTables</span>
-                                <span
-                                    class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Blade</span>
+                            <!-- Dark Gradient Overlay -->
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/10 to-transparent opacity-80 pointer-events-none">
                             </div>
-                            <a href="#" target="_blank"
-                                class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-indigo-600 flex items-center justify-center transition-all shrink-0">
-                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                            </a>
+
+                            <!-- Category Badge -->
+                            <span
+                                class="absolute top-4 left-4 px-3 py-1 bg-indigo-500/80 backdrop-blur-md text-white text-[11px] font-semibold rounded-lg z-10 pointer-events-none">
+                                PHP / Laravel
+                            </span>
+
+                            <!-- Navigation Arrows -->
+                            <button @click.stop="prev()"
+                                class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
+                                <i class="fa-solid fa-chevron-left text-xs"></i>
+                            </button>
+                            <button @click.stop="next()"
+                                class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
+                                <i class="fa-solid fa-chevron-right text-xs"></i>
+                            </button>
+
+                            <!-- Slider Dots Indicator -->
+                            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-20">
+                                <template x-for="(slide, index) in slides" :key="index">
+                                    <button @click.stop="activeSlide = index"
+                                        :class="activeSlide === index ? 'w-5 bg-cyan-400' : 'w-1.5 bg-white/40 hover:bg-white/70'"
+                                        class="h-1.5 rounded-full transition-all duration-300"></button>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                    Comprehensive Forex Broker Review & Analysis Portal
+                                </h3>
+                                <p class="text-gray-400 text-sm mt-2 line-clamp-3">
+                                    Global Forex Info is a dynamic web portal designed to help traders navigate the
+                                    financial markets by providing comprehensive Forex broker reviews, real-time bonus
+                                    tracking, and industry insights.
+                                </p>
+                            </div>
+
+                            <div class="pt-6 mt-4 border-t border-gray-800/80 flex items-center justify-between">
+                                <div class="flex flex-wrap gap-2">
+                                    <span
+                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Laravel</span>
+                                    <span
+                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">MySQL</span>
+                                    <span
+                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Bootstrap</span>
+                                </div>
+                                <a href="https://globalforexinfo.com/" target="_blank"
+                                    class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-indigo-600 flex items-center justify-center transition-all shrink-0">
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Future Card Add Korle Ai Wrapper Structure Repeat Korben: -->
+                <!-- <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] flex-shrink-0 flex flex-col"> ... </div> -->
 
             </div>
         </div>
     </section>
+
+
+
 
     <!-- TESTIMONIALS SECTION (SLIDER) -->
     <section id="testimonials" class="py-24 relative bg-brand-dark/50">
