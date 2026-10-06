@@ -1,1168 +1,188 @@
-```
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD Al-Amin | Full-Stack Web Developer | PHP, Laravel, React & MySQL Specialist | Custom Web App, API
-        Integration & DevOps (Docker, CI/CD)</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <!-- Alpine.js for Interactivity & Sliders -->
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <link rel="icon" type="image/png" href="assets/img/alamindev27-1.png">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-
-    <meta name="title"
-        content="MD Al-Amin | Full-Stack Web Developer | PHP, Laravel, React &amp; MySQL Specialist | Custom Web App, API Integration &amp; DevOps (Docker, CI/CD)" />
-    <meta name="description"
-        content="Portfolio of MD. Al-Amin (alamindev27) - Full-Stack Web Developer specializing in PHP, Laravel, React, MySQL, custom web applications, API integrations, and DevOps workflows." />
-    <meta name="author" content="MD. Al-Amin | alamindev27" />
-
-    <!-- Open Graph / Facebook / WhatsApp / LinkedIn / Telegram -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://alamindev27.github.io/alamindev27/" />
-    <meta property="og:title"
-        content="MD Al-Amin | Full-Stack Web Developer | PHP, Laravel, React &amp; MySQL Specialist | Custom Web App, API Integration &amp; DevOps (Docker, CI/CD)" />
-    <meta property="og:description"
-        content="Portfolio of MD. Al-Amin (alamindev27) - Full-Stack Web Developer specializing in PHP, Laravel, React, MySQL, custom web applications, API integrations, and DevOps workflows." />
-    <meta property="og:image" content="https://alamindev27.github.io/alamindev27/assets/img/alamindev27-1.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://alamindev27.github.io/alamindev27/" />
-    <meta name="twitter:title"
-        content="MD Al-Amin | Full-Stack Web Developer | PHP, Laravel, React &amp; MySQL Specialist | Custom Web App, API Integration &amp; DevOps (Docker, CI/CD)" />
-    <meta name="twitter:description"
-        content="Portfolio of MD. Al-Amin (alamindev27) - Full-Stack Web Developer specializing in PHP, Laravel, React, MySQL, custom web applications, API integrations, and DevOps workflows." />
-    <meta name="twitter:image" content="https://alamindev27.github.io/alamindev27/assets/img/alamindev27-1.png" />
-
-
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            dark: '#0a0f1d',
-                            card: '#111827',
-                            border: '#1f293d',
-                            primary: '#6366f1', // Indigo accent
-                            cyan: '#06b6d4',    // Cyan accent
-                            light: '#f8fafc'
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['Plus Jakarta Sans', 'sans-serif'],
-                    },
-                    animation: {
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-12px)' },
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-</head>
-
-<body x-data="{ mobileMenuOpen: false }">
-
-    <!-- GLOBAL BACKGROUND FLOATING TECH STACK ANIMATION -->
-    <div class="fixed inset-0 pointer-events-none overflow-hidden z-10 select-none opacity-25" id="global-tech-bg">
-        <!-- HTML5 -->
-        <div class="absolute top-[8%] left-[5%] animate-float-slow text-orange-500 text-3xl sm:text-5xl">
-            <i class="fa-brands fa-html5"></i>
-        </div>
-        <!-- CSS3 -->
-        <div class="absolute top-[18%] right-[8%] animate-float-medium text-cyan-400 text-4xl sm:text-6xl">
-            <i class="fa-brands fa-css3-alt"></i>
-        </div>
-        <!-- JavaScript -->
-        <div class="absolute top-[28%] left-[12%] animate-float-fast text-yellow-400 text-3xl sm:text-5xl">
-            <i class="fa-brands fa-js"></i>
-        </div>
-        <!-- PHP -->
-        <div class="absolute top-[38%] right-[12%] animate-float-slow text-indigo-400 text-4xl sm:text-6xl">
-            <i class="fa-brands fa-php"></i>
-        </div>
-        <!-- Laravel -->
-        <div class="absolute top-[48%] left-[6%] animate-float-medium text-red-500 text-4xl sm:text-6xl">
-            <i class="fa-brands fa-laravel"></i>
-        </div>
-        <!-- React -->
-        <div class="absolute top-[58%] right-[6%] animate-float-fast text-cyan-300 text-4xl sm:text-6xl">
-            <i class="fa-brands fa-react"></i>
-        </div>
-        <!-- Docker -->
-        <div class="absolute top-[68%] left-[10%] animate-float-slow text-blue-400 text-3xl sm:text-5xl">
-            <i class="fa-brands fa-docker"></i>
-        </div>
-        <!-- Git -->
-        <div class="absolute top-[78%] right-[10%] animate-float-medium text-orange-600 text-4xl sm:text-5xl">
-            <i class="fa-brands fa-git-alt"></i>
-        </div>
-        <!-- GitHub -->
-        <div class="absolute top-[88%] left-[8%] animate-float-fast text-white text-3xl sm:text-5xl">
-            <i class="fa-brands fa-github"></i>
-        </div>
-        <!-- Linux -->
-        <div class="absolute top-[94%] right-[15%] animate-float-slow text-yellow-300 text-3xl sm:text-5xl">
-            <i class="fa-brands fa-linux"></i>
-        </div>
-        <!-- Bootstrap -->
-        <div class="absolute top-[33%] left-[88%] animate-float-medium text-purple-500 text-3xl sm:text-5xl">
-            <i class="fa-brands fa-bootstrap"></i>
-        </div>
-    </div>
-
-
-    <!-- NAVIGATION BAR -->
-    <nav class="fixed top-0 left-0 w-full z-40 glass-card border-b border-gray-800/80">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <!-- Logo -->
-                <a href="#home" class="flex items-center gap-2 group">
-                    <img src="assets/img/logo-white.png" alt="">
-                </a>
-
-                <!-- Desktop Navigation Menu -->
-                <div class="hidden md:flex items-center space-x-8">
-                    <a href="#home"
-                        class="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors">Home</a>
-                    <a href="#about"
-                        class="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors">About</a>
-                    <a href="#services"
-                        class="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors">Services</a>
-                    <a href="#portfolio"
-                        class="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors">Portfolio</a>
-                    <a href="#testimonials"
-                        class="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors">Testimonials</a>
-                    <a href="#faq"
-                        class="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors">FAQ</a>
-                    <a href="#contact"
-                        class="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors">Contact</a>
-                </div>
-
-                <!-- Hire Button (Desktop) -->
-                <div class="hidden md:flex items-center">
-                    <a href="https://linkedin.com/in/alamindev27" target="_blank"
-                        class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium rounded-xl group bg-gradient-to-br from-indigo-500 to-cyan-500 group-hover:from-indigo-500 group-hover:to-cyan-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-cyan-500/40 transition-all duration-300 active:scale-95">
-                        <span
-                            class="relative px-6 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-[10px] group-hover:bg-opacity-0 font-semibold flex items-center gap-2">
-                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-                            Hire Me
-                        </span>
-                    </a>
-                </div>
-
-                <!-- Mobile Hamburger Button -->
-                <div class="md:hidden flex items-center">
-                    <button @click="mobileMenuOpen = true"
-                        class="text-gray-300 hover:text-white focus:outline-none p-2 rounded-lg hover:bg-gray-800/80 transition-colors">
-                        <i class="fa-solid fa-bars-staggered text-2xl"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Mobile Dark Overlay (Root Level Fixed Element) -->
-    <div x-show="mobileMenuOpen" x-transition:enter="transition ease-out duration-300"
-        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
-        x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100"
-        x-transition:leave-end="opacity-0" @click="mobileMenuOpen = false"
-        class="fixed inset-0 bg-black/80 backdrop-blur-md z-[9998] md:hidden" style="display: none;">
-    </div>
-
-    <!-- Mobile Off-Canvas Sidebar Container -->
-    <div x-show="mobileMenuOpen" x-transition:enter="transition ease-out duration-300 transform"
-        x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0"
-        x-transition:leave="transition ease-in duration-200 transform" x-transition:leave-start="translate-x-0"
-        x-transition:leave-end="translate-x-full"
-        class="fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-[#0a0f1d] border-l border-gray-800 shadow-2xl z-[9999] p-6 flex flex-col justify-between md:hidden"
-        style="display: none;">
-
-        <div>
-            <!-- Sidebar Header -->
-            <div class="flex items-center justify-between pb-6 border-b border-gray-800">
-                <a href="#home" @click="mobileMenuOpen = false" class="flex items-center gap-2">
-                    <img src="assets/img/logo-white.png" alt="">
-                </a>
-                <button @click="mobileMenuOpen = false"
-                    class="w-9 h-9 rounded-xl bg-gray-800 text-gray-300 hover:text-white flex items-center justify-center transition-colors">
-                    <i class="fa-solid fa-xmark text-lg"></i>
-                </button>
-            </div>
-
-            <!-- Navigation Links -->
-            <div class="mt-6 space-y-2">
-                <a href="#home" @click="mobileMenuOpen = false"
-                    class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-gray-200 hover:text-white hover:bg-gray-800/80 transition-all">
-                    <i class="fa-solid fa-house text-cyan-400 text-sm w-5"></i> Home
-                </a>
-                <a href="#about" @click="mobileMenuOpen = false"
-                    class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-gray-200 hover:text-white hover:bg-gray-800/80 transition-all">
-                    <i class="fa-solid fa-user text-indigo-400 text-sm w-5"></i> About
-                </a>
-                <a href="#services" @click="mobileMenuOpen = false"
-                    class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-gray-200 hover:text-white hover:bg-gray-800/80 transition-all">
-                    <i class="fa-solid fa-code text-cyan-400 text-sm w-5"></i> Services
-                </a>
-                <a href="#portfolio" @click="mobileMenuOpen = false"
-                    class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-gray-200 hover:text-white hover:bg-gray-800/80 transition-all">
-                    <i class="fa-solid fa-briefcase text-indigo-400 text-sm w-5"></i> Portfolio
-                </a>
-                <a href="#testimonials" @click="mobileMenuOpen = false"
-                    class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-gray-200 hover:text-white hover:bg-gray-800/80 transition-all">
-                    <i class="fa-solid fa-quote-right text-indigo-400 text-sm w-5"></i> Testimonials
-                </a>
-                <a href="#faq" @click="mobileMenuOpen = false"
-                    class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-gray-200 hover:text-white hover:bg-gray-800/80 transition-all">
-                    <i class="fa-solid fa-circle-question text-cyan-400 text-sm w-5"></i> FAQ
-                </a>
-                <a href="#contact" @click="mobileMenuOpen = false"
-                    class="flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold text-gray-200 hover:text-white hover:bg-gray-800/80 transition-all">
-                    <i class="fa-solid fa-envelope text-indigo-400 text-sm w-5"></i> Contact
-                </a>
-            </div>
-        </div>
-
-        <!-- Sidebar Footer -->
-        <div class="pt-6 border-t border-gray-800 space-y-4">
-            <a href="https://linkedin.com/in/alamindev27" @click="mobileMenuOpen = false"
-                class="block w-full py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-bold text-center shadow-lg shadow-indigo-500/30 active:scale-95 transition-all">
-                Hire Me
-            </a>
-
-            <div class="flex items-center justify-center gap-5 text-gray-400 pt-2">
-                <a href="https://github.com/alamindev27" target="_blank" class="hover:text-white transition-colors"><i
-                        class="fa-brands fa-github text-xl"></i></a>
-                <a href="https://linkedin.com/in/alamindev27" target="_blank"
-                    class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
-                <a href="https://twitter.com/alamindev27" target="_blank"
-                    class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-twitter text-xl"></i></a>
-                <a href="https://facebook.com/alamindev27" target="_blank"
-                    class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-facebook text-xl"></i></a>
-                <a href="mailto:alamindev27@gmail.com" class="hover:text-indigo-400 transition-colors"><i
-                        class="fa-regular fa-envelope text-xl"></i></a>
-            </div>
-        </div>
-    </div>
-
-    <!-- HERO SECTION -->
-    <section id="home" class="relative min-h-screen pt-28 pb-16 flex items-center overflow-hidden">
-        <!-- Background Coding Image with Gradient Overlay -->
-        <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1920&q=80"
-                alt="Coding Overlay" class="w-full h-full object-cover opacity-15">
-            <div class="absolute inset-0 bg-gradient-to-b from-brand-dark/80 via-brand-dark/95 to-brand-dark"></div>
-            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl animate-pulse-slow">
-            </div>
-            <div
-                class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-600/20 rounded-full blur-3xl animate-pulse-slow">
-            </div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-
-                <!-- Hero Left Column: Tagline & Content -->
-                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border border-indigo-500/30 text-indigo-400 text-xs sm:text-sm font-semibold tracking-wide uppercase shadow-inner">
-                        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-                        Available for Freelance & Contract Projects
-                    </div>
-
-                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
-                        Architecting High-Performance <span class="gradient-text">Laravel & Web Solutions</span>
-                    </h1>
-
-                    <p class="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                        Hi, I'm <strong class="text-white">MD Al-Amin</strong>. A Full-Stack Web Developer specialized
-                        in PHP, Laravel, React, and high-converting custom applications tailored for growing global
-                        businesses.
-                    </p>
-
-                    <!-- CTAs -->
-                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-                        <a href="#contact"
-                            class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-bold text-base shadow-lg shadow-indigo-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200 text-center flex items-center justify-center gap-2">
-                            <span>Get In Touch</span>
-                            <i class="fa-solid fa-arrow-right text-sm"></i>
-                        </a>
-                        <a href="mailto:alamindev27@gmail.com"
-                            class="w-full sm:w-auto px-8 py-4 rounded-xl glass-card text-white font-semibold text-base hover:bg-gray-800/80 transition-all duration-200 border border-gray-700 text-center flex items-center justify-center gap-2 group">
-                            <i
-                                class="fa-regular fa-envelope text-cyan-400 group-hover:scale-110 transition-transform"></i>
-                            <span>alamindev27@gmail.com</span>
-                        </a>
-                    </div>
-
-                    <!-- Key Metrics -->
-                    <div id="metrics-container"
-                        class="grid grid-cols-3 gap-4 pt-8 border-t border-gray-800/80 max-w-lg mx-auto lg:mx-0">
-                        <div>
-                            <h3 class="text-2xl sm:text-3xl font-extrabold text-white">
-                                <span class="counter" data-target="4">0</span>+
-                            </h3>
-                            <p class="text-xs sm:text-sm text-gray-400">Years Experience</p>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl sm:text-3xl font-extrabold text-white">
-                                <span class="counter" data-target="50">0</span>+
-                            </h3>
-                            <p class="text-xs sm:text-sm text-gray-400">Projects Delivered</p>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl sm:text-3xl font-extrabold text-white">
-                                <span class="counter" data-target="99">0</span>%
-                            </h3>
-                            <p class="text-xs sm:text-sm text-gray-400">Client Satisfaction</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Hero Right Column: Banner Image & Badges -->
-                <div class="lg:col-span-5 flex justify-center relative">
-                    <div class="relative w-full max-w-md animate-float">
-                        <!-- Glowing Backing Frame -->
-                        <div
-                            class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-indigo-500 to-cyan-500 opacity-30 blur-xl">
-                        </div>
-
-                        <!-- Banner Image Container -->
-                        <div
-                            class="relative rounded-3xl overflow-hidden glass-card p-3 pb-0 border border-gray-700/60 shadow-2xl flex flex-col justify-end">
-                            <img src="assets/img/profile.png" alt="MD Al-Amin - Developer Banner"
-                                class="w-full h-auto rounded-b-none rounded-t-2xl object-cover filter brightness-95 block">
-
-                            <!-- Overlay Badge Top Right: Open To Work (Animated) -->
-                            <div
-                                class="absolute top-3 right-3 glass-card px-3.5 py-2 rounded-2xl flex items-center gap-2.5 border border-emerald-500/40 shadow-xl backdrop-blur-md bg-gray-950/80 z-10 animate-pulse">
-                                <span class="relative flex h-3 w-3">
-                                    <span
-                                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
-                                </span>
-                                <span class="text-xs font-semibold text-emerald-400 tracking-wide">Open to Work</span>
-                            </div>
-
-                            <!-- Overlay Badge 1: Clean Code (Positioned above Speed on bottom-left) -->
-                            <div
-                                class="absolute bottom-24 left-6 glass-card p-3 rounded-2xl flex items-center gap-3 border border-indigo-500/40 shadow-xl backdrop-blur-md bg-gray-950/80 z-10">
-                                <div
-                                    class="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-lg shrink-0">
-                                    <i class="fa-solid fa-code"></i>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-semibold text-gray-300">Clean Code</p>
-                                    <p class="text-xs text-gray-400">Laravel & REST APIs</p>
-                                </div>
-                            </div>
-
-                            <!-- Overlay Badge 2: Speed (Bottom Left) -->
-                            <div
-                                class="absolute bottom-6 left-6 glass-card p-3 rounded-2xl flex items-center gap-3 border border-cyan-500/40 shadow-xl backdrop-blur-md bg-gray-950/80 z-10">
-                                <div
-                                    class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-lg shrink-0">
-                                    <i class="fa-solid fa-bolt"></i>
-                                </div>
-                                <div>
-                                    <p class="text-xs font-semibold text-gray-300">Speed</p>
-                                    <p class="text-xs text-gray-400">Optimized Performance</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ABOUT ME SECTION -->
-    <section id="about" class="py-24 relative bg-brand-dark/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs font-bold text-cyan-400 tracking-widest uppercase mb-2">About Me</h2>
-                <p class="text-3xl sm:text-4xl font-extrabold text-white">Engineering Scalable Digital Products with
-                    Precision</p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-
-                <!-- Left: Full Details & Narrative -->
-                <div class="lg:col-span-6 space-y-6">
-                    <h3 class="text-2xl font-bold text-white">Passionate Full-Stack Developer & Problem Solver</h3>
-                    <p class="text-gray-400 leading-relaxed">
-                        I am <strong class="text-gray-200">MD Al-Amin</strong>, a dedicated web developer with over 4
-                        years of hands-on experience crafting web systems, custom CMS platforms, SaaS applications, and
-                        e-commerce portals. My technical mastery revolves around backend perfection using <strong
-                            class="text-indigo-400">PHP & Laravel</strong> combined with sleek frontends using <strong
-                            class="text-cyan-400">React, Inertia.js, and Tailwind CSS</strong>.
-                    </p>
-                    <p class="text-gray-400 leading-relaxed">
-                        Whether you need a custom business management software, automated client dashboards, or
-                        continuous integration & deployment (CI/CD) pipelines using Docker and GitHub Actions, I bridge
-                        complex backend logic with beautiful, responsive interfaces.
-                    </p>
-
-
-                </div>
-
-                <!-- Right Column: Smaller Height Stacked -->
-                <div class="lg:col-span-6 space-y-5">
-                    <!-- Small Controlled Image -->
-                    <!-- <div class="relative group max-w-sm mx-auto sm:mx-0">
-                        <div
-                            class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-indigo-500/20 to-cyan-500/20 blur-md">
-                        </div>
-                        <div
-                            class="relative rounded-2xl overflow-hidden glass-card border border-gray-800 p-1.5 shadow-lg">
-                            <img src="assets/img/alamindev27-1.png" alt="MD Al-Amin"
-                                class="rounded-xl object-cover max-h-56 w-full object-top filter brightness-95">
-                        </div>
-                    </div> -->
-
-
-                    <!-- Experience Timeline / Highlights -->
-                    <div class="space-y-4 pt-4">
-                        <div class="glass-card p-4 rounded-xl border border-gray-800 flex items-start gap-4">
-                            <div
-                                class="w-10 h-10 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center shrink-0">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-white font-bold text-base">Full-Stack Web Developer (Self-Employed)</h4>
-                                <p class="text-xs text-cyan-400 mb-1">2021 — Present</p>
-                                <p class="text-xs text-gray-400">Building custom Laravel architecture, payment gateway
-                                    integrations, and API backends for global business clients.</p>
-                            </div>
-                        </div>
-
-                        <!-- <div class="glass-card p-4 rounded-xl border border-gray-800 flex items-start gap-4">
-                            <div
-                                class="w-10 h-10 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center shrink-0">
-                                <i class="fa-solid fa-layer-group"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-white font-bold text-base">WordPress & Dynamic Theme Engineer</h4>
-                                <p class="text-xs text-cyan-400 mb-1">2020 — 2021</p>
-                                <p class="text-xs text-gray-400">Converted complex Figma and HTML templates into
-                                    ultra-fast custom WordPress themes with client options.</p>
-                            </div>
-                        </div> -->
-                    </div>
-
-                    <!-- Skills Card -->
-                    <div id="skills-container" class="glass-card p-5 rounded-2xl space-y-3 border border-gray-800">
-                        <h4 class="text-white font-bold text-sm mb-1 flex items-center gap-2">
-                            <i class="fa-solid fa-layer-group text-cyan-400 text-xs"></i> Core Technical Stack
-                        </h4>
-
-                        <div>
-                            <div class="flex justify-between text-xs font-semibold mb-1">
-                                <span class="text-gray-300">PHP / Laravel Framework</span>
-                                <span class="text-indigo-400">95%</span>
-                            </div>
-                            <div
-                                class="w-full bg-gray-800/80 h-2 rounded-full overflow-hidden border border-gray-700/50">
-                                <div class="skill-bar bg-gradient-to-r from-indigo-500 to-indigo-400 h-full rounded-full w-0 transition-all duration-1000 ease-out"
-                                    data-width="95%"></div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="flex justify-between text-xs font-semibold mb-1">
-                                <span class="text-gray-300">React.js / Inertia.js / JavaScript</span>
-                                <span class="text-cyan-400">88%</span>
-                            </div>
-                            <div
-                                class="w-full bg-gray-800/80 h-2 rounded-full overflow-hidden border border-gray-700/50">
-                                <div class="skill-bar bg-gradient-to-r from-cyan-500 to-cyan-400 h-full rounded-full w-0 transition-all duration-1000 ease-out"
-                                    data-width="88%"></div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="flex justify-between text-xs font-semibold mb-1">
-                                <span class="text-gray-300">Tailwind CSS / Bootstrap & Responsive UI</span>
-                                <span class="text-indigo-400">92%</span>
-                            </div>
-                            <div
-                                class="w-full bg-gray-800/80 h-2 rounded-full overflow-hidden border border-gray-700/50">
-                                <div class="skill-bar bg-gradient-to-r from-indigo-500 to-cyan-400 h-full rounded-full w-0 transition-all duration-1000 ease-out"
-                                    data-width="92%"></div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="flex justify-between text-xs font-semibold mb-1">
-                                <span class="text-gray-300">MySQL / Docker / CI/CD & Deployments</span>
-                                <span class="text-cyan-400">85%</span>
-                            </div>
-                            <div
-                                class="w-full bg-gray-800/80 h-2 rounded-full overflow-hidden border border-gray-700/50">
-                                <div class="skill-bar bg-gradient-to-r from-cyan-500 to-indigo-400 h-full rounded-full w-0 transition-all duration-1000 ease-out"
-                                    data-width="85%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section>
-
-    <!-- SERVICES SECTION -->
-    <section id="services" class="py-24 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs font-bold text-indigo-400 tracking-widest uppercase mb-2">What I Offer</h2>
-                <p class="text-3xl sm:text-4xl font-extrabold text-white">Services Tailored for Business Growth</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Service 1 -->
-                <div class="glass-card p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300 group">
-                    <div
-                        class="w-14 h-14 rounded-2xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
-                        <i class="fa-solid fa-laptop-code"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Laravel Web Applications</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
-                        Custom-built backends, admin dashboards, multi-role authentication systems, and database
-                        optimization designed for security and speed.
-                    </p>
-                    <a href="#contact"
-                        class="text-xs font-semibold text-indigo-400 group-hover:text-cyan-400 flex items-center gap-1 transition-colors">
-                        Learn More <i class="fa-solid fa-chevron-right text-[10px]"></i>
-                    </a>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="glass-card p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300 group">
-                    <div
-                        class="w-14 h-14 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Single Page Apps (React & Inertia)</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
-                        Ultra-fast modern frontends using React and Inertia.js without the complexity of client-side API
-                        maintenance.
-                    </p>
-                    <a href="#contact"
-                        class="text-xs font-semibold text-cyan-400 group-hover:text-indigo-400 flex items-center gap-1 transition-colors">
-                        Learn More <i class="fa-solid fa-chevron-right text-[10px]"></i>
-                    </a>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="glass-card p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300 group">
-                    <div
-                        class="w-14 h-14 rounded-2xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
-                        <i class="fa-solid fa-plug"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-3">REST API & Payment Integration</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
-                        Seamless integration of Stripe, PayPal, SSLCommerz, automated webhooks, and third-party SaaS
-                        services.
-                    </p>
-                    <a href="#contact"
-                        class="text-xs font-semibold text-indigo-400 group-hover:text-cyan-400 flex items-center gap-1 transition-colors">
-                        Learn More <i class="fa-solid fa-chevron-right text-[10px]"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- PORTFOLIO SECTION -->
-    <section id="portfolio" class="py-24 relative overflow-hidden bg-brand-dark/50 z-20">
-        <!-- Background Accents -->
-        <div
-            class="absolute top-1/2 left-0 w-72 h-72 bg-indigo-600/10 rounded-full blur-3xl -translate-y-1/2 pointer-events-none">
-        </div>
-        <div class="absolute bottom-0 right-0 w-80 h-80 bg-cyan-600/10 rounded-full blur-3xl pointer-events-none"></div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <div
-                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card border border-indigo-500/30 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-4">
-                    <i class="fa-solid fa-briefcase text-cyan-400"></i> My Recent Works
-                </div>
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
-                    Featured <span class="gradient-text">Projects & Software</span>
-                </h2>
-                <p class="text-gray-400 mt-4 text-base sm:text-lg">
-                    Explore custom web applications, SaaS platforms, and enterprise solutions engineered with precision.
-                </p>
-            </div>
-
-            <!-- Projects Flex Container (Auto Center Alignment) -->
-            <div class="flex flex-wrap justify-center gap-8">
-
-                <!-- Project Card 1 (SohojUp) -->
-                <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] flex-shrink-0 flex flex-col">
-                    <div x-data="{ 
-                    activeSlide: 0,
-                    slides: [
-                        'assets/img/portfolios/sohojup/s1.jpeg',
-                        'assets/img/portfolios/sohojup/s2.jpeg',
-                        'assets/img/portfolios/sohojup/s3.jpeg'
-                    ],
-                    touchStartX: 0,
-                    touchEndX: 0,
-                    autoplayTimer: null,
-                    next() { this.activeSlide = (this.activeSlide + 1) % this.slides.length },
-                    prev() { this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length },
-                    startAutoplay() { 
-                        this.stopAutoplay();
-                        this.autoplayTimer = setInterval(() => { this.next(); }, 3500); 
-                    },
-                    stopAutoplay() { 
-                        if (this.autoplayTimer) clearInterval(this.autoplayTimer); 
-                    },
-                    handleTouchStart(e) { 
-                        this.stopAutoplay();
-                        this.touchStartX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX; 
-                    },
-                    handleTouchEnd(e) {
-                        this.touchEndX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
-                        if (this.touchStartX - this.touchEndX > 40) this.next();
-                        if (this.touchEndX - this.touchStartX > 40) this.prev();
-                        this.startAutoplay();
-                    }
-                }" x-init="startAutoplay()" @mouseenter="stopAutoplay()" @mouseleave="startAutoplay()"
-                        class="group relative glass-card rounded-2xl overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between h-full">
-
-                        <!-- Image Slider Box -->
-                        <div class="relative overflow-hidden aspect-video select-none cursor-grab active:cursor-grabbing"
-                            @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)"
-                            @mousedown="handleTouchStart($event)" @mouseup="handleTouchEnd($event)">
-
-                            <!-- Slides Track -->
-                            <template x-for="(slide, index) in slides" :key="index">
-                                <div x-show="activeSlide === index"
-                                    x-transition:enter="transition ease-out duration-500"
-                                    x-transition:enter-start="opacity-0 scale-95"
-                                    x-transition:enter-end="opacity-100 scale-100"
-                                    class="absolute inset-0 w-full h-full">
-                                    <img :src="slide" alt="Project Screenshot"
-                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none">
-                                </div>
-                            </template>
-
-                            <!-- Dark Gradient Overlay -->
-                            <div
-                                class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/10 to-transparent opacity-80 pointer-events-none">
-                            </div>
-
-                            <!-- Category Badge -->
-                            <span
-                                class="absolute top-4 left-4 px-3 py-1 bg-indigo-500/80 backdrop-blur-md text-white text-[11px] font-semibold rounded-lg z-10 pointer-events-none">
-                                Laravel / CMS
-                            </span>
-
-                            <!-- Navigation Arrows -->
-                            <button @click.stop="prev()"
-                                class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                                <i class="fa-solid fa-chevron-left text-xs"></i>
-                            </button>
-                            <button @click.stop="next()"
-                                class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                                <i class="fa-solid fa-chevron-right text-xs"></i>
-                            </button>
-
-                            <!-- Slider Dots Indicator -->
-                            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-20">
-                                <template x-for="(slide, index) in slides" :key="index">
-                                    <button @click.stop="activeSlide = index"
-                                        :class="activeSlide === index ? 'w-5 bg-cyan-400' : 'w-1.5 bg-white/40 hover:bg-white/70'"
-                                        class="h-1.5 rounded-full transition-all duration-300"></button>
-                                </template>
-                            </div>
-                        </div>
-
-                        <!-- Card Content -->
-                        <div class="p-6 flex-1 flex flex-col justify-between">
-                            <div>
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                                    Smart Digital Union Parishad Management & E-Governance...
-                                </h3>
-                                <p class="text-gray-400 text-sm mt-2 line-clamp-3">
-                                    SohojUp is a full-featured, web-based e-governance and administrative portal
-                                    designed to digitize local Union Parishad operations in Bangladesh, enabling
-                                    seamless citizen services and efficient municipal management.
-                                </p>
-                            </div>
-
-                            <div class="pt-6 mt-4 border-t border-gray-800/80 flex items-center justify-between">
-                                <div class="flex flex-wrap gap-2">
-                                    <span
-                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Laravel</span>
-                                    <span
-                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">MySQL</span>
-                                    <span
-                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Bootstrap</span>
-                                    <span
-                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">CI/CD</span>
-                                </div>
-                                <a href="https://sohojup.com/" target="_blank"
-                                    class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-indigo-600 flex items-center justify-center transition-all shrink-0">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Card 2 (Global Forex Info) -->
-                <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] flex-shrink-0 flex flex-col">
-                    <div x-data="{ 
-                    activeSlide: 0,
-                    slides: [
-                        'assets/img/portfolios/global-forex-info/g1.jpeg'
-                    ],
-                    touchStartX: 0,
-                    touchEndX: 0,
-                    autoplayTimer: null,
-                    next() { this.activeSlide = (this.activeSlide + 1) % this.slides.length },
-                    prev() { this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length },
-                    startAutoplay() { 
-                        this.stopAutoplay();
-                        this.autoplayTimer = setInterval(() => { this.next(); }, 3500); 
-                    },
-                    stopAutoplay() { 
-                        if (this.autoplayTimer) clearInterval(this.autoplayTimer); 
-                    },
-                    handleTouchStart(e) { 
-                        this.stopAutoplay();
-                        this.touchStartX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX; 
-                    },
-                    handleTouchEnd(e) {
-                        this.touchEndX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
-                        if (this.touchStartX - this.touchEndX > 40) this.next();
-                        if (this.touchEndX - this.touchStartX > 40) this.prev();
-                        this.startAutoplay();
-                    }
-                }" x-init="startAutoplay()" @mouseenter="stopAutoplay()" @mouseleave="startAutoplay()"
-                        class="group relative glass-card rounded-2xl overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between h-full">
-
-                        <!-- Image Slider Box -->
-                        <div class="relative overflow-hidden aspect-video select-none cursor-grab active:cursor-grabbing"
-                            @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)"
-                            @mousedown="handleTouchStart($event)" @mouseup="handleTouchEnd($event)">
-
-                            <!-- Slides Track -->
-                            <template x-for="(slide, index) in slides" :key="index">
-                                <div x-show="activeSlide === index"
-                                    x-transition:enter="transition ease-out duration-500"
-                                    x-transition:enter-start="opacity-0 scale-95"
-                                    x-transition:enter-end="opacity-100 scale-100"
-                                    class="absolute inset-0 w-full h-full">
-                                    <img :src="slide" alt="Project Screenshot"
-                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none">
-                                </div>
-                            </template>
-
-                            <!-- Dark Gradient Overlay -->
-                            <div
-                                class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/10 to-transparent opacity-80 pointer-events-none">
-                            </div>
-
-                            <!-- Category Badge -->
-                            <span
-                                class="absolute top-4 left-4 px-3 py-1 bg-indigo-500/80 backdrop-blur-md text-white text-[11px] font-semibold rounded-lg z-10 pointer-events-none">
-                                PHP / Laravel
-                            </span>
-
-                            <!-- Navigation Arrows -->
-                            <button @click.stop="prev()"
-                                class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                                <i class="fa-solid fa-chevron-left text-xs"></i>
-                            </button>
-                            <button @click.stop="next()"
-                                class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-gray-950/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-indigo-600 z-20">
-                                <i class="fa-solid fa-chevron-right text-xs"></i>
-                            </button>
-
-                            <!-- Slider Dots Indicator -->
-                            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-20">
-                                <template x-for="(slide, index) in slides" :key="index">
-                                    <button @click.stop="activeSlide = index"
-                                        :class="activeSlide === index ? 'w-5 bg-cyan-400' : 'w-1.5 bg-white/40 hover:bg-white/70'"
-                                        class="h-1.5 rounded-full transition-all duration-300"></button>
-                                </template>
-                            </div>
-                        </div>
-
-                        <!-- Card Content -->
-                        <div class="p-6 flex-1 flex flex-col justify-between">
-                            <div>
-                                <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                                    Comprehensive Forex Broker Review & Analysis Portal
-                                </h3>
-                                <p class="text-gray-400 text-sm mt-2 line-clamp-3">
-                                    Global Forex Info is a dynamic web portal designed to help traders navigate the
-                                    financial markets by providing comprehensive Forex broker reviews, real-time bonus
-                                    tracking, and industry insights.
-                                </p>
-                            </div>
-
-                            <div class="pt-6 mt-4 border-t border-gray-800/80 flex items-center justify-between">
-                                <div class="flex flex-wrap gap-2">
-                                    <span
-                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Laravel</span>
-                                    <span
-                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">MySQL</span>
-                                    <span
-                                        class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">Bootstrap</span>
-                                </div>
-                                <a href="https://globalforexinfo.com/" target="_blank"
-                                    class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-indigo-600 flex items-center justify-center transition-all shrink-0">
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Future Card Add Korle Ai Wrapper Structure Repeat Korben: -->
-                <!-- <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] flex-shrink-0 flex flex-col"> ... </div> -->
-
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- TESTIMONIALS SECTION (SLIDER) -->
-    <section id="testimonials" class="py-24 relative bg-brand-dark/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs font-bold text-cyan-400 tracking-widest uppercase mb-2">Client Reviews</h2>
-                <p class="text-3xl sm:text-4xl font-extrabold text-white">What Clients Say About Working With Me</p>
-            </div>
-
-            <!-- Alpine.js Testimonial Slider -->
-            <div x-data="{ 
-                activeSlide: 0,
-                slides: [
-                    {
-                        name: 'Robert Miller',
-                        role: 'Founder & CEO, PropTech Real Estate (USA)',
-                        image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
-                        review: 'Al-Amin engineered our entire Laravel real estate management system from scratch. His attention to code quality, database speed, and responsive design was world-class. Highly recommended!'
-                    },
-                    {
-                        name: 'Sarah Jenkins',
-                        role: 'Operations Lead, HomeServices Hub (UK)',
-                        image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80',
-                        review: 'Working with Al-Amin was a fantastic experience. He delivered our web portal ahead of deadline and integrated automated email proposals seamlessly. Extremely professional developer!'
-                    },
-                    {
-                        name: 'David Vance',
-                        role: 'Product Director, SaaS Metrics (Canada)',
-                        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
-                        review: 'His technical competence in Laravel observers, custom caching, and React Inertia components transformed our application user experience. Will hire again for V2.'
-                    }
-                ]
-            }" class="relative max-w-4xl mx-auto">
-
-                <!-- Slide Container -->
-                <div
-                    class="glass-card p-8 sm:p-12 rounded-3xl border border-gray-800 relative min-h-[280px] flex items-center">
-                    <div class="w-full">
-                        <div class="flex items-center gap-1 text-amber-400 mb-6 text-lg">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-
-                        <p class="text-gray-200 text-lg sm:text-xl italic leading-relaxed mb-8"
-                            x-text="`&quot;${slides[activeSlide].review}&quot;`"></p>
-
-                        <div class="flex items-center gap-4">
-                            <img :src="slides[activeSlide].image" :alt="slides[activeSlide].name"
-                                class="w-14 h-14 rounded-full object-cover border-2 border-indigo-500">
-                            <div>
-                                <h4 class="text-white font-bold text-base" x-text="slides[activeSlide].name"></h4>
-                                <p class="text-xs text-cyan-400" x-text="slides[activeSlide].role"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Navigation Controls -->
-                <div class="flex justify-center items-center gap-4 mt-8">
-                    <button @click="activeSlide = activeSlide === 0 ? slides.length - 1 : activeSlide - 1"
-                        class="w-10 h-10 rounded-full glass-card border border-gray-700 text-gray-300 hover:text-white hover:border-indigo-500 flex items-center justify-center transition-all">
-                        <i class="fa-solid fa-arrow-left"></i>
-                    </button>
-
-                    <template x-for="(slide, index) in slides" :key="index">
-                        <button @click="activeSlide = index" class="h-2.5 rounded-full transition-all duration-300"
-                            :class="activeSlide === index ? 'w-8 bg-gradient-to-r from-indigo-500 to-cyan-400' : 'w-2.5 bg-gray-700'"></button>
-                    </template>
-
-                    <button @click="activeSlide = activeSlide === slides.length - 1 ? 0 : activeSlide + 1"
-                        class="w-10 h-10 rounded-full glass-card border border-gray-700 text-gray-300 hover:text-white hover:border-indigo-500 flex items-center justify-center transition-all">
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ SECTION -->
-    <section id="faq" class="py-24 relative">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-xs font-bold text-indigo-400 tracking-widest uppercase mb-2">Frequently Asked Questions
-                </h2>
-                <p class="text-3xl sm:text-4xl font-extrabold text-white">Have Questions Before Hiring Me?</p>
-            </div>
-
-            <div class="space-y-4" x-data="{ openFaq: 1 }">
-                <!-- FAQ Item 1 -->
-                <div class="glass-card rounded-2xl border border-gray-800 overflow-hidden">
-                    <button @click="openFaq = openFaq === 1 ? null : 1"
-                        class="w-full p-6 text-left flex justify-between items-center text-white font-bold text-base sm:text-lg focus:outline-none">
-                        <span>What is your typical turnaround time for a project?</span>
-                        <i class="fa-solid transition-transform duration-200"
-                            :class="openFaq === 1 ? 'fa-minus text-indigo-400' : 'fa-plus text-gray-400'"></i>
-                    </button>
-                    <div x-show="openFaq === 1" x-collapse
-                        class="px-6 pb-6 text-gray-400 text-sm leading-relaxed border-t border-gray-800/60 pt-4">
-                        Project timelines depend on the scope. A standard responsive marketing portal or corporate
-                        website takes about 1-2 weeks, while full-scale custom Laravel SaaS platforms take around 3-6
-                        weeks with milestone testing.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 2 -->
-                <div class="glass-card rounded-2xl border border-gray-800 overflow-hidden">
-                    <button @click="openFaq = openFaq === 2 ? null : 2"
-                        class="w-full p-6 text-left flex justify-between items-center text-white font-bold text-base sm:text-lg focus:outline-none">
-                        <span>Do you offer post-launch support and maintenance?</span>
-                        <i class="fa-solid transition-transform duration-200"
-                            :class="openFaq === 2 ? 'fa-minus text-indigo-400' : 'fa-plus text-gray-400'"></i>
-                    </button>
-                    <div x-show="openFaq === 2" x-collapse
-                        class="px-6 pb-6 text-gray-400 text-sm leading-relaxed border-t border-gray-800/60 pt-4">
-                        Yes! I offer 30 days of free post-launch support to resolve any bugs and ensure smooth
-                        operational stability. Afterwards, retainer maintenance packages are available.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 3 -->
-                <div class="glass-card rounded-2xl border border-gray-800 overflow-hidden">
-                    <button @click="openFaq = openFaq === 3 ? null : 3"
-                        class="w-full p-6 text-left flex justify-between items-center text-white font-bold text-base sm:text-lg focus:outline-none">
-                        <span>Can you work within existing Laravel codebases?</span>
-                        <i class="fa-solid transition-transform duration-200"
-                            :class="openFaq === 3 ? 'fa-minus text-indigo-400' : 'fa-plus text-gray-400'"></i>
-                    </button>
-                    <div x-show="openFaq === 3" x-collapse
-                        class="px-6 pb-6 text-gray-400 text-sm leading-relaxed border-t border-gray-800/60 pt-4">
-                        Absolutely. I am well-versed in refactoring existing Laravel backends, upgrading dependencies,
-                        optimizing database queries, and adding fresh React/Inertia interfaces.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 4 -->
-                <div class="glass-card rounded-2xl border border-gray-800 overflow-hidden">
-                    <button @click="openFaq = openFaq === 4 ? null : 4"
-                        class="w-full p-6 text-left flex justify-between items-center text-white font-bold text-base sm:text-lg focus:outline-none">
-                        <span>How do we start a project together?</span>
-                        <i class="fa-solid transition-transform duration-200"
-                            :class="openFaq === 4 ? 'fa-minus text-indigo-400' : 'fa-plus text-gray-400'"></i>
-                    </button>
-                    <div x-show="openFaq === 4" x-collapse
-                        class="px-6 pb-6 text-gray-400 text-sm leading-relaxed border-t border-gray-800/60 pt-4">
-                        You can send a message via the Contact form below or email me directly at <strong
-                            class="text-cyan-400">alamindev27@gmail.com</strong>. We will set up a quick discovery call
-                        or chat to discuss requirements and deliverables.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT US SECTION -->
-    <section id="contact" class="py-24 relative bg-brand-dark/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs font-bold text-cyan-400 tracking-widest uppercase mb-2">Get In Touch</h2>
-                <p class="text-3xl sm:text-4xl font-extrabold text-white">Let’s Build Something Exceptional Together</p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-
-                <!-- Contact Details & Google Maps Embed -->
-                <div class="lg:col-span-5 space-y-6">
-                    <div class="glass-card p-6 rounded-2xl border border-gray-800 space-y-6">
-                        <h3 class="text-xl font-bold text-white">Contact Information</h3>
-
-                        <div class="flex items-center gap-4">
-                            <div
-                                class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-xl shrink-0">
-                                <i class="fa-regular fa-envelope"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-gray-400">Email Me</p>
-                                <a href="mailto:alamindev27@gmail.com"
-                                    class="text-sm font-semibold text-white hover:text-cyan-400 transition-colors">alamindev27@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="flex items-center gap-4">
-                            <div
-                                class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl shrink-0">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-gray-400">Call / WhatsApp</p>
-                                <a target="_blank" href="http://wa.me/+8801318533187"
-                                    class="text-sm font-semibold text-white hover:text-cyan-400 transition-colors">+8801318-533187</a>
-                            </div>
-                        </div>
-
-                        <div class="flex items-center gap-4">
-                            <div
-                                class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-xl shrink-0">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-gray-400">Location</p>
-                                <p class="text-sm font-semibold text-white">Dhaka, Bangladesh (Remote Worldwide)</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Responsive Google Maps Embed -->
-                    <div class="glass-card p-2 rounded-2xl border border-gray-800 overflow-hidden h-64">
-                        <iframe class="w-full h-full rounded-xl filter grayscale contrast-125 invert opacity-80"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.8223908687!2d90.2548721922572!3d23.780887456211754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bb08598810!2sDhaka!5e0!3m2!1sen!2sbd!4v1680000000000!5m2!1sen!2sbd"
-                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-
-                <!-- Contact Form -->
-                <div class="lg:col-span-7 glass-card p-8 rounded-3xl border border-gray-800">
-                    <form @submit.prevent="alert('Thank you! Your message has been received.')" class="space-y-6">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <div>
-                                <label
-                                    class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-2">Your
-                                    Name</label>
-                                <input type="text" required placeholder="John Doe"
-                                    class="w-full px-4 py-3.5 rounded-xl bg-gray-900/80 border border-gray-700/80 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors text-sm">
-                            </div>
-                            <div>
-                                <label
-                                    class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-2">Your
-                                    Email</label>
-                                <input type="email" required placeholder="john@example.com"
-                                    class="w-full px-4 py-3.5 rounded-xl bg-gray-900/80 border border-gray-700/80 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors text-sm">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label
-                                class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-2">Subject</label>
-                            <input type="text" required placeholder="Project Inquiry / Outreach"
-                                class="w-full px-4 py-3.5 rounded-xl bg-gray-900/80 border border-gray-700/80 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors text-sm">
-                        </div>
-
-                        <div>
-                            <label
-                                class="block text-xs font-semibold text-gray-300 uppercase tracking-wider mb-2">Project
-                                Details</label>
-                            <textarea rows="4" required
-                                placeholder="Tell me about your project scope, timeline, and goals..."
-                                class="w-full px-4 py-3.5 rounded-xl bg-gray-900/80 border border-gray-700/80 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors text-sm"></textarea>
-                        </div>
-
-                        <button type="submit"
-                            class="w-full py-4 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-bold text-base shadow-lg shadow-indigo-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200">
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER PART -->
-    <footer class="border-t border-gray-800 bg-brand-dark py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-
-                <!-- Logo & Bio -->
-                <div class="flex items-center gap-2">
-                    <img src="assets/img/logo-white.png" alt="">
-                </div>
-
-                <!-- Copyright -->
-                <p class="text-xs text-gray-500 text-center">
-                    &copy; 2026 alamindev27. All rights reserved.
-                </p>
-
-                <!-- Social Outreach Links -->
-                <div class="flex items-center space-x-4">
-                    <a href="https://github.com/alamindev27" target="_blank"
-                        class="w-9 h-9 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:border-indigo-500 transition-all">
-                        <i class="fa-brands fa-github text-sm"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/alamindev27" target="_blank"
-                        class="w-9 h-9 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:border-cyan-400 transition-all">
-                        <i class="fa-brands fa-linkedin-in text-sm"></i>
-                    </a>
-                    <a href="https://twitter.com/alamindev27" target="_blank"
-                        class="w-9 h-9 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:border-indigo-500 transition-all">
-                        <i class="fa-brands fa-x text-sm"></i>
-                    </a>
-                    <a href="https://facebook.com/alamindev27" target="_blank"
-                        class="w-9 h-9 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:border-indigo-500 transition-all">
-                        <i class="fa-brands fa-facebook text-sm"></i>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </footer>
-
-
-    <script src="assets/js/main.js"></script>
-</body>
-
-</html>
-```
+  MD Al-Amin | Full-Stack Web Developer | PHP, Laravel, React & MySQL Specialist | Custom Web App, API Integration & DevOps (Docker, CI/CD)                        tailwind.config = { theme: { extend: { colors: { brand: { dark: '#0a0f1d', card: '#111827', border: '#1f293d', primary: '#6366f1', // Indigo accent cyan: '#06b6d4', // Cyan accent light: '#f8fafc' } }, fontFamily: { sans: \['Plus Jakarta Sans', 'sans-serif'\], }, animation: { 'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite', 'float': 'float 6s ease-in-out infinite', }, keyframes: { float: { '0%, 100%': { transform: 'translateY(0px)' }, '50%': { transform: 'translateY(-12px)' }, } } } } }
+
+[![](assets/img/logo-white.png)](#home)
+
+[Home](#home) [About](#about) [Services](#services) [Portfolio](#portfolio) [Testimonials](#testimonials) [FAQ](#faq) [Contact](#contact)
+
+[Hire Me](https://linkedin.com/in/alamindev27)
+
+[![](assets/img/logo-white.png)](#home)
+
+[Home](#home) [About](#about) [Services](#services) [Portfolio](#portfolio) [Testimonials](#testimonials) [FAQ](#faq) [Contact](#contact)
+
+[Hire Me](https://linkedin.com/in/alamindev27)
+
+[](https://github.com/alamindev27)[](https://linkedin.com/in/alamindev27)[](https://twitter.com/alamindev27)[](https://facebook.com/alamindev27)[](mailto:alamindev27@gmail.com)
+
+![Coding Overlay](https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1920&q=80)
+
+Available for Freelance & Contract Projects
+
+Architecting High-Performance Laravel & Web Solutions
+=====================================================
+
+Hi, I'm **MD Al-Amin**. A Full-Stack Web Developer specialized in PHP, Laravel, React, and high-converting custom applications tailored for growing global businesses.
+
+[Get In Touch](#contact) [alamindev27@gmail.com](mailto:alamindev27@gmail.com)
+
+### 0+
+
+Years Experience
+
+### 0+
+
+Projects Delivered
+
+### 0%
+
+Client Satisfaction
+
+![MD Al-Amin - Developer Banner](assets/img/profile.png) 
+
+Open to Work
+
+Clean Code
+
+Laravel & REST APIs
+
+Speed
+
+Optimized Performance
+
+About Me
+--------
+
+Engineering Scalable Digital Products with Precision
+
+### Passionate Full-Stack Developer & Problem Solver
+
+I am **MD Al-Amin**, a dedicated web developer with over 4 years of hands-on experience crafting web systems, custom CMS platforms, SaaS applications, and e-commerce portals. My technical mastery revolves around backend perfection using **PHP & Laravel** combined with sleek frontends using **React, Inertia.js, and Tailwind CSS**.
+
+Whether you need a custom business management software, automated client dashboards, or continuous integration & deployment (CI/CD) pipelines using Docker and GitHub Actions, I bridge complex backend logic with beautiful, responsive interfaces.
+
+#### Full-Stack Web Developer (Self-Employed)
+
+2021 — Present
+
+Building custom Laravel architecture, payment gateway integrations, and API backends for global business clients.
+
+#### Core Technical Stack
+
+PHP / Laravel Framework 95%
+
+React.js / Inertia.js / JavaScript 88%
+
+Tailwind CSS / Bootstrap & Responsive UI 92%
+
+MySQL / Docker / CI/CD & Deployments 85%
+
+What I Offer
+------------
+
+Services Tailored for Business Growth
+
+### Laravel Web Applications
+
+Custom-built backends, admin dashboards, multi-role authentication systems, and database optimization designed for security and speed.
+
+[Learn More](#contact)
+
+### Single Page Apps (React & Inertia)
+
+Ultra-fast modern frontends using React and Inertia.js without the complexity of client-side API maintenance.
+
+[Learn More](#contact)
+
+### REST API & Payment Integration
+
+Seamless integration of Stripe, PayPal, SSLCommerz, automated webhooks, and third-party SaaS services.
+
+[Learn More](#contact)
+
+My Recent Works
+
+Featured Projects & Software
+----------------------------
+
+Explore custom web applications, SaaS platforms, and enterprise solutions engineered with precision.
+
+Laravel / CMS
+
+### Smart Digital Union Parishad Management & E-Governance...
+
+SohojUp is a full-featured, web-based e-governance and administrative portal designed to digitize local Union Parishad operations in Bangladesh, enabling seamless citizen services and efficient municipal management.
+
+Laravel MySQL Bootstrap CI/CD
+
+[](https://sohojup.com/)
+
+PHP / Laravel
+
+### Comprehensive Forex Broker Review & Analysis Portal
+
+Global Forex Info is a dynamic web portal designed to help traders navigate the financial markets by providing comprehensive Forex broker reviews, real-time bonus tracking, and industry insights.
+
+Laravel MySQL Bootstrap
+
+[](https://globalforexinfo.com/)
+
+Client Reviews
+--------------
+
+What Clients Say About Working With Me
+
+Frequently Asked Questions
+--------------------------
+
+Have Questions Before Hiring Me?
+
+What is your typical turnaround time for a project?
+
+Project timelines depend on the scope. A standard responsive marketing portal or corporate website takes about 1-2 weeks, while full-scale custom Laravel SaaS platforms take around 3-6 weeks with milestone testing.
+
+Do you offer post-launch support and maintenance?
+
+Yes! I offer 30 days of free post-launch support to resolve any bugs and ensure smooth operational stability. Afterwards, retainer maintenance packages are available.
+
+Can you work within existing Laravel codebases?
+
+Absolutely. I am well-versed in refactoring existing Laravel backends, upgrading dependencies, optimizing database queries, and adding fresh React/Inertia interfaces.
+
+How do we start a project together?
+
+You can send a message via the Contact form below or email me directly at **alamindev27@gmail.com**. We will set up a quick discovery call or chat to discuss requirements and deliverables.
+
+Get In Touch
+------------
+
+Let’s Build Something Exceptional Together
+
+### Contact Information
+
+Email Me
+
+[alamindev27@gmail.com](mailto:alamindev27@gmail.com)
+
+Call / WhatsApp
+
+[+8801318-533187](http://wa.me/+8801318533187)
+
+Location
+
+Dhaka, Bangladesh (Remote Worldwide)
+
+Your Name 
+
+Your Email 
+
+Subject 
+
+Project Details
+
+Send Message
+
+![](assets/img/logo-white.png)
+
+© 2026 alamindev27. All rights reserved.
+
+[](https://github.com/alamindev27)[](https://linkedin.com/in/alamindev27)[](https://twitter.com/alamindev27)[](https://facebook.com/alamindev27)
