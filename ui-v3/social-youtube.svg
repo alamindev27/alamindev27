@@ -1,14 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="76" viewBox="0 0 330 76" role="img" aria-label="YouTube"><title>YouTube</title><style>
-text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}
-.k{font-size:17px;font-weight:bold}.v{font-size:17px;fill:#e6edf3}.h{font-size:17px;font-weight:bold}
-.a{font-size:5.6px}.a2{font-size:5.2px}.b{font-size:17px}.ty{font-size:24px;font-weight:bold}
-.m{font-size:17px;font-weight:bold}.abt{font-size:22px;font-weight:bold}.n{font-size:17px;font-weight:bold}
-.fi{animation:fi 12s infinite both}
-@keyframes fi{0%{opacity:0}4%{opacity:1}88%{opacity:1}95%,100%{opacity:0}}
-.pl{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-.loop{animation:loop 18s infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1.05)}}
-@keyframes loop{0%,94%{opacity:1}98%,99.9%{opacity:0}100%{opacity:1}}
-</style><defs><linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="330" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#7ee787"/><stop offset=".6" stop-color="#58a6ff"/><stop offset=".8" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff5f6d"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="330 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><clipPath id="h"><rect x="60.0" y="31.0" width="92.4" height="24"><animate attributeName="width" values="0.0;0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4" keyTimes="0.0000;0.7957;0.8065;0.8172;0.8280;0.8387;0.8495;0.8602;0.8710;0.8817;0.8925;0.9032;0.9140" calcMode="discrete" dur="4.650s" fill="freeze"/></rect></clipPath></defs><g class="pulse" style="animation-delay:-1.85s"><g transform="translate(5,5)"><g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.7312;0.7957;1" dur="4.650s" fill="freeze"/><rect x="1" y="1" width="318" height="64" rx="12" fill="#161b22" stroke="#FF3B30" stroke-opacity=".55"/><g transform="translate(16.0,18.0) scale(1.2500)"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF3B30"/></g><text class="n" fill="#FF3B30" x="60" y="27" style="font-size:16px">YouTube</text></g><text class="m" fill="#c9d1d9" x="60.0" y="47.0" textLength="92.4" lengthAdjust="spacing" clip-path="url(#h)" style="font-size:14px;font-weight:normal">@lamiakajal</text><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7957;0.9140" calcMode="discrete" dur="4.650s" fill="freeze"/><rect width="8" height="18" fill="#7ee787" x="60.0" y="31.0"><animate attributeName="x" values="60.0;60.0;68.4;76.8;85.2;93.6;102.0;110.4;118.8;127.2;135.6;144.0;152.4" keyTimes="0.0000;0.7957;0.8065;0.8172;0.8280;0.8387;0.8495;0.8602;0.8710;0.8817;0.8925;0.9032;0.9140" calcMode="discrete" dur="4.650s" fill="freeze"/><animate attributeName="opacity" values=".9;0;.9" dur=".9s" repeatCount="indefinite"/></rect></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <style>
+    
+                        @keyframes fullAnim {
+                            0% { opacity: 0.4; }
+                            50% { opacity: 1; }
+                            100% { opacity: 0.4; }
+                        }
+                        .animated-card { animation: fullAnim 3s ease-in-out infinite; }
+                    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 102px; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .typewriter-text {
+      font-family: monospace;
+      font-size: 14px;
+      fill: #ffffff;
+      color: #ffffff;
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      animation: typing 2s steps(12, end) forwards;
+    }
+    .cursor-line {
+      animation: blink 0.5s step-end 4, hideCursor 0.01s 2s forwards;
+    }
+    @keyframes hideCursor {
+      to { visibility: hidden; }
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #fa0101;
+    }
+  </style>
+
+  <g class="animated-card">
+    <rect x="4" y="4" width="312" height="82" rx="16" fill="#1e293b" stroke="#fa0101" stroke-width="2"/>
+    
+    <!-- Local Image Icon -->
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAHYAAAB2AH6XKZyAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAA2JJREFUeJzt2s1rFVcYx/HPTIIxNqYRk76Y2opQCi10kTQ1hTS2m0JBly5cloLuFFzoyqUghS6SbhRKl10Ed/oPmFqISLJoqQoSjVpT2sbmxUaNoKeLmUuueSFp7J2ZJvOFw5y5zOF54cyZc8/zo6SkpKSkpKRkgxKtdWCgBVvS9jKa0n5Teh+nj9ahecHwliVsB0wt+G0GT9P+M0zjbzxMr9Np/2G0eOyqWDYBIQmkF+/jPezEK3g9DaCITOE3/IG7+AU/YTBKErYygbbAN4HpQFgnbTrQH2hdKfiuwJ0COFyrdjvwQXXMUVXwb2EY2//NnPsfMonOiFukC1VIEjFg/QcP2/B95aayUn+KD3NxJx+6A58wn4Av8vMlN75kPgG9OTqSFz0QBdok382NSFuMd/L2IkfejrE7by9yZHeMN/L2Ikd2xlbaHv4XdHTQ2FhzM2tgezYJOHiQGzc4dIg4Xvn57GjNJgHQ3s7ZswwN0dOTiclVkGECKnR1MTjIwAC7dmVqeglaY4sPK2pPFHHgAFevcvo0W7dm7kJKS4zNeVnX2MiJE1y/nqwPdXVZe9AQoyFrq4vYsSNZHy5fpjfTXXlBElChs5OLFzl/nt2Z7M82FysBFfbt49o1+vporukSVbAZUM2mTRw5wugoR4/Wan1oKNSuJA/qMSc5zy8WT55w5gwnTzIzUysrc8VMwIULybS/ebPWlh7HkgQUg+Fh9u5l//4sgoe5YiRgfJzDh9mzJ9kmZ8dcPR5nafE5Hj2iv59Tp3jwIA8P5uqtsaj4QoTAuXMcP87YWObmq5isx/1MTV65wrFjXLqUqdllmIgxkYmpe/eS97y7uyjBw4TA1zUvSnZ0hNDYmHdhdKn2VTavwMhIzU2skb9i/Jq3FzlyN8Zo3l7kyOhGL421xhF/YixvT3LgVsT9yt/hwnyXMuRH5svj3+XoSF58S6oRSiUyQzaOSmQo4iOeF0m9iRHrXye0WCQFEXfwueS6XrmNzyrBL0mgNSSiwvUklJwK9IUlZvdKUtmPJVLZd9GO1/CqrOuJq2cCv0vksuMSqezP+GE5qeyLiKWb8FLaWtLrFkmtsVkikq6wbcHwajF1hYoYuprJqv5TiXh6RiKQnpWcZcxidtVa4JKSkpKSkpKSkoR/AD6Ldmit7uCoAAAAAElFTkSuQmCC" x="18" y="28" width="34" height="34" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Title Element -->
+    <text x="70" y="38" class="title-text">YouTube</text>
+    
+    <!-- Typewriter Username Element -->
+    <foreignObject x="70" y="47" width="230" height="25">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center;">
+        <span class="typewriter-text" style="color: #ffffff;">@alamindev27</span><span class="cursor-line" style="display: inline-block; width: 2px; height: 16px; background-color: #ffffff; margin-left: 1px;"></span>
+      </div>
+    </foreignObject>
+  </g>
+</svg>

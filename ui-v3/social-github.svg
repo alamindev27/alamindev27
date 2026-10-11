@@ -1,14 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="76" viewBox="0 0 330 76" role="img" aria-label="GitHub"><title>GitHub</title><style>
-text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}
-.k{font-size:17px;font-weight:bold}.v{font-size:17px;fill:#e6edf3}.h{font-size:17px;font-weight:bold}
-.a{font-size:5.6px}.a2{font-size:5.2px}.b{font-size:17px}.ty{font-size:24px;font-weight:bold}
-.m{font-size:17px;font-weight:bold}.abt{font-size:22px;font-weight:bold}.n{font-size:17px;font-weight:bold}
-.fi{animation:fi 12s infinite both}
-@keyframes fi{0%{opacity:0}4%{opacity:1}88%{opacity:1}95%,100%{opacity:0}}
-.pl{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-.loop{animation:loop 18s infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1.05)}}
-@keyframes loop{0%,94%{opacity:1}98%,99.9%{opacity:0}100%{opacity:1}}
-</style><defs><linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="330" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#7ee787"/><stop offset=".6" stop-color="#58a6ff"/><stop offset=".8" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff5f6d"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="330 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><clipPath id="h"><rect x="60.0" y="31.0" width="92.4" height="24"><animate attributeName="width" values="0.0;0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4" keyTimes="0.0000;0.7654;0.7778;0.7901;0.8025;0.8148;0.8272;0.8395;0.8519;0.8642;0.8765;0.8889;0.9012" calcMode="discrete" dur="4.050s" fill="freeze"/></rect></clipPath></defs><g class="pulse" style="animation-delay:-1.48s"><g transform="translate(5,5)"><g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6914;0.7654;1" dur="4.050s" fill="freeze"/><rect x="1" y="1" width="318" height="64" rx="12" fill="#161b22" stroke="#e6edf3" stroke-opacity=".55"/><g transform="translate(16.0,18.0) scale(1.2500)"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#e6edf3"/></g><text class="n" fill="#e6edf3" x="60" y="27" style="font-size:16px">GitHub</text></g><text class="m" fill="#c9d1d9" x="60.0" y="47.0" textLength="92.4" lengthAdjust="spacing" clip-path="url(#h)" style="font-size:14px;font-weight:normal">@lamiakajal</text><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7654;0.9012" calcMode="discrete" dur="4.050s" fill="freeze"/><rect width="8" height="18" fill="#7ee787" x="60.0" y="31.0"><animate attributeName="x" values="60.0;60.0;68.4;76.8;85.2;93.6;102.0;110.4;118.8;127.2;135.6;144.0;152.4" keyTimes="0.0000;0.7654;0.7778;0.7901;0.8025;0.8148;0.8272;0.8395;0.8519;0.8642;0.8765;0.8889;0.9012" calcMode="discrete" dur="4.050s" fill="freeze"/><animate attributeName="opacity" values=".9;0;.9" dur=".9s" repeatCount="indefinite"/></rect></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <style>
+    
+                        @keyframes fullAnim {
+                            0% { opacity: 0.4; }
+                            50% { opacity: 1; }
+                            100% { opacity: 0.4; }
+                        }
+                        .animated-card { animation: fullAnim 3s ease-in-out infinite; }
+                    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 102px; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .typewriter-text {
+      font-family: monospace;
+      font-size: 14px;
+      fill: #ffffff;
+      color: #ffffff;
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      animation: typing 2s steps(12, end) forwards;
+    }
+    .cursor-line {
+      animation: blink 0.5s step-end 4, hideCursor 0.01s 2s forwards;
+    }
+    @keyframes hideCursor {
+      to { visibility: hidden; }
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #ffffff;
+    }
+  </style>
+
+  <g class="animated-card">
+    <rect x="4" y="4" width="312" height="82" rx="16" fill="#1e293b" stroke="#f7f7f7" stroke-width="2"/>
+    
+    <!-- Local Image Icon -->
+    <image href="data:image/png;base64,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" x="18" y="28" width="34" height="34" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Title Element -->
+    <text x="70" y="38" class="title-text">GitHub</text>
+    
+    <!-- Typewriter Username Element -->
+    <foreignObject x="70" y="47" width="230" height="25">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center;">
+        <span class="typewriter-text" style="color: #ffffff;">/alamindev27</span><span class="cursor-line" style="display: inline-block; width: 2px; height: 16px; background-color: #ffffff; margin-left: 1px;"></span>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
