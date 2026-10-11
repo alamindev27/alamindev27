@@ -1,14 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="76" viewBox="0 0 330 76" role="img" aria-label="Website"><title>Website</title><style>
-text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}
-.k{font-size:17px;font-weight:bold}.v{font-size:17px;fill:#e6edf3}.h{font-size:17px;font-weight:bold}
-.a{font-size:5.6px}.a2{font-size:5.2px}.b{font-size:17px}.ty{font-size:24px;font-weight:bold}
-.m{font-size:17px;font-weight:bold}.abt{font-size:22px;font-weight:bold}.n{font-size:17px;font-weight:bold}
-.fi{animation:fi 12s infinite both}
-@keyframes fi{0%{opacity:0}4%{opacity:1}88%{opacity:1}95%,100%{opacity:0}}
-.pl{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-.loop{animation:loop 18s infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1.05)}}
-@keyframes loop{0%,94%{opacity:1}98%,99.9%{opacity:0}100%{opacity:1}}
-</style><defs><linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="330" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#7ee787"/><stop offset=".6" stop-color="#58a6ff"/><stop offset=".8" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff5f6d"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="330 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><clipPath id="h"><rect x="60.0" y="31.0" width="117.6" height="24"><animate attributeName="width" values="0.0;0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4;100.8;109.2;117.6" keyTimes="0.0000;0.3889;0.4167;0.4444;0.4722;0.5000;0.5278;0.5556;0.5833;0.6111;0.6389;0.6667;0.6944;0.7222;0.7500;0.7778" calcMode="discrete" dur="1.800s" fill="freeze"/></rect></clipPath></defs><g class="pulse" style="animation-delay:-0.00s"><g transform="translate(5,5)"><g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2222;0.3889;1" dur="1.800s" fill="freeze"/><rect x="1" y="1" width="318" height="64" rx="12" fill="#161b22" stroke="#58a6ff" stroke-opacity=".55"/><g transform="translate(16.0,18.0)" fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round"><circle cx="15.0" cy="15.0" r="13.5"/><ellipse cx="15.0" cy="15.0" rx="6.3" ry="13.5"/><path d="M1.5 15.0 H28.5 M3.2 8.25 H26.8 M3.2 21.75 H26.8"/></g><text class="n" fill="#58a6ff" x="60" y="27" style="font-size:16px">Website</text></g><text class="m" fill="#c9d1d9" x="60.0" y="47.0" textLength="117.6" lengthAdjust="spacing" clip-path="url(#h)" style="font-size:14px;font-weight:normal">lamiakajal.com</text><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3889;0.7778" calcMode="discrete" dur="1.800s" fill="freeze"/><rect width="8" height="18" fill="#7ee787" x="60.0" y="31.0"><animate attributeName="x" values="60.0;60.0;68.4;76.8;85.2;93.6;102.0;110.4;118.8;127.2;135.6;144.0;152.4;160.8;169.2;177.6" keyTimes="0.0000;0.3889;0.4167;0.4444;0.4722;0.5000;0.5278;0.5556;0.5833;0.6111;0.6389;0.6667;0.6944;0.7222;0.7500;0.7778" calcMode="discrete" dur="1.800s" fill="freeze"/><animate attributeName="opacity" values=".9;0;.9" dur=".9s" repeatCount="indefinite"/></rect></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <style>
+    
+                        @keyframes fullAnim {
+                            0% { opacity: 0.4; }
+                            50% { opacity: 1; }
+                            100% { opacity: 0.4; }
+                        }
+                        .animated-card { animation: fullAnim 3s ease-in-out infinite; }
+                    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 127.5px; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .typewriter-text {
+      font-family: monospace;
+      font-size: 14px;
+      fill: #cbd5e1;
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      animation: typing 2s steps(15, end) forwards;
+    }
+    .cursor-line {
+      animation: blink 0.5s step-end 4, hideCursor 0.01s 2s forwards;
+    }
+    @keyframes hideCursor {
+      to { visibility: hidden; }
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #60a5fa;
+    }
+  </style>
+
+  <g class="animated-card">
+    <rect x="4" y="4" width="312" height="82" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+    
+    <!-- Local Image Icon -->
+    <image href="data:image/png;base64,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" x="18" y="28" width="34" height="34" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Title Element -->
+    <text x="70" y="38" class="title-text">Website</text>
+    
+    <!-- Pure SVG Typewriter using foreignObject with explicit cursor element control -->
+    <foreignObject x="70" y="47" width="230" height="25">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center;">
+        <span class="typewriter-text">alamindev27.com</span><span class="cursor-line" style="display: inline-block; width: 2px; height: 16px; background-color: #cbd5e1; margin-left: 1px;"></span>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
