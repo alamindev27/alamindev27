@@ -1,14 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="76" viewBox="0 0 330 76" role="img" aria-label="WhatsApp"><title>WhatsApp</title><style>
-text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}
-.k{font-size:17px;font-weight:bold}.v{font-size:17px;fill:#e6edf3}.h{font-size:17px;font-weight:bold}
-.a{font-size:5.6px}.a2{font-size:5.2px}.b{font-size:17px}.ty{font-size:24px;font-weight:bold}
-.m{font-size:17px;font-weight:bold}.abt{font-size:22px;font-weight:bold}.n{font-size:17px;font-weight:bold}
-.fi{animation:fi 12s infinite both}
-@keyframes fi{0%{opacity:0}4%{opacity:1}88%{opacity:1}95%,100%{opacity:0}}
-.pl{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-.loop{animation:loop 18s infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1.05)}}
-@keyframes loop{0%,94%{opacity:1}98%,99.9%{opacity:0}100%{opacity:1}}
-</style><defs><linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="330" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#7ee787"/><stop offset=".6" stop-color="#58a6ff"/><stop offset=".8" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff5f6d"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="330 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><clipPath id="h"><rect x="60.0" y="31.0" width="92.4" height="24"><animate attributeName="width" values="0.0;0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4" keyTimes="0.0000;0.6667;0.6842;0.7018;0.7193;0.7368;0.7544;0.7719;0.7895;0.8070;0.8246;0.8421;0.8596" calcMode="discrete" dur="2.850s" fill="freeze"/></rect></clipPath></defs><g class="pulse" style="animation-delay:-0.74s"><g transform="translate(5,5)"><g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5614;0.6667;1" dur="2.850s" fill="freeze"/><rect x="1" y="1" width="318" height="64" rx="12" fill="#161b22" stroke="#25D366" stroke-opacity=".55"/><g transform="translate(16.0,18.0) scale(1.2500)"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="#25D366"/></g><text class="n" fill="#25D366" x="60" y="27" style="font-size:16px">WhatsApp</text></g><text class="m" fill="#c9d1d9" x="60.0" y="47.0" textLength="92.4" lengthAdjust="spacing" clip-path="url(#h)" style="font-size:14px;font-weight:normal">@lamiakajal</text><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.8596" calcMode="discrete" dur="2.850s" fill="freeze"/><rect width="8" height="18" fill="#7ee787" x="60.0" y="31.0"><animate attributeName="x" values="60.0;60.0;68.4;76.8;85.2;93.6;102.0;110.4;118.8;127.2;135.6;144.0;152.4" keyTimes="0.0000;0.6667;0.6842;0.7018;0.7193;0.7368;0.7544;0.7719;0.7895;0.8070;0.8246;0.8421;0.8596" calcMode="discrete" dur="2.850s" fill="freeze"/><animate attributeName="opacity" values=".9;0;.9" dur=".9s" repeatCount="indefinite"/></rect></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <style>
+    
+                        @keyframes fullAnim {
+                            0% { opacity: 0.4; }
+                            50% { opacity: 1; }
+                            100% { opacity: 0.4; }
+                        }
+                        .animated-card { animation: fullAnim 3s ease-in-out infinite; }
+                    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 102px; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .typewriter-text {
+      font-family: monospace;
+      font-size: 14px;
+      fill: #ffffff;
+      color: #ffffff;
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      animation: typing 2s steps(12, end) forwards;
+    }
+    .cursor-line {
+      animation: blink 0.5s step-end 4, hideCursor 0.01s 2s forwards;
+    }
+    @keyframes hideCursor {
+      to { visibility: hidden; }
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #85de7c;
+    }
+  </style>
+
+  <g class="animated-card">
+    <rect x="4" y="4" width="312" height="82" rx="16" fill="#1e293b" stroke="#85de7c" stroke-width="2"/>
+    
+    <!-- Local Image Icon -->
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAIeAAACHgGT44/XAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAApFQTFRF////AP8AgP+AVapVgL+AZsxmgNWAbdttgN9gccZxgMxmdNF0gNVqdth2gMhtd8xmgM9weNJpeclrgMxzec5tgNFoetNvddVqesxwds5se9BxdtFtd8xveM9wfNFseNJxfNNteM1qfM9uedBredJsfM1wec5tetFufdJsd85tes9wetFreNJue85seM9ve9BtedFvec5re89uec9se9BvedFte9Jvec5tfM9setBuetFues9reNBteNFuetJsec9ues9tedBre9FtedFse89uec9se9BuedBte9FsedFte89setBue9BsetFues9se89tetBsedBuec9ues9tedBsetBtedFsec9te9BuedBte9Bse89ses9ue9BtetBue9FtetFsetBsetBtedFues9tec9setBtedBsetFuedFtes9uedBtetBsedBtetFses9uetFse89tes9se9BuetBte9BuetFtetBtedBtedFtes9uedBtetBsedBtetBtetFues9tetBue9Ftes9te9Bue9BuetBte9Fses9te9BtetBuedBtetFuec9tetBsedBtetBtetFues9tetBuetBtetBsetFtes9tetBte9Bue9Fses9te9BtetBte9BtetBuedFtedBtetBtedBtetFtes9setBtetBtetBtetFtetBtetBsetBtetBtetFte9Bte9BtetBse9Btes9tetBtedBtetBtetBtetBtetBtetBtes9tetBsetBtetBtetFtetBtetBsetBtetBte9BtetBtedBtetBtetBtetFtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtetBtqA2tpQAAANp0Uk5TAAECAwQFBgcICQoLDA0ODxARExQVFhcYGRobHB4gISIjJCUmKCkqLC0vMDIzNDU2Nzk6Ozw9Pj9AQUNFRkhJSktMTU5PUFFSU1RVVldYWltcXV9gYWJjZWZnaGprbG1ub3FzdHV2d3h5ent8fX5/gISFhoeIiYqMjY+QkZKTlJWWl5qbnJ6foKGio6SlpqeoqaqrrK2usLGys7W2t7i5uru9vr/AwcLDxcbHyMnKy8zOz9DR09TV19ja29zd3t/h4+Tl5ufo6err7O3u7/Hy9PX29/j5+vv8/f4CB1ChAAAEHklEQVQYGZXBiUMUZRwG4HcWFAWBEi3NNMXUFFKCLDFM1PJatMTIDCPNhEwisoOjQugwTaLo0PLK1PKIBEmSFDENJCAQJFj2/Wtift/MstcM8DywMnHh8+9+V9fRVF91vPLjXQkOjMjErF/pq+2rjPswTBHrj/QxmJo1GoamZdyipYvLMZT5VbRVlQI7Ez5xcygHo2Apvon+2tror/5BWEi9TS/Xip1J08YAY6YlOYsb6KVjBYLa7KJHzc458DE75wI93HkaAr1Njz+eRhDLL9GjFAGyabr+XAiCcqRfp2kL/Cx20VA+FpbGltPQtxg+7v+HSn8ObOX0U2mPhZew36h0pGIIqR1ULkdj0B4qXfEYUnwXlTJ4zHJRcWIYnFT6YmH6lko+lMS8VNjIp/IlDA9TOahBZJLMhDXtIIU7DsqPFJ0xEOlukq1jYS2mk+I4xCIquRBPuajbBBu5VB6Hbh9FcwR0Uc0UdbAR0UzxEQY4WigyIV6j4QnYyKS4gQGPULSPgjhLwxHYGNVOMQ9APsUBKC00uKfDxgGKXQBqKZxQGmlaBxtOivPAJIreKCh1NLhnwkZUL3X9MXiU4gQMp2kogK0TFMlYS1EEQzaVc6GwVUSxBlkU2TDMoLIW9rIpNmM3RTpMtRSrYC+dYic+pUiB6WWKEw7YSqEoxBGKuTCFXKR4C7bmUnyGrykWwmN+P3Xu1bCTSHEIBRTrMeh9it5VsLGaYi+yKLIxKLKRoi8N1l6ieAMrKErgZWYLhWsTLOVTPIu5FIfgLb6TSkkolJAZ0fCxnyIJd1HUwUdyD5XTE6Cb/jtdZ3fFazBpNykmAx0Us+BjpYtK64shwNTrFLf2LYMST9GjAb9QvANf67ppqH01r50ehRBvUpwE8ALFDQd8zWtgMHcc0NVQbAYQ3U2RAj93H2YQNzUMmEPRF4MBX1CUw5+W52aADdB9T3EMuhSKnikI8GQr/RRDl0RlI3SOGxSlCBSZ3UJvP4VCd4aiJxpiN8VVBBO+7W96VIRDt5rKe1CeoahEcGPSCk7+S7qaj6ZCzO6kaIqEUkSxAzamxGgwjG+gkg7DGYpkDEvoKSpVGpSQLurcURiOsAoq7gUwPERRj+G49zwN+TBlUHyOYYj7i4YKDaYyiq0whMFK6JYuGs6EwaOaIhEDJjs/qHEdTkAwmvMKTX+Oh0fYf9S5wmdt2n+NSvXWe+Bn9LIL9GiKxaD5FL2t9OY6uj4SHuM3VHZy0LnJ8JJJK60XD5Xs2F5QfvKyi95KR8PbXo7MnY3wVccRORcHX+P6OQLVS+HvMXrrPPb6ooyf3Qzu0koEeoWm5m+2xoVANzX3CgM07lniQBBl1F3dmxELb4mFP9Tdpqn71PbZsLDkWu2HzkkIasKCtG0ZyxMeGAdr/wO6BnNwaT81bQAAAABJRU5ErkJggg==" x="18" y="28" width="34" height="34" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Title Element -->
+    <text x="70" y="38" class="title-text">WhatsApp</text>
+    
+    <!-- Typewriter Username Element -->
+    <foreignObject x="70" y="47" width="230" height="25">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center;">
+        <span class="typewriter-text" style="color: #ffffff;">@alamindev27</span><span class="cursor-line" style="display: inline-block; width: 2px; height: 16px; background-color: #ffffff; margin-left: 1px;"></span>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
