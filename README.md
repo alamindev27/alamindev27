@@ -98,9 +98,9 @@
 <img src="ui-v3/cta-card.svg" alt="Let's work together" width="100%" />
 
 <p align="center">
-<a href="mailto:lamiakajal@gmail.com"><img src="ui-v3/social-gmail.svg" alt="Email" width="32%" /></a>
-<a href="https://wa.me/lamiakajal"><img src="ui-v3/social-whatsapp.svg" alt="WhatsApp" width="32%" /></a>
-<a href="https://www.linkedin.com/in/lamiakajal"><img src="ui-v3/social-linkedin.svg" alt="LinkedIn" width="32%" /></a>
+<a href="mailto:alamindev27@gmail.com"><img src="ui-v3/social-gmail.svg" alt="Email" width="32%" /></a>
+<a href="https://wa.me/alamindev27"><img src="ui-v3/social-whatsapp.svg" alt="WhatsApp" width="32%" /></a>
+<a href="https://www.linkedin.com/in/alamindev27"><img src="ui-v3/social-linkedin.svg" alt="LinkedIn" width="32%" /></a>
 </p>
 
 </div>
