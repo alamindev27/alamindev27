@@ -1,115 +1,105 @@
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=3500&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&height=60&lines=Hi+There!+%F0%9F%91%8B+I'm+MD.+Al-Amin;Software+%26+Web+Developer;Crafting+Scalable+Web+Solutions" alt="MD. Al-Amin" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Available%20for%20Freelance-2ea44f?style=for-the-badge&logo=appveyor" alt="Status">
+  <img src="https://img.shields.io/badge/Experience-5%2B%20Years-007acc?style=for-the-badge&logo=codeproject" alt="Experience">
+  <img src="https://img.shields.io/badge/Clients-200%2B%20Worldwide-d9534f?style=for-the-badge&logo=reactivex" alt="Clients">
+</p>
+
+---
+
+## 👨‍💻 About Me
+
+<br>
+
+
+<p align="justify">
+Hello! I am <b>MD. Al-Amin</b>, a highly skilled and passionate Software & Web Developer with over <b>5 years</b> of professional experience specializing in building dynamic, efficient, and scalable web applications. My core expertise lies in the <b>PHP ecosystem</b>, particularly with the <b>Laravel framework</b>.
+</p>
+
+<p align="justify">
+Throughout my career, I have successfully delivered robust software solutions across the full development life cycle (SDLC) for more than <b>200 clients worldwide</b>. I am deeply committed to staying at the forefront of technological advancements, ensuring my technical skills are always aligned with the latest industry trends. My approach combines technical proficiency with a keen focus on client requirements, resulting in products that not only meet but exceed expectations. I am confident that my dedication and expertise would be a valuable asset to any forward-thinking team or project.
+</p>
+
+---
+
+## 🛠️ Technical Expertise
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,javascript,php,laravel,mysql,git,github,vscode,linux,nginx,jquery" alt="Skills"/>
+  </a>
+</p>
+
 <div align="center">
 
-<img src="ui-v3/header-v2.svg" alt="MD Al-Amin — Full Stack Web Developer" width="100%" />
-
-<img src="ui-v3/heading-about.svg" alt="About Me" width="100%" />
-
-<img src="ui-v3/about.svg" alt="About MD Al-Amin" width="100%" />
-
-<img src="ui-v3/heading-skills.svg" alt="Skills" width="100%" />
-
-<p align="center">
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="ui-v3/skill-html.svg" alt="HTML" width="24%" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="ui-v3/skill-css.svg" alt="CSS" width="24%" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="ui-v3/skill-javascript.svg" alt="JavaScript" width="24%" /></a>
-<!-- <a href="https://www.typescriptlang.org/"><img src="ui-v3/skill-typescript.svg" alt="TypeScript" width="24%" /></a> -->
-<a href="https://react.dev/"><img src="ui-v3/skill-react.svg" alt="React" width="24%" /></a>
-<a href="https://tailwindcss.com/"><img src="ui-v3/skill-tailwind.svg" alt="Tailwind CSS" width="24%" /></a>
-<!-- <a href="https://nextjs.org/"><img src="ui-v3/skill-nextjs.svg" alt="Next.js" width="24%" /></a> -->
-<!-- <a href="https://www.better-auth.com/"><img src="ui-v3/skill-betterauth.svg" alt="BetterAuth" width="24%" /></a> -->
-<a href="https://nodejs.org/"><img src="ui-v3/skill-nodejs.svg" alt="Node.js" width="24%" /></a>
-<!-- <a href="https://www.mongodb.com/"><img src="ui-v3/skill-mongodb.svg" alt="MongoDB" width="24%" /></a> -->
-<!-- <a href="https://mongoosejs.com/"><img src="ui-v3/skill-mongoose.svg" alt="Mongoose" width="24%" /></a> -->
-<a href="https://git-scm.com/"><img src="ui-v3/skill-git-github.svg" alt="Git & GitHub" width="24%" /></a>
-</p>
-
-<img src="ui-v3/picture-v2.svg" alt="MD Al-Amin" width="100%" />
-
-<img src="ui-v3/heading-featured.svg" alt="Featured Projects" width="100%" />
-
-<!-- PROJECTS:START -->
-<p align="center">
-<a href="https://axit-lamiakajal.vercel.app/"><img src="ui-v3/project-axit-landing-page.svg" alt="axit-landing-page" width="48%" /></a>
-<a href="https://fit-log-lamiakajal.vercel.app"><img src="ui-v3/project-fit-log.svg" alt="fit-log" width="48%" /></a>
-<a href="https://lucid-lamiakajal.vercel.app"><img src="ui-v3/project-lucid-landing-page.svg" alt="lucid-landing-page" width="48%" /></a>
-<a href="https://dev-stack-peach-chi.vercel.app"><img src="ui-v3/project-devstack.svg" alt="DevStack" width="48%" /></a>
-</p>
-<!-- PROJECTS:END -->
-
-<img src="ui-v3/heading-social.svg" alt="Find Me Online" width="100%" />
-
-<p align="center">
-<a href="https://alamindev27.github.io/alamindev27/"><img src="ui-v3/social-website.svg" alt="Website" width="32%" /></a>
-<a href="mailto:alamindev27@gmail.com"><img src="ui-v3/social-gmail.svg" alt="Gmail" width="32%" /></a>
-<a href="https://wa.me/alamindev27"><img src="ui-v3/social-whatsapp.svg" alt="WhatsApp" width="32%" /></a>
-<a href="https://www.linkedin.com/in/alamindev27"><img src="ui-v3/social-linkedin.svg" alt="LinkedIn" width="32%" /></a>
-<a href="https://www.github.com/alamindev27"><img src="ui-v3/social-github.svg" alt="GitHub" width="32%" /></a>
-<a href="https://www.youtube.com/@alamindev27"><img src="ui-v3/social-youtube.svg" alt="YouTube" width="32%" /></a>
-<a href="https://x.com/alamindev27"><img src="ui-v3/social-x.svg" alt="X" width="32%" /></a>
-<a href="https://www.instagram.com/alamindev27"><img src="ui-v3/social-instagram.svg" alt="Instagram" width="32%" /></a>
-<a href="https://www.facebook.com/alamindev27"><img src="ui-v3/social-facebook.svg" alt="Facebook" width="32%" /></a>
-<!-- <a href="https://www.facebook.com/alamindev27official"><img src="ui-v3/social-facebook-page.svg" alt="Facebook Page" width="32%" /></a> -->
-<a href="https://medium.com/@alamindev27"><img src="ui-v3/social-medium.svg" alt="Medium" width="32%" /></a>
-<!-- <a href="https://alamindev27.blogspot.com"><img src="ui-v3/social-blogger.svg" alt="Blogger" width="32%" /></a> -->
-<!-- <a href="https://www.behance.net/alamindev27"><img src="ui-v3/social-behance.svg" alt="Behance" width="32%" /></a> -->
-<a href="https://www.pinterest.com/alamindev27"><img src="ui-v3/social-pinterest.svg" alt="Pinterest" width="32%" /></a>
-<a href="https://www.binance.com/en/square/profile/alamindev27"><img src="ui-v3/social-binance.svg" alt="Binance" width="32%" /></a>
-</p>
-
-<img src="ui-v3/heading-stats.svg" alt="GitHub Stats" width="100%" />
-
-<p align="center">
-<img src="stats/github-stats.svg" alt="GitHub stats" width="49%" />
-<img src="stats/github-streak.svg" alt="Contribution streak" width="49%" />
-</p>
-
-<img src="stats/github-languages.svg" alt="Top languages" width="100%" />
-
-<img src="ui-v3/heading-snake.svg" alt="Contribution Snake" width="100%" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lamiakajal/lamiakajal/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lamiakajal/lamiakajal/output/github-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/lamiakajal/lamiakajal/output/github-snake-dark.svg" width="100%" />
-</picture>
-
-<img src="ui-v3/heading-what.svg" alt="What I Do" width="100%" />
-
-<p align="center">
-<img src="ui-v3/service-frontend.svg" alt="Frontend Development" width="48%" />
-<img src="ui-v3/service-backend.svg" alt="Backend & APIs" width="48%" />
-<img src="ui-v3/service-database.svg" alt="Databases" width="48%" />
-<img src="ui-v3/service-auth.svg" alt="Authentication" width="48%" />
-</p>
-
-<img src="ui-v3/heading-blog.svg" alt="Latest Blog Posts" width="100%" />
-
-<!-- BLOG:START -->
-<p align="center">
-<a href="https://lamiakajal.blogspot.com/2025/06/e-school-fully-responsive-user-friendly.html"><img src="ui-v3/blog-1.svg" alt="E-School — Fully Responsive &amp; User-Friendly Landing Page | Practice Project #4" width="48%" /></a>
-<a href="https://lamiakajal.blogspot.com/2025/06/excited-to-launch-my-3rd-practice.html"><img src="ui-v3/blog-2.svg" alt="Excited to Launch My 3rd Practice Project – “Tinyone”" width="48%" /></a>
-<a href="https://lamiakajal.blogspot.com/2025/06/i-just-completed-my-2nd-web-project.html"><img src="ui-v3/blog-3.svg" alt="I Just Completed My 2nd Web Project – “Minimo” | A Fully Responsive Website with HTML &amp; CSS" width="48%" /></a>
-<a href="https://lamiakajal.blogspot.com/2025/06/i-just-completed-my-first-practice.html"><img src="ui-v3/blog-4.svg" alt="I Just Completed My First Practice Project – And It’s Live!" width="48%" /></a>
-</p>
-<!-- BLOG:END -->
-
-<img src="ui-v3/heading-work.svg" alt="Let's Work Together" width="100%" />
-
-<img src="ui-v3/cta-card.svg" alt="Let's work together" width="100%" />
-
-<p align="center">
-<a href="mailto:alamindev27@gmail.com"><img src="ui-v3/social-gmail.svg" alt="Email" width="32%" /></a>
-<a href="https://wa.me/alamindev27"><img src="ui-v3/social-whatsapp.svg" alt="WhatsApp" width="32%" /></a>
-<a href="https://www.linkedin.com/in/alamindev27"><img src="ui-v3/social-linkedin.svg" alt="LinkedIn" width="32%" /></a>
-</p>
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Core & Frontend** | HTML5, CSS3, JavaScript, jQuery, Bootstrap, Tailwind CSS |
+| **Backend** | PHP 8+, **Laravel** (Expert), RESTful APIs, JSON |
+| **Database** | **MySQL**, MariaDB, phpMyAdmin |
+| **Version Control** | Git, GitHub, GitLab |
+| **Deployment & Server** | Linux, cPanel, Nginx, Apache |
 
 </div>
 
+---
 
+## 💼 Featured Live Projects
 
+Here are some of my recent works that demonstrate my development capabilities:
 
+### 1. Global Forex Info
+*   **Description:** A comprehensive financial platform providing real-time forex data, market analysis, and trading insights for global users.
+*   **Technologies:** PHP, MySQL, Custom JS.
+*   **🔗 Live Project:** [globalforexinfo.com](https://globalforexinfo.com/)
 
+### 2. Sohoj Up
+*   **Description:** A dynamic multi-service platform designed to simplify access to various digital utility services and tasks.
+*   **Technologies:** Laravel, MySQL, Bootstrap.
+*   **🔗 Live Project:** [sohojup.com](https://sohojup.com/)
 
+### 3. Muskan Mart
+*   **Description:** A fully-featured E-commerce marketplace facilitating online shopping with a secure payment gateway and intuitive user experience.
+*   **Technologies:** Laravel, MySQL, JavaScript.
+*   **🔗 Live Project:** [muskanmart.com](https://www.muskanmart.com/)
+
+### 4. Plumber Portfolio Template
+*   **Description:** A professional, responsive landing page template specifically built for plumbing and home service businesses to generate leads.
+*   **Technologies:** HTML, CSS, Bootstrap.
+*   **🔗 Live Project:** [alamindev27.github.io/Plumber1/](https://alamindev27.github.io/Plumber1/)
 
 ---
-<sub>🔒 **© 2026 MD Al-Amin. All rights reserved.** Unauthorized copying, duplication, or design cloning is strictly prohibited.</sub>
+
+## 📈 GitHub Stats & Achievements
+
+*(Note: To ensure icons are visible on all devices, I have updated the themes to `radical` with a dark background.)*
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=alamindev27&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Al-Amin's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alamindev27&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alamindev27&theme=radical&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+## 📬 Connect with Me
+
+Let's discuss how my expertise can benefit your projects. Feel free to reach out!
+
+<p align="center">
+  <a href="mailto:alamindev27@gmail.com"><img src="https://img.shields.io/badge/Email-alamindev27@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/alamindev27" target="_blank"><img src="https://img.shields.io/badge/GitHub-alamindev27-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://facebook.com/alamindev27" target="_blank"><img src="https://img.shields.io/badge/Facebook-alamindev27-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
+  <a href="https://x.com/alamindev27" target="_blank"><img src="https://img.shields.io/badge/X-%40alamindev27-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+</p>
+
+<h3 align="center">⭐ Thanks for visiting! ⭐</h3>
