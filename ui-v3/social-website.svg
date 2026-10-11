@@ -19,7 +19,8 @@
     .typewriter-text {
       font-family: monospace;
       font-size: 14px;
-      fill: #cbd5e1;
+      fill: #ffffff;
+      color: #ffffff;
       overflow: hidden;
       white-space: nowrap;
       display: inline-block;
@@ -48,10 +49,10 @@
     <!-- Title Element -->
     <text x="70" y="38" class="title-text">Website</text>
     
-    <!-- Pure SVG Typewriter using foreignObject with explicit cursor element control -->
+    <!-- Typewriter Username Element -->
     <foreignObject x="70" y="47" width="230" height="25">
       <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center;">
-        <span class="typewriter-text">alamindev27.com</span><span class="cursor-line" style="display: inline-block; width: 2px; height: 16px; background-color: #cbd5e1; margin-left: 1px;"></span>
+        <span class="typewriter-text" style="color: #ffffff;">alamindev27.com</span><span class="cursor-line" style="display: inline-block; width: 2px; height: 16px; background-color: #ffffff; margin-left: 1px;"></span>
       </div>
     </foreignObject>
   </g>

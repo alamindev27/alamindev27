@@ -1,14 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="76" viewBox="0 0 330 76" role="img" aria-label="Gmail"><title>Gmail</title><style>
-text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}
-.k{font-size:17px;font-weight:bold}.v{font-size:17px;fill:#e6edf3}.h{font-size:17px;font-weight:bold}
-.a{font-size:5.6px}.a2{font-size:5.2px}.b{font-size:17px}.ty{font-size:24px;font-weight:bold}
-.m{font-size:17px;font-weight:bold}.abt{font-size:22px;font-weight:bold}.n{font-size:17px;font-weight:bold}
-.fi{animation:fi 12s infinite both}
-@keyframes fi{0%{opacity:0}4%{opacity:1}88%{opacity:1}95%,100%{opacity:0}}
-.pl{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-.loop{animation:loop 18s infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1.05)}}
-@keyframes loop{0%,94%{opacity:1}98%,99.9%{opacity:0}100%{opacity:1}}
-</style><defs><linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="330" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#7ee787"/><stop offset=".6" stop-color="#58a6ff"/><stop offset=".8" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff5f6d"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="330 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><clipPath id="h"><rect x="60.0" y="31.0" width="168.0" height="24"><animate attributeName="width" values="0.0;0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4;100.8;109.2;117.6;126.0;134.4;142.8;151.2;159.6;168.0" keyTimes="0.0000;0.4815;0.5000;0.5185;0.5370;0.5556;0.5741;0.5926;0.6111;0.6296;0.6481;0.6667;0.6852;0.7037;0.7222;0.7407;0.7593;0.7778;0.7963;0.8148;0.8333;0.8519" calcMode="discrete" dur="2.700s" fill="freeze"/></rect></clipPath></defs><g class="pulse" style="animation-delay:-0.37s"><g transform="translate(5,5)"><g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3704;0.4815;1" dur="2.700s" fill="freeze"/><rect x="1" y="1" width="318" height="64" rx="12" fill="#161b22" stroke="#EA4335" stroke-opacity=".55"/><g transform="translate(16.0,18.0) scale(1.2500)"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#EA4335"/></g><text class="n" fill="#EA4335" x="60" y="27" style="font-size:16px">Gmail</text></g><text class="m" fill="#c9d1d9" x="60.0" y="47.0" textLength="168.0" lengthAdjust="spacing" clip-path="url(#h)" style="font-size:14px;font-weight:normal">lamiakajal@gmail.com</text><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4815;0.8519" calcMode="discrete" dur="2.700s" fill="freeze"/><rect width="8" height="18" fill="#7ee787" x="60.0" y="31.0"><animate attributeName="x" values="60.0;60.0;68.4;76.8;85.2;93.6;102.0;110.4;118.8;127.2;135.6;144.0;152.4;160.8;169.2;177.6;186.0;194.4;202.8;211.2;219.6;228.0" keyTimes="0.0000;0.4815;0.5000;0.5185;0.5370;0.5556;0.5741;0.5926;0.6111;0.6296;0.6481;0.6667;0.6852;0.7037;0.7222;0.7407;0.7593;0.7778;0.7963;0.8148;0.8333;0.8519" calcMode="discrete" dur="2.700s" fill="freeze"/><animate attributeName="opacity" values=".9;0;.9" dur=".9s" repeatCount="indefinite"/></rect></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <style>
+    
+                        @keyframes fullAnim {
+                            0% { opacity: 0.4; }
+                            50% { opacity: 1; }
+                            100% { opacity: 0.4; }
+                        }
+                        .animated-card { animation: fullAnim 3s ease-in-out infinite; }
+                    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 178.5px; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .typewriter-text {
+      font-family: monospace;
+      font-size: 14px;
+      fill: #ffffff;
+      color: #ffffff;
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      animation: typing 2s steps(21, end) forwards;
+    }
+    .cursor-line {
+      animation: blink 0.5s step-end 4, hideCursor 0.01s 2s forwards;
+    }
+    @keyframes hideCursor {
+      to { visibility: hidden; }
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #ff2424;
+    }
+  </style>
+
+  <g class="animated-card">
+    <rect x="4" y="4" width="312" height="82" rx="16" fill="#1e293b" stroke="#ff2424" stroke-width="2"/>
+    
+    <!-- Local Image Icon -->
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAZMAAAGTAGpbpUyAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAA/9JREFUeJzt2V9oW3UUB/DvuUmW/mMrbPgnudWOVW0bXdnWpLk4SxGdbFAZDhlq7SidD/6B7UFUENG+TPChDBEUNqYDfRE7GLYTpWAtLEmTFl+qK6JI6e2sA2eT0Wa5ubnHl1W2mDb7JfcmA3+f1/zOued3+ju5v1BAkiRJkiRJkiRJkiTpf4ZKCbrQ0uJtdLneBlEfgEYm+klh/kCbm/va5voKMid29jLhTTC3E/A3A5+7V9Mn6MCvGdFcwg34EnD5W1u/IeDJAsk+9dTXv9Y5M7Mqmvd28PeBhiyUj4hw5D8fEn/r7p49QARLJKciWoS/re3ZQpsHAAYGjJWVeCwQaBfNW0xm8uGdJimJgpsHAKancj88ckg0r3ADyLKeKLIkoLD18WUteEw093p0LdSPlHIKQOvGK3mfaG7hBkBRNhdbQiCFgZO6Fhz5bc+eLcLPuOFKT6BhUQt+QeCzABetlUHCzxJvgAACnqnxKnF9b6hDNPaPrq72bKYuBuB5B0r7l6MNAAAwHqQcx0RGQtdC/ZZiJQAEHKwMAOAWDTAUz/VNOUM0rIaBk3o4+Fgmaw3umJlJFlp0pSfQkDXqPgHzC6IPAAADlBaNET4Bg8+dc1+6u2NSNA4AiHBovZG4HA63ZTN1MTBK2vy85b04sLzdJRon3ICsp849tH+4+7R2fApAwb/khgqMhK6F+ply0yjhyDNw7Ux6a/R4Un00DdokGi88AmvGH+rtmr13t/7+6Mt6rbEiWvjaSHQCAIH7SqnhOujS68mm+kXLo5USD5T5Jbi02a++dHikpYyR6CNCKZvnWbN28sXl7TsWLc99pTx7TdlvAdPl8Q7tH+4+Ez4WY1Cq3HzFMHHq1Mq2qXeu+bpNFj/y+Wx7DX7X+nT4jYOnrxqeml/sypkvbbl+fmW5OXnB2BK2K6et94CFxubmo4fPNc2qnYsA2MbUHFlq0I+k7n9gyXI32ZjX/ouQ4fbWvvv4CTcY+wD8aUPKv5iod3jbXTVZJo8N+W7h2E3QH0uMs6V0ArhYag4GEq4cBdVIfMzG0m7h6FVYnZrSfd76HhANAUK/0xmMD5Op1b33xOO/O1UfUMY94HbRxIQJ4D1dC00T+DMAWzdcDyRBPOiLTo84XRtQiR9DN6jR+ChM7MIGI8FAQsnRLl+kMpsHKtgAAPAnEgvrjETFjnw+x0cgX95InCXAZREfVaPTX1W6FqDCJ+BmajQ+SmTuBpkdaqQ6mweqcAJu5ov8OF/N5wNVPAF3CtmAahdQbeINYF52oA5bWBZdFY0R/8cI+LxoTIUwFEv4bSLcgPm31DEmvArCgmisQywQzzHTwNjB8+PVLkaSJEmSJEmSJEmSJOmO9w8xPE8czu0bzQAAAABJRU5ErkJggg==" x="18" y="28" width="34" height="34" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Title Element -->
+    <text x="70" y="38" class="title-text">Gmail</text>
+    
+    <!-- Typewriter Username Element -->
+    <foreignObject x="70" y="47" width="230" height="25">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center;">
+        <span class="typewriter-text" style="color: #ffffff;">alamindev27@gmail.com</span><span class="cursor-line" style="display: inline-block; width: 2px; height: 16px; background-color: #ffffff; margin-left: 1px;"></span>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
