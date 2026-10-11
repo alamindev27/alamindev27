@@ -1,14 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="242" height="68" viewBox="0 0 242 68" role="img" aria-label="CSS"><title>CSS</title><style>
-text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}
-.k{font-size:17px;font-weight:bold}.v{font-size:17px;fill:#e6edf3}.h{font-size:17px;font-weight:bold}
-.a{font-size:5.6px}.a2{font-size:5.2px}.b{font-size:17px}.ty{font-size:24px;font-weight:bold}
-.m{font-size:17px;font-weight:bold}.abt{font-size:22px;font-weight:bold}.n{font-size:17px;font-weight:bold}
-.fi{animation:fi 12s infinite both}
-@keyframes fi{0%{opacity:0}4%{opacity:1}88%{opacity:1}95%,100%{opacity:0}}
-.pl{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-.loop{animation:loop 18s infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1.05)}}
-@keyframes loop{0%,94%{opacity:1}98%,99.9%{opacity:0}100%{opacity:1}}
-</style><defs><linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="242" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#7ee787"/><stop offset=".6" stop-color="#58a6ff"/><stop offset=".8" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff5f6d"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="242 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><clipPath id="n"><rect x="56.0" y="8.0" width="30.6" height="42"><animate attributeName="width" values="0.0;0.0;10.2;20.4;30.6" keyTimes="0.0000;0.6965;0.7313;0.7662;0.8010" calcMode="discrete" dur="2.010s" fill="freeze"/></rect></clipPath></defs><g class="pulse" style="animation-delay:-0.37s"><g transform="translate(5,5)"><g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5473;0.6965;1" dur="2.010s" fill="freeze"/><rect x="1" y="1" width="230" height="56" rx="12" fill="#161b22" stroke="#1572B6" stroke-opacity=".55"/><g transform="translate(16.0,15.0) scale(0.8750)"><path d="M4 2 L6.4 29 L16 32 L25.6 29 L28 2 Z" fill="#1572B6"/><path d="M16 4.6 V29.4 L24 27 L26 4.6 Z" fill="#33A9DC"/><text x="16" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="9.5" fill="#fff">CSS</text></g></g><text class="n" fill="#5aa2ff" x="56.0" y="35.0" textLength="30.6" lengthAdjust="spacing" clip-path="url(#n)">CSS</text><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6965;0.8010" calcMode="discrete" dur="2.010s" fill="freeze"/><rect width="8" height="22" fill="#7ee787" x="56.0" y="18.0"><animate attributeName="x" values="56.0;56.0;66.2;76.4;86.6" keyTimes="0.0000;0.6965;0.7313;0.7662;0.8010" calcMode="discrete" dur="2.010s" fill="freeze"/><animate attributeName="opacity" values=".9;0;.9" dur=".9s" repeatCount="indefinite"/></rect></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <style>
+    
+                        @keyframes fullAnim {
+                            0% { opacity: 0.4; }
+                            50% { opacity: 1; }
+                            100% { opacity: 0.4; }
+                        }
+                        .animated-card { animation: fullAnim 3s ease-in-out infinite; }
+                    
+    .title-center {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      fill: #2695f3;
+    }
+  </style>
+
+  <g class="animated-card">
+    <rect x="4" y="4" width="312" height="82" rx="16" fill="#1e293b" stroke="#2590ea" stroke-width="2"/>
+    
+    <!-- Local Image Icon -->
+    <image href="data:image/png;base64,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" x="25" y="28" width="34" height="34" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Centered Title Element -->
+    <text x="80" y="50" class="title-center">CSS</text>
+  </g>
+</svg>

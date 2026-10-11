@@ -1,14 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="242" height="68" viewBox="0 0 242 68" role="img" aria-label="HTML"><title>HTML</title><style>
-text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;white-space:pre}
-.k{font-size:17px;font-weight:bold}.v{font-size:17px;fill:#e6edf3}.h{font-size:17px;font-weight:bold}
-.a{font-size:5.6px}.a2{font-size:5.2px}.b{font-size:17px}.ty{font-size:24px;font-weight:bold}
-.m{font-size:17px;font-weight:bold}.abt{font-size:22px;font-weight:bold}.n{font-size:17px;font-weight:bold}
-.fi{animation:fi 12s infinite both}
-@keyframes fi{0%{opacity:0}4%{opacity:1}88%{opacity:1}95%,100%{opacity:0}}
-.pl{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-.loop{animation:loop 18s infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{0%,100%{transform:scale(.95)}50%{transform:scale(1.05)}}
-@keyframes loop{0%,94%{opacity:1}98%,99.9%{opacity:0}100%{opacity:1}}
-</style><defs><linearGradient id="rb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="242" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#7ee787"/><stop offset=".6" stop-color="#58a6ff"/><stop offset=".8" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff5f6d"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="242 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#ff7bb0"/></linearGradient><clipPath id="n"><rect x="56.0" y="8.0" width="40.8" height="42"><animate attributeName="width" values="0.0;0.0;10.2;20.4;30.6;40.8" keyTimes="0.0000;0.5072;0.5580;0.6087;0.6594;0.7101" calcMode="discrete" dur="1.380s" fill="freeze"/></rect></clipPath></defs><g class="pulse" style="animation-delay:-0.00s"><g transform="translate(5,5)"><g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2899;0.5072;1" dur="1.380s" fill="freeze"/><rect x="1" y="1" width="230" height="56" rx="12" fill="#161b22" stroke="#E34F26" stroke-opacity=".55"/><g transform="translate(16.0,15.0) scale(1.1667)"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" fill="#E34F26"/></g></g><text class="n" fill="#ff7b4d" x="56.0" y="35.0" textLength="40.8" lengthAdjust="spacing" clip-path="url(#n)">HTML</text><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5072;0.7101" calcMode="discrete" dur="1.380s" fill="freeze"/><rect width="8" height="22" fill="#7ee787" x="56.0" y="18.0"><animate attributeName="x" values="56.0;56.0;66.2;76.4;86.6;96.8" keyTimes="0.0000;0.5072;0.5580;0.6087;0.6594;0.7101" calcMode="discrete" dur="1.380s" fill="freeze"/><animate attributeName="opacity" values=".9;0;.9" dur=".9s" repeatCount="indefinite"/></rect></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <style>
+    
+                        @keyframes fullAnim {
+                            0% { opacity: 0.4; }
+                            50% { opacity: 1; }
+                            100% { opacity: 0.4; }
+                        }
+                        .animated-card { animation: fullAnim 3s ease-in-out infinite; }
+                    
+    .title-center {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      fill: #da7148;
+    }
+  </style>
+
+  <g class="animated-card">
+    <rect x="4" y="4" width="312" height="82" rx="16" fill="#1e293b" stroke="#b75934" stroke-width="2"/>
+    
+    <!-- Local Image Icon -->
+    <image href="data:image/png;base64,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" x="25" y="28" width="34" height="34" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Centered Title Element -->
+    <text x="80" y="50" class="title-center">HTML</text>
+  </g>
+</svg>
