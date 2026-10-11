@@ -12,12 +12,12 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="ui-v3/skill-html.svg" alt="HTML" width="24%" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="ui-v3/skill-css.svg" alt="CSS" width="24%" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="ui-v3/skill-javascript.svg" alt="JavaScript" width="24%" /></a>
-<a href="https://www.typescriptlang.org/"><img src="ui-v3/skill-bootstrap.svg" alt="Bootstrap" width="24%" /></a>
-<a href="https://react.dev/"><img src="ui-v3/skill-tailwind.svg" alt="Tailwind" width="24%" /></a>
-<a href="https://tailwindcss.com/"><img src="ui-v3/skill-php.svg" alt="PHP" width="24%" /></a>
-<a href="https://nextjs.org/"><img src="ui-v3/skill-mysql.svg" alt="MySql" width="24%" /></a>
-<a href="https://www.better-auth.com/"><img src="ui-v3/skill-docker.svg" alt="Docker" width="24%" /></a>
-<a href="https://nodejs.org/"><img src="ui-v3/skill-git-github.svg" alt="Git, GitHub, CI/CD" width="24%" /></a>
+<a href="https://getbootstrap.com/"><img src="ui-v3/skill-bootstrap.svg" alt="Bootstrap" width="24%" /></a>
+<a href="https://tailwindcss.com/"><img src="ui-v3/skill-tailwind.svg" alt="Tailwind" width="24%" /></a>
+<a href="https://www.php.net/"><img src="ui-v3/skill-php.svg" alt="PHP" width="24%" /></a>
+<a href="https://www.mysql.com/"><img src="ui-v3/skill-mysql.svg" alt="MySql" width="24%" /></a>
+<a href="https://www.docker.com/"><img src="ui-v3/skill-docker.svg" alt="Docker" width="24%" /></a>
+<a href="https://github.com/"><img src="ui-v3/skill-git-github.svg" alt="Git, GitHub, CI/CD" width="24%" /></a>
 <!-- <a href="https://www.mongodb.com/"><img src="ui-v3/skill-mongodb.svg" alt="MongoDB" width="24%" /></a>
 <a href="https://mongoosejs.com/"><img src="ui-v3/skill-mongoose.svg" alt="Mongoose" width="24%" /></a>
 <a href="https://git-scm.com/"><img src="ui-v3/skill-git-github.svg" alt="Git & GitHub" width="24%" /></a> -->
