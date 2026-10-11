@@ -40,27 +40,19 @@
 
 <p align="center">
 <a href="https://alamindev27.github.io/alamindev27/"><img src="ui-v3/social-website.svg" alt="Website" width="32%" /></a>
-
 <a href="mailto:alamindev27@gmail.com"><img src="ui-v3/social-gmail.svg" alt="Gmail" width="32%" /></a>
-
 <a href="https://wa.me/alamindev27"><img src="ui-v3/social-whatsapp.svg" alt="WhatsApp" width="32%" /></a>
-
 <a href="https://www.linkedin.com/in/alamindev27"><img src="ui-v3/social-linkedin.svg" alt="LinkedIn" width="32%" /></a>
-
 <a href="https://www.github.com/alamindev27"><img src="ui-v3/social-github.svg" alt="GitHub" width="32%" /></a>
-
 <a href="https://www.youtube.com/@alamindev27"><img src="ui-v3/social-youtube.svg" alt="YouTube" width="32%" /></a>
-
 <a href="https://x.com/alamindev27"><img src="ui-v3/social-x.svg" alt="X" width="32%" /></a>
-
 <a href="https://www.instagram.com/alamindev27"><img src="ui-v3/social-instagram.svg" alt="Instagram" width="32%" /></a>
-
 <a href="https://www.facebook.com/alamindev27"><img src="ui-v3/social-facebook.svg" alt="Facebook" width="32%" /></a>
-
+<a href="https://www.facebook.com/alamindev27official"><img src="ui-v3/social-facebook-page.svg" alt="Facebook Page" width="32%" /></a>
 <a href="https://medium.com/@alamindev27"><img src="ui-v3/social-medium.svg" alt="Medium" width="32%" /></a>
-
+<a href="https://alamindev27.blogspot.com"><img src="ui-v3/social-blogger.svg" alt="Blogger" width="32%" /></a>
+<a href="https://www.behance.net/alamindev27"><img src="ui-v3/social-behance.svg" alt="Behance" width="32%" /></a>
 <a href="https://www.pinterest.com/alamindev27"><img src="ui-v3/social-pinterest.svg" alt="Pinterest" width="32%" /></a>
-
 <a href="https://www.binance.com/en/square/profile/alamindev27"><img src="ui-v3/social-binance.svg" alt="Binance" width="32%" /></a>
 </p>
 
