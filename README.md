@@ -56,7 +56,7 @@
 <a href="https://www.binance.com/en/square/profile/alamindev27"><img src="ui-v3/social-binance.svg" alt="Binance" width="32%" /></a>
 </p>
 
-<img src="ui-v3/heading-stats.svg" alt="GitHub Stats" width="100%" />
+<!-- <img src="ui-v3/heading-stats.svg" alt="GitHub Stats" width="100%" />
 
 <p align="center">
 <img src="stats/github-stats.svg" alt="GitHub stats" width="49%" />
@@ -65,13 +65,13 @@
 
 <img src="stats/github-languages.svg" alt="Top languages" width="100%" />
 
-<img src="ui-v3/heading-snake.svg" alt="Contribution Snake" width="100%" />
+<img src="ui-v3/heading-snake.svg" alt="Contribution Snake" width="100%" /> -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alamindev27/alamindev27/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alamindev27/alamindev27/output/github-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/alamindev27/alamindev27/output/github-snake-dark.svg" width="100%" />
-</picture>
+<!-- <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lamiakajal/lamiakajal//output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lamiakajal/lamiakajal//output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/lamiakajal/lamiakajal//output/github-snake-dark.svg" width="100%" />
+</picture> -->
 
 <img src="ui-v3/heading-what.svg" alt="What I Do" width="100%" />
 
