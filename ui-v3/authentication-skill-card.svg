@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 259" width="100%" height="100%">
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  
+  <style>
+    @keyframes continuousGradientFlow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    
+                    @keyframes softPulse {
+                        0%, 100% { opacity: 0.7; transform: scale(0.98); }
+                        50% { opacity: 1; transform: scale(1.01); }
+                    }
+                    .animated-card-container { 
+                        transform-origin: center;
+                        animation: softPulse 3s ease-in-out infinite; 
+                    }
+                
+
+    .animated-gradient-text {
+      background: linear-gradient(90deg, #c084fc, #a855f7, #ec4899, #c084fc);
+      background-size: 600% 600%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      animation: continuousGradientFlow 6s linear infinite;
+    }
+
+    /* Typewriter for title heading */
+    @keyframes typeTitle {
+      from { width: 0px; }
+      to { width: 231px; }
+    }
+    @keyframes blinkCursor {
+      0%, 100% { border-right-color: #c084fc; }
+      50% { border-right-color: transparent; }
+    }
+    @keyframes hideCursor {
+      to { border-right-color: transparent; }
+    }
+
+    .typewriter-title {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0px;
+      font-family: monospace;
+      font-size: 26px;
+      font-weight: 700;
+      border-right: 3px solid transparent;
+      animation: typeTitle 1.5s steps(14, end) 0.3s forwards,
+                 blinkCursor 0.5s step-end infinite 0.3s,
+                 hideCursor 0.01s 1.8s forwards;
+    }
+
+    /* Fade-in for description lines with 19px font */
+    @keyframes fadeInSlide {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .desc-line {
+      font-family: monospace;
+      font-size: 19px;
+      line-height: 27px;
+      color: #94a3b8;
+      margin: 0;
+      opacity: 0;
+      animation: fadeInSlide 0.8s ease forwards;
+    }
+            
+    .fade-line-0 { animation-delay: 1.8s; }
+                
+    .fade-line-1 { animation-delay: 2s; }
+                
+    .fade-line-2 { animation-delay: 2.2s; }
+                
+  </style>
+  
+  <g class="animated-card-container">
+    <!-- Card Background & Border -->
+    <rect x="4" y="4" width="712" height="251" rx="18" fill="#0f172a" stroke="#a855f7" stroke-width="2"/>
+    
+    <!-- Compact Center Aligned Header (Auth Icon + Title) -->
+    <foreignObject x="40" y="28" width="640" height="42">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center; gap: 14px; height: 100%;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="url(#textGradient)" stroke="none"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-dfzm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/><path d="M19.03 7.39l-7.03 3.12v-8.8l7.03 3.12z" opacity="0.3"/></svg>
+        <span class="typewriter-title animated-gradient-text">Authentication</span>
+      </div>
+    </foreignObject>
+
+    <!-- Optimized Fade-in Description Section -->
+    <foreignObject x="42" y="92" width="636" height="149">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; flex-direction: column; gap: 4px;">
+        <p class="desc-line fade-line-0">Secure sign-in, sessions and protected</p><p class="desc-line fade-line-1">routes with BetterAuth and Laravel MVC</p><p class="desc-line fade-line-2">Model.</p>
+      </div>
+    </foreignObject>
+  </g>
+</svg>

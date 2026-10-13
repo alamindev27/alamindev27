@@ -29,8 +29,8 @@
 
 <!-- PROJECTS:START -->
 <p align="center">
-<a href="https://axit-alamindev27.vercel.app/"><img src="ui-v3/project-sohojup.svg" alt="axit-landing-page" width="48%" /></a>
-<a href="https://fit-log-alamindev27.vercel.app"><img src="ui-v3/project-global-forex-info.svg" alt="fit-log" width="48%" /></a>
+<a href="https://sohojup.com/"><img src="ui-v3/project-sohojup.svg" alt="axit-landing-page" width="48%" /></a>
+<a href="https://globalforexinfo.com/"><img src="ui-v3/project-global-forex-info.svg" alt="fit-log" width="48%" /></a>
 <!-- <a href="https://lucid-alamindev27.vercel.app"><img src="ui-v3/project-lucid-landing-page.svg" alt="lucid-landing-page" width="48%" /></a>
 <a href="https://dev-stack-peach-chi.vercel.app"><img src="ui-v3/project-devstack.svg" alt="DevStack" width="48%" /></a>
 </p> -->
@@ -76,10 +76,10 @@
 <img src="ui-v3/heading-what.svg" alt="What I Do" width="100%" />
 
 <p align="center">
-<img src="ui-v3/service-frontend.svg" alt="Frontend Development" width="48%" />
-<img src="ui-v3/service-backend.svg" alt="Backend & APIs" width="48%" />
-<img src="ui-v3/service-database.svg" alt="Databases" width="48%" />
-<img src="ui-v3/service-auth.svg" alt="Authentication" width="48%" />
+<img src="ui-v3/frontend-skill-card.svg" alt="Frontend Development" width="48%" />
+<img src="ui-v3/backend---apis-animated.svg" alt="Backend & APIs" width="48%" />
+<img src="ui-v3/database-skill-card.svg" alt="Databases" width="48%" />
+<img src="ui-v3/authentication-skill-card.svg" alt="Authentication" width="48%" />
 </p>
 
 <img src="ui-v3/heading-blog.svg" alt="Latest Blog Posts" width="100%" />
