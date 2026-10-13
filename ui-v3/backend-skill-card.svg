@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 231" width="100%" height="100%">
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="50%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  
+  <style>
+    @keyframes continuousGradientFlow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    
+                    @keyframes zoomInOut {
+                        0%, 100% { transform: scale(0.97); }
+                        50% { transform: scale(1.0); }
+                    }
+                    .animated-card-container { 
+                        transform-origin: center; 
+                        animation: zoomInOut 4s ease-in-out infinite; 
+                    }
+                
+
+    .animated-gradient-text {
+      background: linear-gradient(90deg, #4ade80, #22c55e, #10b981, #4ade80);
+      background-size: 600% 600%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      animation: continuousGradientFlow 6s linear infinite;
+    }
+
+    /* Typewriter for title heading */
+    @keyframes typeTitle {
+      from { width: 0px; }
+      to { width: 231px; }
+    }
+    @keyframes blinkCursor {
+      0%, 100% { border-right-color: #4ade80; }
+      50% { border-right-color: transparent; }
+    }
+    @keyframes hideCursor {
+      to { border-right-color: transparent; }
+    }
+
+    .typewriter-title {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0px;
+      font-family: monospace;
+      font-size: 26px;
+      font-weight: 700;
+      border-right: 3px solid transparent;
+      animation: typeTitle 1.5s steps(14, end) 0.3s forwards,
+                 blinkCursor 0.5s step-end infinite 0.3s,
+                 hideCursor 0.01s 1.8s forwards;
+    }
+
+    /* Fade-in for description lines with 19px font */
+    @keyframes fadeInSlide {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .desc-line {
+      font-family: monospace;
+      font-size: 19px;
+      line-height: 27px;
+      color: #94a3b8;
+      margin: 0;
+      opacity: 0;
+      animation: fadeInSlide 0.8s ease forwards;
+    }
+            
+    .fade-line-0 { animation-delay: 1.8s; }
+                
+    .fade-line-1 { animation-delay: 2s; }
+                
+  </style>
+  
+  <g class="animated-card-container">
+    <!-- Card Background & Border -->
+    <rect x="4" y="4" width="712" height="223" rx="18" fill="#0f172a" stroke="#22c55e" stroke-width="2"/>
+    
+    <!-- Compact Center Aligned Header (Icon + Title) -->
+    <foreignObject x="40" y="28" width="640" height="42">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center; gap: 14px; height: 100%;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="url(#textGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5"/><path d="M12 12l-9-5"/><path d="M12 12v10"/></svg>
+        <span class="typewriter-title animated-gradient-text">Backend &amp; APIs</span>
+      </div>
+    </foreignObject>
+
+    <!-- Optimized Fade-in Description Section -->
+    <foreignObject x="42" y="92" width="636" height="121">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; flex-direction: column; gap: 4px;">
+        <p class="desc-line fade-line-0">Server-side logic and REST APIs built with</p><p class="desc-line fade-line-1">Laravel.</p>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
