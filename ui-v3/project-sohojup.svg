@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+
+  
+  <style>
+    @keyframes continuousGradientFlow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    
+                    @keyframes zoomInOut {
+                        0%, 100% { transform: scale(0.96); }
+                        50% { transform: scale(1.0); }
+                    }
+                    .animated-card-container { 
+                        transform-origin: center; 
+                        animation: zoomInOut 4s ease-in-out infinite; 
+                    }
+                
+
+    .animated-gradient-text {
+      background: linear-gradient(90deg, #38bdf8, #818cf8, #c084fc, #38bdf8);
+      background-size: 600% 600%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      animation: continuousGradientFlow 6s linear infinite;
+    }
+
+    .card-title {
+      font-family: monospace;
+      font-size: 30px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .card-desc {
+      font-family: monospace;
+      font-size: 19px;
+      line-height: 1.5;
+      color: #94a3b8;
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+
+    .badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .badge-item {
+      font-family: monospace;
+      font-size: 15px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid #38bdf8;
+      background: rgba(15, 23, 42, 0.6);
+      background: linear-gradient(90deg, #38bdf8, #818cf8, #c084fc, #38bdf8);
+      background-size: 600% 600%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: continuousGradientFlow 6s linear infinite;
+    }
+
+    .live-link {
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+    }
+  </style>
+            
+  
+  <g class="animated-card-container">
+    <!-- Card Background & Border -->
+    <rect x="4" y="4" width="742" height="392" rx="20" fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
+    
+    <!-- Top Icon and Title Section -->
+    <foreignObject x="45" y="40" width="660" height="60">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center; gap: 18px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="url(#textGradient)" stroke="none"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+        <h2 class="card-title animated-gradient-text">Smart Union parishod manageme...</h2>
+      </div>
+    </foreignObject>
+
+    <!-- Description Section -->
+    <foreignObject x="45" y="115" width="660" height="100">
+      <p xmlns="http://www.w3.org/1999/xhtml" class="card-desc">
+        SohojUp is a full-featured, web-based e-governance and administrative portal designed to digitize local Union Parishad operations in Bangladesh, enabling...
+      </p>
+    </foreignObject>
+
+    <!-- Tech Badges Section -->
+    <foreignObject x="45" y="240" width="660" height="60">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="badge-container">
+        <div class="badge-item">JavaScript</div><div class="badge-item">PHP</div><div class="badge-item">Laravel</div><div class="badge-item">API Intigration</div>
+      </div>
+    </foreignObject>
+
+    <!-- Live Demo Link Section -->
+    <foreignObject x="45" y="325" width="660" height="40">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; justify-content: flex-end;">
+        <span class="live-link animated-gradient-text">Live demo -></span>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
