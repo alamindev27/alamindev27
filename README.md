@@ -77,7 +77,7 @@
 
 <p align="center">
 <img src="ui-v3/frontend-skill-card.svg" alt="Frontend Development" width="48%" />
-<img src="ui-v3/backend---apis-animated.svg" alt="Backend & APIs" width="48%" />
+<img src="ui-v3/skill-backend-and-apis.svg" alt="Backend & APIs" width="48%" />
 <img src="ui-v3/database-skill-card.svg" alt="Databases" width="48%" />
 <img src="ui-v3/authentication-skill-card.svg" alt="Authentication" width="48%" />
 </p>
