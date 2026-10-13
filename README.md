@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="ui-v3/header-v2-latest.png" alt="MD Al-Amin — Full Stack Web Developer" width="100%" />
+<img src="ui-v3/header-v2-latest.svg" alt="MD Al-Amin — Full Stack Web Developer" width="100%" />
 
 <img src="ui-v3/heading-about.svg" alt="About Me" width="100%" />
 
