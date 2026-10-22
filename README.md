@@ -29,12 +29,12 @@
 
 <!-- PROJECTS:START -->
 <p align="center">
-<a href="https://sohojup.com/" target="_blank"><img src="ui-v3/project-sohojup.svg" alt="axit-landing-page" width="48%" /></a>
-<a href="https://globalforexinfo.com/" target="_blank"><img src="ui-v3/project-global-forex-info.svg" alt="fit-log" width="48%" /></a>
-<a href="https://alamindev27.github.io/sdcee/"><img src="ui-v3/project-sdcee.svg" alt="lucid-landing-page" width="48%" /></a>
-<a href="https://alamindev27.github.io/copper-supercycle/"><img src="ui-v3/project-copper-supercycle.svg" alt="DevStack" width="48%" /></a>
-<a href="https://alamindev27.github.io/realproguide/"><img src="ui-v3/project-sacramento-real-estate.svg" alt="DevStack" width="48%" /></a>
-<a href="https://alamindev27.github.io/emergency-hvac-repair-landing-page-01-demo/"><img src="ui-v3/project-apex-home.svg" alt="DevStack" width="48%" /></a>
+<a href="https://sohojup.com/" target="_blank" rel="noopener noreferrer"><img src="ui-v3/project-sohojup.svg" alt="SohojUp" width="48%" /></a>
+<a href="https://globalforexinfo.com/" target="_blank" rel="noopener noreferrer"><img src="ui-v3/project-global-forex-info.svg" alt="Global Forex Info" width="48%" /></a>
+<a href="https://alamindev27.github.io/sdcee/" target="_blank" rel="noopener noreferrer"><img src="ui-v3/project-sdcee.svg" alt="SDCEE - Economic Education Portal Redesign" width="48%" /></a>
+<a href="https://alamindev27.github.io/copper-supercycle/" target="_blank" rel="noopener noreferrer"><img src="ui-v3/project-copper-supercycle.svg" alt="Copper LEAPS Landing Page" width="48%" /></a>
+<a href="https://alamindev27.github.io/realproguide/" target="_blank" rel="noopener noreferrer"><img src="ui-v3/project-sacramento-real-estate.svg" alt="Sacramento Real Estate Guide" width="48%" /></a>
+<a href="https://alamindev27.github.io/emergency-hvac-repair-landing-page-01-demo/" target="_blank" rel="noopener noreferrer"><img src="ui-v3/project-apex-home.svg" alt="Apex Home Services Landing Page" width="48%" /></a>
 </p>
 <!-- PROJECTS:END -->
 

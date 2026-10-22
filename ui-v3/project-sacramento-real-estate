@@ -92,7 +92,7 @@
     <foreignObject x="45" y="40" width="660" height="60">
       <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center; gap: 18px;">
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="url(#textGradient)" stroke="none"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-        <h2 class="card-title animated-gradient-text">Sacramento Real Estate Guide &...</h2>
+        <h2 class="card-title animated-gradient-text">Sacramento Real Estate Guide ...</h2>
       </div>
     </foreignObject>
 
