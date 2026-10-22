@@ -98,13 +98,15 @@
 
 <img src="ui-v3/cta-card.svg" alt="Let's work together" width="100%" />
 
-[![Book a Meeting](https://img.shields.io/badge/Schedule-1%20on%201%20Call-cyan?style=for-the-badge&logo=google-calendar&logoColor=white)](https://calendar.google.com/calendar/appointments/schedules/AcZssZ3kN0cIkp-8cqphFryHzpnYuQk0r1uwMOOcUxjY2Nh_VcMnshCUpeZj0s-43TN-81R7XclCN4vD?gv=true)
+
 
 <p align="center">
 <a href="mailto:alamindev27@gmail.com"><img src="ui-v3/social-gmail.svg" alt="Email" width="32%" /></a>
 <a href="https://wa.me/alamindev27"><img src="ui-v3/social-whatsapp.svg" alt="WhatsApp" width="32%" /></a>
 <a href="https://www.linkedin.com/in/alamindev27"><img src="ui-v3/social-linkedin.svg" alt="LinkedIn" width="32%" /></a>
 </p>
+
+[![Book a Meeting](https://img.shields.io/badge/Schedule-Google%20on%20Google%20Meet-cyan?style=for-the-badge&logo=google-calendar&logoColor=white)](https://calendar.google.com/calendar/appointments/schedules/AcZssZ3kN0cIkp-8cqphFryHzpnYuQk0r1uwMOOcUxjY2Nh_VcMnshCUpeZj0s-43TN-81R7XclCN4vD?gv=true)
 
 </div>
 
