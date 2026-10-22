@@ -32,8 +32,10 @@
 <a href="https://sohojup.com/" target="_blank"><img src="ui-v3/project-sohojup.svg" alt="axit-landing-page" width="48%" /></a>
 <a href="https://globalforexinfo.com/" target="_blank"><img src="ui-v3/project-global-forex-info.svg" alt="fit-log" width="48%" /></a>
 <a href="https://alamindev27.github.io/sdcee/"><img src="ui-v3/project-sdcee.svg" alt="lucid-landing-page" width="48%" /></a>
-<!-- <a href="https://dev-stack-peach-chi.vercel.app"><img src="ui-v3/project-devstack.svg" alt="DevStack" width="48%" /></a>
-</p> -->
+<a href="https://alamindev27.github.io/copper-supercycle/"><img src="ui-v3/project-copper-supercycle.svg" alt="DevStack" width="48%" /></a>
+<a href="https://alamindev27.github.io/realproguide/"><img src="ui-v3/project-sacramento-real-estate.svg" alt="DevStack" width="48%" /></a>
+<a href="https://alamindev27.github.io/emergency-hvac-repair-landing-page-01-demo/"><img src="ui-v3/project-apex-home.svg" alt="DevStack" width="48%" /></a>
+</p>
 <!-- PROJECTS:END -->
 
 <img src="ui-v3/heading-social.svg" alt="Find Me Online" width="100%" />
