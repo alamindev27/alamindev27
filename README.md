@@ -31,8 +31,8 @@
 <p align="center">
 <a href="https://sohojup.com/" target="_blank"><img src="ui-v3/project-sohojup.svg" alt="axit-landing-page" width="48%" /></a>
 <a href="https://globalforexinfo.com/" target="_blank"><img src="ui-v3/project-global-forex-info.svg" alt="fit-log" width="48%" /></a>
-<!-- <a href="https://lucid-alamindev27.vercel.app"><img src="ui-v3/project-lucid-landing-page.svg" alt="lucid-landing-page" width="48%" /></a>
-<a href="https://dev-stack-peach-chi.vercel.app"><img src="ui-v3/project-devstack.svg" alt="DevStack" width="48%" /></a>
+<a href="https://alamindev27.github.io/sdcee/"><img src="ui-v3/project-sdcee.svg" alt="lucid-landing-page" width="48%" /></a>
+<!-- <a href="https://dev-stack-peach-chi.vercel.app"><img src="ui-v3/project-devstack.svg" alt="DevStack" width="48%" /></a>
 </p> -->
 <!-- PROJECTS:END -->
 
