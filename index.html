@@ -46,6 +46,7 @@
     <meta name="twitter:image" content="https://alamindev27.github.io/alamindev27/assets/img/alamindev27-1.png" />
 
 
+
     <script>
         tailwind.config = {
             theme: {
@@ -77,34 +78,53 @@
             }
         }
     </script>
-
+    <!-- Advertica Global Script (পেজে মাত্র ১ বার থাকবে) -->
+    <script src="//data527.click/js/responsive.js" async></script>
     <style>
-        /* ব্যানার কন্টেইনার স্টাইল */
-.ad-responsive-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 0; /* উপরে ও নিচে পরিমিত গ্যাপ */
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-}
+        /* কন্টেইনার স্টাইলিং ও এলাইনমেন্ট */
+        .ad-smart-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            text-align: center;
+            overflow: hidden;
+        }
 
-/* 320x50 ব্যানারের নিজস্ব ডিসপ্লে ঠিক রাখা */
-.ad-responsive-container ins {
-    display: inline-block !important;
-    max-width: 100% !important;
-    margin: 0 auto !important;
-}
+        /* ডিফোল্টভাবে বড় ডিভাইসের অ্যাড শো করবে, মোবাইলটি লুকিয়ে থাকবে */
+        .ad-smart-wrapper .ad-desktop {
+            display: inline-block !important;
+        }
 
-/* ছোট স্ক্রিনে যাতে স্ক্রিনের বাইরে না চলে যায় */
-@media (max-width: 340px) {
-    .ad-responsive-container ins {
-        transform: scale(0.95);
-        transform-origin: center;
-    }
-}
+        .ad-smart-wrapper .ad-mobile {
+            display: none !important;
+        }
+
+        /* ট্যাবলেট ও মোবাইল (৭৬৮ পিক্সেলের নিচে) ডিভাইসের জন্য সুইচিং */
+        @media (max-width: 768px) {
+            .ad-smart-wrapper {
+                margin: 10px auto;
+            }
+
+            /* মোবাইলে Desktop Ad হাইড হবে এবং Mobile Ad শো করবে */
+            .ad-smart-wrapper .ad-desktop {
+                display: none !important;
+            }
+
+            .ad-smart-wrapper .ad-mobile {
+                display: inline-block !important;
+                max-width: 100% !important;
+            }
+        }
+
+        /* অত্যন্ত ছোট ডিভাইসের জন্য হালকা স্কেলিং */
+        @media (max-width: 340px) {
+            .ad-smart-wrapper .ad-mobile {
+                transform: scale(0.95);
+                transform-origin: center;
+            }
+        }
     </style>
 </head>
 
@@ -426,9 +446,18 @@
 
 
     <!-- Advertica 320x50 Banner Wrapper -->
-<div class="ad-responsive-container">
-    <ins style="width: 320px;height:50px" data-width="320" data-height="50" class="h41e2d30ed2" data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
-</div>
+    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
+    <div class="ad-smart-wrapper">
+        <!-- Desktop Ad (728x90) -->
+        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+        </ins>
+
+        <!-- Mobile Ad (320x50) -->
+        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
 
 
 
@@ -569,10 +598,19 @@
         </div>
     </section>
 
-     <!-- Advertica 320x50 Banner Wrapper -->
-<div class="ad-responsive-container">
-    <ins style="width: 320px;height:50px" data-width="320" data-height="50" class="h41e2d30ed2" data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
-</div>
+    <!-- Advertica 320x50 Banner Wrapper -->
+    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
+    <div class="ad-smart-wrapper">
+        <!-- Desktop Ad (728x90) -->
+        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+        </ins>
+
+        <!-- Mobile Ad (320x50) -->
+        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
 
 
 
@@ -639,10 +677,19 @@
         </div>
     </section>
 
-     <!-- Advertica 320x50 Banner Wrapper -->
-<div class="ad-responsive-container">
-    <ins style="width: 320px;height:50px" data-width="320" data-height="50" class="h41e2d30ed2" data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
-</div>
+    <!-- Advertica 320x50 Banner Wrapper -->
+    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
+    <div class="ad-smart-wrapper">
+        <!-- Desktop Ad (728x90) -->
+        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+        </ins>
+
+        <!-- Mobile Ad (320x50) -->
+        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
 
 
 
@@ -1261,10 +1308,19 @@
     </section>
 
 
-     <!-- Advertica 320x50 Banner Wrapper -->
-<div class="ad-responsive-container">
-    <ins style="width: 320px;height:50px" data-width="320" data-height="50" class="h41e2d30ed2" data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
-</div>
+    <!-- Advertica 320x50 Banner Wrapper -->
+    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
+    <div class="ad-smart-wrapper">
+        <!-- Desktop Ad (728x90) -->
+        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+        </ins>
+
+        <!-- Mobile Ad (320x50) -->
+        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
 
 
 
@@ -1348,10 +1404,19 @@
         </div>
     </section>
 
-     <!-- Advertica 320x50 Banner Wrapper -->
-<div class="ad-responsive-container">
-    <ins style="width: 320px;height:50px" data-width="320" data-height="50" class="h41e2d30ed2" data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
-</div>
+    <!-- Advertica 320x50 Banner Wrapper -->
+    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
+    <div class="ad-smart-wrapper">
+        <!-- Desktop Ad (728x90) -->
+        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+        </ins>
+
+        <!-- Mobile Ad (320x50) -->
+        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
 
     <!-- FAQ SECTION -->
     <section id="faq" class="py-24 relative">
@@ -1428,10 +1493,19 @@
         </div>
     </section>
 
-     <!-- Advertica 320x50 Banner Wrapper -->
-<div class="ad-responsive-container">
-    <ins style="width: 320px;height:50px" data-width="320" data-height="50" class="h41e2d30ed2" data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
-</div>
+    <!-- Advertica 320x50 Banner Wrapper -->
+    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
+    <div class="ad-smart-wrapper">
+        <!-- Desktop Ad (728x90) -->
+        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+        </ins>
+
+        <!-- Mobile Ad (320x50) -->
+        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
 
     <!-- CONTACT US SECTION -->
     <section id="contact" class="py-24 relative bg-brand-white/50">
