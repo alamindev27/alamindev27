@@ -81,26 +81,37 @@
     <style>
         .advertica-banner-wrapper {
     width: 100%;
+    max-width: 100%;
+    margin: 10px auto; /* গ্যাপ কমানোর জন্য মার্জিন কমিয়ে দেওয়া হলো */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
     overflow: hidden;
     text-align: center;
 }
 
-/* মোবাইল ডিভাইসের জন্য অ্যাড সাইজ বা ফ্রেম অ্যাডজাস্টমেন্ট */
+/* মোবাইল ও ছোট ডিভাইসের জন্য রেসপন্সিভ ফিট ও স্কেলিং */
 .advertica-banner-wrapper iframe, 
-.advertica-banner-wrapper img {
+.advertica-banner-wrapper img,
+.advertica-banner-wrapper div {
     max-width: 100% !important;
+    width: auto !important;
     height: auto !important;
-    display: block;
+    object-fit: contain;
     margin: 0 auto;
 }
 
+/* মোবাইল ডিভাইসের জন্য স্পেশাল রুল যাতে ব্যানার কেটে না যায় */
 @media (max-width: 768px) {
     .advertica-banner-wrapper {
-        padding: 0 10px; /* মোবাইলে যেন সাইড থেকে কেটে না যায় */
+        width: 100%;
+        padding: 0 5px;
+        margin: 5px auto; /* মোবাইল ভিউতে নিচের অতিরিক্ত গ্যাপ দূর করতে মার্জিন কমানো হয়েছে */
+    }
+    
+    .advertica-banner-wrapper iframe {
+        transform: scale(0.85); /* প্রয়োজনে ছোট স্ক্রিনে ব্যানারকে পারফেক্ট ফিট করতে সামান্য স্কেল করা যেতে পারে */
+        transform-origin: center;
     }
 }
     </style>
