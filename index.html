@@ -82,33 +82,35 @@
     <script src="//data527.click/js/responsive.js" async></script>
     <style>
         /* Tailwind-এর hidden ক্লাসকে জোরদার করা যাতে JS ওভাররাইড না করে */
-.lg\:hidden[style*="display"] {
-    display: none !important;
-}
+        .lg\:hidden[style*="display"] {
+            display: none !important;
+        }
 
-@media (min-width: 1024px) {
-    .hidden.lg\:flex {
-        display: flex !important;
-    }
-    .lg\:hidden {
-        display: none !important;
-    }
-}
+        @media (min-width: 1024px) {
+            .hidden.lg\:flex {
+                display: flex !important;
+            }
 
-@media (max-width: 1023px) {
-    .hidden.lg\:flex {
-        display: none !important;
-    }
-    .flex.lg\:hidden {
-        display: flex !important;
-    }
-}
+            .lg\:hidden {
+                display: none !important;
+            }
+        }
 
-/* ৩২০ পিক্সেল অ্যাডকে মোবাইল স্ক্রিনের উইডথ অনুযায়ী ফিট রাখার স্টাইল */
-.lg\:hidden ins {
-    max-width: 100% !important;
-    margin: 0 auto !important;
-}
+        @media (max-width: 1023px) {
+            .hidden.lg\:flex {
+                display: none !important;
+            }
+
+            .flex.lg\:hidden {
+                display: flex !important;
+            }
+        }
+
+        /* ৩২০ পিক্সেল অ্যাডকে মোবাইল স্ক্রিনের উইডথ অনুযায়ী ফিট রাখার স্টাইল */
+        .lg\:hidden ins {
+            max-width: 100% !important;
+            margin: 0 auto !important;
+        }
     </style>
 </head>
 
@@ -192,7 +194,7 @@
 
                 <!-- Hire Button (Desktop) -->
                 <div class="hidden md:flex items-center">
-                    <a href="https://linkedin.com/in/alamindev27" target="_blank"
+                    <a href="mailto:alamindev27@gmail.com?subject=Project%20Inquiry%20from%20Website" target="_blank"
                         class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium rounded-xl group bg-gradient-to-br from-indigo-500 to-cyan-500 group-hover:from-indigo-500 group-hover:to-cyan-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-cyan-500/40 transition-all duration-300 active:scale-95">
                         <span
                             class="relative px-6 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-[10px] group-hover:bg-opacity-0 font-semibold flex items-center gap-2">
@@ -290,7 +292,7 @@
                     class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-twitter text-xl"></i></a>
                 <a href="https://facebook.com/alamindev27" target="_blank"
                     class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-facebook text-xl"></i></a>
-                <a href="mailto:alamindev27@gmail.com" class="hover:text-indigo-400 transition-colors"><i
+                <a href="mailto:alamindev27@gmail.com?subject=Project%20Inquiry%20from%20Website" class="hover:text-indigo-400 transition-colors"><i
                         class="fa-regular fa-envelope text-xl"></i></a>
             </div>
         </div>
@@ -338,7 +340,7 @@
                             <span>Get In Touch</span>
                             <i class="fa-solid fa-arrow-right text-sm"></i>
                         </a>
-                        <a href="mailto:alamindev27@gmail.com"
+                        <a href="mailto:alamindev27@gmail.com?subject=Project%20Inquiry%20from%20Website"
                             class="w-full sm:w-auto px-8 py-4 rounded-xl glass-card text-white font-semibold text-base hover:bg-gray-800/80 transition-all duration-200 border border-gray-700 text-center flex items-center justify-center gap-2 group">
                             <i
                                 class="fa-regular fa-envelope text-cyan-400 group-hover:scale-110 transition-transform"></i>
@@ -430,31 +432,23 @@
 
 
     <!-- Ad Wrapper Container -->
-<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
+    <div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
-    <div class="hidden lg:flex justify-center items-center w-full">
-        <ins class="z9ac4012853" 
-             style="width: 728px; height: 90px;" 
-             data-width="728" 
-             data-height="90" 
-             data-domain="//data527.click" 
-             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+        <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+        <div class="hidden lg:flex justify-center items-center w-full">
+            <ins class="z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+                data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+            </ins>
+        </div>
+
+        <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+        <div class="flex lg:hidden justify-center items-center w-full px-2">
+            <ins class="h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+                data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+            </ins>
+        </div>
+
     </div>
-
-    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
-    <div class="flex lg:hidden justify-center items-center w-full px-2">
-        <ins class="h41e2d30ed2" 
-             style="width: 320px; height: 50px;" 
-             data-width="320" 
-             data-height="50" 
-             data-domain="//data527.click" 
-             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
-        </ins>
-    </div>
-
-</div>
 
 
 
@@ -596,31 +590,23 @@
     </section>
 
     <!-- Ad Wrapper Container -->
-<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
+    <div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
-    <div class="hidden lg:flex justify-center items-center w-full">
-        <ins class="z9ac4012853" 
-             style="width: 728px; height: 90px;" 
-             data-width="728" 
-             data-height="90" 
-             data-domain="//data527.click" 
-             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+        <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+        <div class="hidden lg:flex justify-center items-center w-full">
+            <ins class="z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+                data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+            </ins>
+        </div>
+
+        <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+        <div class="flex lg:hidden justify-center items-center w-full px-2">
+            <ins class="h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+                data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+            </ins>
+        </div>
+
     </div>
-
-    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
-    <div class="flex lg:hidden justify-center items-center w-full px-2">
-        <ins class="h41e2d30ed2" 
-             style="width: 320px; height: 50px;" 
-             data-width="320" 
-             data-height="50" 
-             data-domain="//data527.click" 
-             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
-        </ins>
-    </div>
-
-</div>
 
 
 
@@ -688,31 +674,23 @@
     </section>
 
     <!-- Ad Wrapper Container -->
-<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
+    <div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
-    <div class="hidden lg:flex justify-center items-center w-full">
-        <ins class="z9ac4012853" 
-             style="width: 728px; height: 90px;" 
-             data-width="728" 
-             data-height="90" 
-             data-domain="//data527.click" 
-             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+        <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+        <div class="hidden lg:flex justify-center items-center w-full">
+            <ins class="z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+                data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+            </ins>
+        </div>
+
+        <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+        <div class="flex lg:hidden justify-center items-center w-full px-2">
+            <ins class="h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+                data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+            </ins>
+        </div>
+
     </div>
-
-    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
-    <div class="flex lg:hidden justify-center items-center w-full px-2">
-        <ins class="h41e2d30ed2" 
-             style="width: 320px; height: 50px;" 
-             data-width="320" 
-             data-height="50" 
-             data-domain="//data527.click" 
-             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
-        </ins>
-    </div>
-
-</div>
 
 
 
@@ -1332,31 +1310,23 @@
 
 
     <!-- Ad Wrapper Container -->
-<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
+    <div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
-    <div class="hidden lg:flex justify-center items-center w-full">
-        <ins class="z9ac4012853" 
-             style="width: 728px; height: 90px;" 
-             data-width="728" 
-             data-height="90" 
-             data-domain="//data527.click" 
-             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+        <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+        <div class="hidden lg:flex justify-center items-center w-full">
+            <ins class="z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+                data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+            </ins>
+        </div>
+
+        <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+        <div class="flex lg:hidden justify-center items-center w-full px-2">
+            <ins class="h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+                data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+            </ins>
+        </div>
+
     </div>
-
-    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
-    <div class="flex lg:hidden justify-center items-center w-full px-2">
-        <ins class="h41e2d30ed2" 
-             style="width: 320px; height: 50px;" 
-             data-width="320" 
-             data-height="50" 
-             data-domain="//data527.click" 
-             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
-        </ins>
-    </div>
-
-</div>
 
 
 
@@ -1441,31 +1411,23 @@
     </section>
 
     <!-- Ad Wrapper Container -->
-<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
+    <div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
-    <div class="hidden lg:flex justify-center items-center w-full">
-        <ins class="z9ac4012853" 
-             style="width: 728px; height: 90px;" 
-             data-width="728" 
-             data-height="90" 
-             data-domain="//data527.click" 
-             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+        <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+        <div class="hidden lg:flex justify-center items-center w-full">
+            <ins class="z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+                data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+            </ins>
+        </div>
+
+        <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+        <div class="flex lg:hidden justify-center items-center w-full px-2">
+            <ins class="h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+                data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+            </ins>
+        </div>
+
     </div>
-
-    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
-    <div class="flex lg:hidden justify-center items-center w-full px-2">
-        <ins class="h41e2d30ed2" 
-             style="width: 320px; height: 50px;" 
-             data-width="320" 
-             data-height="50" 
-             data-domain="//data527.click" 
-             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
-        </ins>
-    </div>
-
-</div>
 
     <!-- FAQ SECTION -->
     <section id="faq" class="py-24 relative">
@@ -1543,31 +1505,23 @@
     </section>
 
     <!-- Ad Wrapper Container -->
-<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
+    <div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
-    <div class="hidden lg:flex justify-center items-center w-full">
-        <ins class="z9ac4012853" 
-             style="width: 728px; height: 90px;" 
-             data-width="728" 
-             data-height="90" 
-             data-domain="//data527.click" 
-             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+        <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+        <div class="hidden lg:flex justify-center items-center w-full">
+            <ins class="z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
+                data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
+            </ins>
+        </div>
+
+        <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+        <div class="flex lg:hidden justify-center items-center w-full px-2">
+            <ins class="h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
+                data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+            </ins>
+        </div>
+
     </div>
-
-    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
-    <div class="flex lg:hidden justify-center items-center w-full px-2">
-        <ins class="h41e2d30ed2" 
-             style="width: 320px; height: 50px;" 
-             data-width="320" 
-             data-height="50" 
-             data-domain="//data527.click" 
-             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
-        </ins>
-    </div>
-
-</div>
 
     <!-- CONTACT US SECTION -->
     <section id="contact" class="py-24 relative bg-brand-white/50">
@@ -1770,6 +1724,81 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+
+    <!-- Floating Contact & Back to Top Wrapper -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end space-y-3">
+
+        <!-- Expanded Social/Contact Options (Initially Hidden & Collapsed) -->
+        <div id="contactExpandMenu"
+            class="flex flex-col items-end space-y-3 opacity-0 translate-y-4 pointer-events-none transition-all duration-300">
+
+            <!-- WhatsApp Option -->
+            <a href="https://wa.me/8801318533187?text=Hello%20MD%20!%20I%20want%20to%20discuss%20a%20project."
+                target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"
+                class="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 group">
+                <span
+                    class="text-xs font-medium tracking-wide bg-black/30 px-2 py-0.5 rounded-full hidden group-hover:inline-block">WhatsApp</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                    <path
+                        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                </svg>
+            </a>
+
+            <!-- Gmail Option -->
+            <a href="mailto:alamindev27@gmail.com?subject=Project%20Inquiry%20from%20Website" aria-label="Send Email"
+                class="flex items-center space-x-2 bg-red-500 hover:bg-red-600 text-white px-4 py-2.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 group">
+                <span
+                    class="text-xs font-medium tracking-wide bg-black/30 px-2 py-0.5 rounded-full hidden group-hover:inline-block">Gmail</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                    <path
+                        d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.713v15.426h24v-15.426l-12 9.713z" />
+                </svg>
+            </a>
+
+        </div>
+
+        <!-- Main Toggle / Back-to-Top Button Group -->
+        <div class="flex items-center space-x-2">
+            <!-- Social Toggle Button -->
+            <button id="toggleSocialBtn" aria-label="Toggle contact options"
+                class="bg-blue-600 hover:bg-blue-700 text-white p-3.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none">
+                <svg id="socialIcon" xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 transition-transform duration-300" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+            </button>
+
+            <!-- Back to Top Button -->
+            <button id="backToTopBtn" aria-label="Back to top"
+                class="hidden opacity-0 transition-all duration-300 transform translate-y-4 bg-gray-800 hover:bg-gray-900 text-white p-3.5 rounded-full shadow-lg hover:shadow-xl hover:scale-110 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" aria-label="Back to top"
+        class="fixed bottom-6 right-6 z-50 hidden opacity-0 transition-all duration-300 transform translate-y-4 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg hover:shadow-xl hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2">
+        <!-- Up Arrow Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
 
 
     <script src="assets/js/main.js"></script>
