@@ -77,6 +77,33 @@
             }
         }
     </script>
+
+    <style>
+        .advertica-banner-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* মোবাইল ডিভাইসের জন্য অ্যাড সাইজ বা ফ্রেম অ্যাডজাস্টমেন্ট */
+.advertica-banner-wrapper iframe, 
+.advertica-banner-wrapper img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .advertica-banner-wrapper {
+        padding: 0 10px; /* মোবাইলে যেন সাইড থেকে কেটে না যায় */
+    }
+}
+    </style>
 </head>
 
 <body x-data="{ mobileMenuOpen: false }">
@@ -396,9 +423,11 @@
     </section>
 
 
-    <script type="text/javascript" src="//data527.click/a317ea108eacb1cbdb02/8d1c12c2ad/?placementName=default"></script>
+    <div class="advertica-banner-wrapper">
+        <ins style="width: 0px;height:0px" data-width="0" data-height="0" class="pe5e3243d8b" data-domain="//data527.click" data-affquery="/a76dc17f56c02fe9deb0/e5e3243d8b/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
+    </div>
 
-    
+
 
     <!-- ABOUT ME SECTION -->
     <section id="about" class="py-24 relative bg-brand-dark/50">
@@ -537,7 +566,7 @@
         </div>
     </section>
 
-    
+
 
     <!-- SERVICES SECTION -->
     <section id="services" class="py-24 relative">
@@ -602,7 +631,7 @@
         </div>
     </section>
 
-    
+
 
 
     <!-- PORTFOLIO SECTION -->
@@ -1067,7 +1096,10 @@
                                     High-Conversion Emergency HVAC & Home Services Landing Page
                                 </h3>
                                 <p class="text-gray-400 text-sm mt-2 line-clamp-3">
-                                    For service-based businesses, speed and trust are everything. I engineered this layout to maximize lead generation, featuring instant emergency contact triggers, transparent upfront pricing, real-time response counters, and a seamless cost estimator form.
+                                    For service-based businesses, speed and trust are everything. I engineered this
+                                    layout to maximize lead generation, featuring instant emergency contact triggers,
+                                    transparent upfront pricing, real-time response counters, and a seamless cost
+                                    estimator form.
                                 </p>
                             </div>
 
@@ -1082,7 +1114,8 @@
                                     <span
                                         class="text-[10px] font-medium px-2.5 py-1 rounded-md bg-gray-800 text-gray-300">JavaScript</span>
                                 </div>
-                                <a href="https://alamindev27.github.io/emergency-hvac-repair-landing-page-01-demo/" target="_blank"
+                                <a href="https://alamindev27.github.io/emergency-hvac-repair-landing-page-01-demo/"
+                                    target="_blank"
                                     class="w-9 h-9 rounded-xl bg-gray-800/80 text-gray-300 hover:text-white hover:bg-indigo-600 flex items-center justify-center transition-all shrink-0">
                                     <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                                 </a>
@@ -1183,7 +1216,10 @@
                                     Modern & Responsive Local Service Landing Page
                                 </h3>
                                 <p class="text-gray-400 text-sm mt-2 line-clamp-3">
-                                    Local service websites need to build trust instantly. To achieve this, I designed this layout focusing on user experience, clear call-to-actions, and structural clarity—making it effortless for clients to book services or call for 24/7 emergencies.
+                                    Local service websites need to build trust instantly. To achieve this, I designed
+                                    this layout focusing on user experience, clear call-to-actions, and structural
+                                    clarity—making it effortless for clients to book services or call for 24/7
+                                    emergencies.
                                 </p>
                             </div>
 
