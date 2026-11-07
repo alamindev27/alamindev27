@@ -81,50 +81,34 @@
     <!-- Advertica Global Script (পেজে মাত্র ১ বার থাকবে) -->
     <script src="//data527.click/js/responsive.js" async></script>
     <style>
-        /* কন্টেইনার স্টাইলিং ও এলাইনমেন্ট */
-        .ad-smart-wrapper {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px auto;
-            text-align: center;
-            overflow: hidden;
-        }
+        /* Tailwind-এর hidden ক্লাসকে জোরদার করা যাতে JS ওভাররাইড না করে */
+.lg\:hidden[style*="display"] {
+    display: none !important;
+}
 
-        /* ডিফোল্টভাবে বড় ডিভাইসের অ্যাড শো করবে, মোবাইলটি লুকিয়ে থাকবে */
-        .ad-smart-wrapper .ad-desktop {
-            display: inline-block !important;
-        }
+@media (min-width: 1024px) {
+    .hidden.lg\:flex {
+        display: flex !important;
+    }
+    .lg\:hidden {
+        display: none !important;
+    }
+}
 
-        .ad-smart-wrapper .ad-mobile {
-            display: none !important;
-        }
+@media (max-width: 1023px) {
+    .hidden.lg\:flex {
+        display: none !important;
+    }
+    .flex.lg\:hidden {
+        display: flex !important;
+    }
+}
 
-        /* ট্যাবলেট ও মোবাইল (৭৬৮ পিক্সেলের নিচে) ডিভাইসের জন্য সুইচিং */
-        @media (max-width: 768px) {
-            .ad-smart-wrapper {
-                margin: 10px auto;
-            }
-
-            /* মোবাইলে Desktop Ad হাইড হবে এবং Mobile Ad শো করবে */
-            .ad-smart-wrapper .ad-desktop {
-                display: none !important;
-            }
-
-            .ad-smart-wrapper .ad-mobile {
-                display: inline-block !important;
-                max-width: 100% !important;
-            }
-        }
-
-        /* অত্যন্ত ছোট ডিভাইসের জন্য হালকা স্কেলিং */
-        @media (max-width: 340px) {
-            .ad-smart-wrapper .ad-mobile {
-                transform: scale(0.95);
-                transform-origin: center;
-            }
-        }
+/* ৩২০ পিক্সেল অ্যাডকে মোবাইল স্ক্রিনের উইডথ অনুযায়ী ফিট রাখার স্টাইল */
+.lg\:hidden ins {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+}
     </style>
 </head>
 
@@ -445,19 +429,32 @@
     </section>
 
 
-    <!-- Advertica 320x50 Banner Wrapper -->
-    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
-    <div class="ad-smart-wrapper">
-        <!-- Desktop Ad (728x90) -->
-        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
-            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+    <!-- Ad Wrapper Container -->
+<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-        <!-- Mobile Ad (320x50) -->
-        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
-            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+    <div class="hidden lg:flex justify-center items-center w-full">
+        <ins class="z9ac4012853" 
+             style="width: 728px; height: 90px;" 
+             data-width="728" 
+             data-height="90" 
+             data-domain="//data527.click" 
+             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
         </ins>
     </div>
+
+    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+    <div class="flex lg:hidden justify-center items-center w-full px-2">
+        <ins class="h41e2d30ed2" 
+             style="width: 320px; height: 50px;" 
+             data-width="320" 
+             data-height="50" 
+             data-domain="//data527.click" 
+             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
+
+</div>
 
 
 
@@ -598,19 +595,32 @@
         </div>
     </section>
 
-    <!-- Advertica 320x50 Banner Wrapper -->
-    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
-    <div class="ad-smart-wrapper">
-        <!-- Desktop Ad (728x90) -->
-        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
-            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+    <!-- Ad Wrapper Container -->
+<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-        <!-- Mobile Ad (320x50) -->
-        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
-            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+    <div class="hidden lg:flex justify-center items-center w-full">
+        <ins class="z9ac4012853" 
+             style="width: 728px; height: 90px;" 
+             data-width="728" 
+             data-height="90" 
+             data-domain="//data527.click" 
+             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
         </ins>
     </div>
+
+    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+    <div class="flex lg:hidden justify-center items-center w-full px-2">
+        <ins class="h41e2d30ed2" 
+             style="width: 320px; height: 50px;" 
+             data-width="320" 
+             data-height="50" 
+             data-domain="//data527.click" 
+             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
+
+</div>
 
 
 
@@ -677,19 +687,32 @@
         </div>
     </section>
 
-    <!-- Advertica 320x50 Banner Wrapper -->
-    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
-    <div class="ad-smart-wrapper">
-        <!-- Desktop Ad (728x90) -->
-        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
-            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+    <!-- Ad Wrapper Container -->
+<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-        <!-- Mobile Ad (320x50) -->
-        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
-            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+    <div class="hidden lg:flex justify-center items-center w-full">
+        <ins class="z9ac4012853" 
+             style="width: 728px; height: 90px;" 
+             data-width="728" 
+             data-height="90" 
+             data-domain="//data527.click" 
+             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
         </ins>
     </div>
+
+    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+    <div class="flex lg:hidden justify-center items-center w-full px-2">
+        <ins class="h41e2d30ed2" 
+             style="width: 320px; height: 50px;" 
+             data-width="320" 
+             data-height="50" 
+             data-domain="//data527.click" 
+             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
+
+</div>
 
 
 
@@ -1308,19 +1331,32 @@
     </section>
 
 
-    <!-- Advertica 320x50 Banner Wrapper -->
-    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
-    <div class="ad-smart-wrapper">
-        <!-- Desktop Ad (728x90) -->
-        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
-            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+    <!-- Ad Wrapper Container -->
+<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-        <!-- Mobile Ad (320x50) -->
-        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
-            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+    <div class="hidden lg:flex justify-center items-center w-full">
+        <ins class="z9ac4012853" 
+             style="width: 728px; height: 90px;" 
+             data-width="728" 
+             data-height="90" 
+             data-domain="//data527.click" 
+             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
         </ins>
     </div>
+
+    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+    <div class="flex lg:hidden justify-center items-center w-full px-2">
+        <ins class="h41e2d30ed2" 
+             style="width: 320px; height: 50px;" 
+             data-width="320" 
+             data-height="50" 
+             data-domain="//data527.click" 
+             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
+
+</div>
 
 
 
@@ -1404,19 +1440,32 @@
         </div>
     </section>
 
-    <!-- Advertica 320x50 Banner Wrapper -->
-    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
-    <div class="ad-smart-wrapper">
-        <!-- Desktop Ad (728x90) -->
-        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
-            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+    <!-- Ad Wrapper Container -->
+<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-        <!-- Mobile Ad (320x50) -->
-        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
-            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+    <div class="hidden lg:flex justify-center items-center w-full">
+        <ins class="z9ac4012853" 
+             style="width: 728px; height: 90px;" 
+             data-width="728" 
+             data-height="90" 
+             data-domain="//data527.click" 
+             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
         </ins>
     </div>
+
+    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+    <div class="flex lg:hidden justify-center items-center w-full px-2">
+        <ins class="h41e2d30ed2" 
+             style="width: 320px; height: 50px;" 
+             data-width="320" 
+             data-height="50" 
+             data-domain="//data527.click" 
+             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
+
+</div>
 
     <!-- FAQ SECTION -->
     <section id="faq" class="py-24 relative">
@@ -1493,19 +1542,32 @@
         </div>
     </section>
 
-    <!-- Advertica 320x50 Banner Wrapper -->
-    <!-- Ad Container (এই স্ট্রাকচারটি আপনার কাঙ্ক্ষিত ৫টি জায়গায় বসাবেন) -->
-    <div class="ad-smart-wrapper">
-        <!-- Desktop Ad (728x90) -->
-        <ins class="ad-desktop z9ac4012853" style="width: 728px; height: 90px;" data-width="728" data-height="90"
-            data-domain="//data527.click" data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
-        </ins>
+    <!-- Ad Wrapper Container -->
+<div class="w-full flex justify-center items-center my-5 overflow-hidden text-center">
 
-        <!-- Mobile Ad (320x50) -->
-        <ins class="ad-mobile h41e2d30ed2" style="width: 320px; height: 50px;" data-width="320" data-height="50"
-            data-domain="//data527.click" data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+    <!-- Desktop Ad Banner (728x90) - শুধুমাত্র lg (1024px) এবং তার উপরে দেখাবে -->
+    <div class="hidden lg:flex justify-center items-center w-full">
+        <ins class="z9ac4012853" 
+             style="width: 728px; height: 90px;" 
+             data-width="728" 
+             data-height="90" 
+             data-domain="//data527.click" 
+             data-affquery="/412a9b476923b41fe780/9ac4012853/?placementName=default">
         </ins>
     </div>
+
+    <!-- Mobile Ad Banner (320x50) - lg স্ক্রিনের নিচে (sm, md) এটি ফুল/সেন্টারড দেখাবে -->
+    <div class="flex lg:hidden justify-center items-center w-full px-2">
+        <ins class="h41e2d30ed2" 
+             style="width: 320px; height: 50px;" 
+             data-width="320" 
+             data-height="50" 
+             data-domain="//data527.click" 
+             data-affquery="/727bee7db20d2aa6104e/41e2d30ed2/?placementName=default">
+        </ins>
+    </div>
+
+</div>
 
     <!-- CONTACT US SECTION -->
     <section id="contact" class="py-24 relative bg-brand-white/50">
